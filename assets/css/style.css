@@ -63,14 +63,81 @@ body {
     justify-content: space-between;
 }
 
-.element1 p {
+.component1 p {
     width: 84.1%;
     margin-bottom: 25px;
 }
 
-.element1 img {
+.component1 img {
     width: 41.1%;
     object-fit: cover;
 }
 
 /* Main component - Slut */
+
+/* Header styling */
+.headbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headbar a {
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 19px 44px;
+    background-color: var(--StPatricksBlue);
+    color: var(--ShojiWhite);
+    text-decoration: none;
+    margin-top: 35px;
+    margin-right: 1rem;
+    border-radius: 10px;
+    border: 5px solid var(--StPatricksBlue);
+}
+
+.headbar a:hover {
+    background-color: var(--ShojiWhite);
+    color: var(--StPatricksBlue);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 25px;
+    padding-inline-start: unset;
+}
+
+nav ul a {
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-decoration: 3px solid underline var(--GreyBlack);
+    color: var(--ShojiWhite);
+    border: solid 1px var(--GreyBlack);
+    border-right: solid 2px var(--AlizarinCrimson);
+    padding: 0 12px;
+}
+
+nav ul a:hover {
+    text-decoration: 3px solid underline var(--AlizarinCrimson);
+    transition: 0.2s ease-in;
+}
+
+nav ul li:last-of-type a {
+    border: none;
+    text-decoration: 3px solid underline var(--GreyBlack);
+}
+
+nav ul li:last-of-type a:hover {
+    text-decoration: 3px solid underline var(--AlizarinCrimson);
+}
+
+nav {
+    background-color: var(--GreyBlack);
+    height: 185px;
+}
+
+nav img {
+    margin-left: 1rem;
+    margin-top: 25px;
+}
