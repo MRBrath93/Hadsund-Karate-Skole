@@ -83,9 +83,9 @@ body {
 }
 
 .headbar a {
-    font-size: 1.25rem;
+    font-size: 24px;
     font-weight: bold;
-    padding: 19px 44px;
+    padding: 13px 21px;
     background-color: var(--StPatricksBlue);
     color: var(--ShojiWhite);
     text-decoration: none;
@@ -109,7 +109,7 @@ nav ul {
 }
 
 nav ul a {
-    font-size: 1.25rem;
+    font-size: 24px;
     font-weight: bold;
     text-decoration: 3px solid underline var(--GreyBlack);
     color: var(--ShojiWhite);
@@ -141,3 +141,5 @@ nav img {
     margin-left: 1rem;
     margin-top: 25px;
 }
+
+/* Header styling - Slut */
