@@ -143,3 +143,64 @@ nav img {
 }
 
 /* Header styling - Slut */
+
+/* Footer styling - Start */
+footer {
+    background-color: var(--GreyBlack);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 586px;
+    padding: 107px 189px;
+}
+
+footer p,
+footer a,
+footer h4 {
+    color: var(--ShojiWhite);
+}
+
+footer p {
+    font-weight: bold;
+}
+
+footer h4 {
+    font-weight: 900;
+}
+
+footer a {
+    font-size: 25px;
+    text-decoration: none;
+}
+
+footer i {
+    font-size: 71.5px;
+    color: var(--ShojiWhite);
+}
+
+.kontaktoplysninger {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.socialemedier {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logoer {
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.timeslot {
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+}
+
+
+/* Footer styling - Slut */
