@@ -1,0 +1,76 @@
+/* Typografi */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Variables */
+:root {
+    --StPatricksBlue: #23377F;
+    --AlizarinCrimson: #E31E24;
+    --ShojiWhite: #EEEDE8;
+    --GreyBlack: #333333;
+}
+
+h1 {
+    font-size: 70px;
+    color: white;
+}
+
+h2 {
+    font-size: 40px;
+    color: var(--StPatricksBlue);
+}
+
+h3 {
+    font-size: 40px;
+    color: var(--GreyBlack);
+}
+
+h4 {
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--GreyBlack);
+}
+
+p {
+    font-size: 25px;
+    font-weight: 400;
+    color: var(--GreyBlack);
+    line-height: 37.5px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* Main component */
+.component1 {
+    margin-left: 7.19%;
+    margin-right: 7.19%;
+    width: 85.5%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.element1 p {
+    width: 84.1%;
+    margin-bottom: 25px;
+}
+
+.element1 img {
+    width: 41.1%;
+    object-fit: cover;
+}
+
+/* Main component - Slut */
