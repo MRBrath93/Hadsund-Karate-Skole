@@ -48,43 +48,11 @@ p {
     font-weight: 400;
     color: var(--GreyBlack);
     line-height: 1.5rem;
-    margin: 5px 0px;
 }
 
 body {
     font-family: 'Lato', sans-serif;
 }
-
-article {
-    padding: 35px 20px;
-}
-
-section {
-    padding: 0px 20px;
-}
-
-
-/* Main component */
-.component1 {
-    margin-left: 7.19%;
-    margin-right: 7.19%;
-    width: 85.5%;
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.component1 p {
-    width: 84.1%;
-    margin-bottom: 25px;
-}
-
-.component1 img {
-    width: 41.1%;
-    object-fit: cover;
-}
-
-/* Main component - Slut */
 
 /* Header styling */
 .headbar {
@@ -245,11 +213,14 @@ footer i {
     display: flex;
     align-items: center;
     padding: 8.91vw;
+    margin-bottom: 20px
 }
 
 .numbercontainer {
     display: flex;
     gap: 1rem;
+    padding: 0px 35px;
+    margin-bottom: 16px;
 }
 
 span p {
@@ -263,6 +234,25 @@ span p {
     border-radius: 50%;
     border: 2px solid var(--AlizarinCrimson);
 }
+
+.component1>div>img {
+    width: 100%;
+    height: 203px;
+    object-fit: cover;
+    object-position: 10% 15%;
+    margin-top: 4px;
+    margin-bottom: 20px;
+}
+
+.component1>div>p,
+.component1 h2 {
+    padding: 0px 35px;
+}
+
+.component1>div>p {
+    margin-bottom: 1rem;
+}
+
 
 
 
