@@ -21,17 +21,19 @@ html {
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 1.25rem;
     color: white;
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 1.1875rem;
     color: var(--StPatricksBlue);
+    margin-bottom: 5px;
+    font-weight: 900;
 }
 
 h3 {
-    font-size: 40px;
+    font-size: 1.1875rem;
     color: var(--GreyBlack);
 }
 
@@ -42,14 +44,23 @@ h4 {
 }
 
 p {
-    font-size: 25px;
+    font-size: 1rem;
     font-weight: 400;
     color: var(--GreyBlack);
-    line-height: 37.5px;
+    line-height: 1.5rem;
+    margin: 5px 0px;
 }
 
 body {
     font-family: 'Lato', sans-serif;
+}
+
+article {
+    padding: 35px 20px;
+}
+
+section {
+    padding: 0px 20px;
 }
 
 
@@ -149,9 +160,7 @@ nav ul li:last-of-type a:hover {
 
 nav {
     background-color: var(--GreyBlack);
-    height: 185px;
 }
-
 
 
 /* Header styling - Slut */
@@ -229,6 +238,36 @@ footer i {
 /* Aktiviteter styling - Slut */
 
 /* Karateettikette styling */
+.hero {
+    height: 160px;
+    background-image: url(../img/karateetikette/mobil/karateslagmobil01.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 8.91vw;
+}
+
+.numbercontainer {
+    display: flex;
+    gap: 1rem;
+}
+
+span p {
+    height: 28px;
+    aspect-ratio: 1/1;
+    background-color: var(--GreyBlack);
+    color: var(--ShojiWhite);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid var(--AlizarinCrimson);
+}
+
+
+
+
+
 /* Karateetikkette styling - Slut */
 
 /* Instruktører styling */
