@@ -80,9 +80,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
 }
 
-.headbar a {
+.headbar>div>a {
     font-size: 24px;
     font-weight: bold;
     padding: 13px 21px;
@@ -95,13 +97,26 @@ body {
     border: 5px solid var(--StPatricksBlue);
 }
 
+.headbar a {
+    font-size: 40px;
+    color: var(--ShojiWhite);
+}
+
+.headbar :first-of-type a {
+    display: none;
+}
+
 .headbar a:hover {
     background-color: var(--ShojiWhite);
     color: var(--StPatricksBlue);
 }
 
+.headbar img {
+    height: 57px;
+}
+
 nav ul {
-    display: flex;
+    display: none;
     justify-content: center;
     list-style: none;
     margin-top: 25px;
@@ -137,21 +152,14 @@ nav {
     height: 185px;
 }
 
-nav img {
-    margin-left: 1rem;
-    margin-top: 25px;
-}
+
 
 /* Header styling - Slut */
 
 /* Footer styling - Start */
+
 footer {
     background-color: var(--GreyBlack);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 586px;
-    padding: 107px 189px;
 }
 
 footer p,
@@ -169,38 +177,65 @@ footer h4 {
 }
 
 footer a {
-    font-size: 25px;
+    font-size: 20px;
     text-decoration: none;
 }
 
 footer i {
-    font-size: 71.5px;
+    font-size: 58px;
     color: var(--ShojiWhite);
 }
 
 .kontaktoplysninger {
-    display: flex;
+    display: none;
     flex-direction: column;
     gap: 25px;
+    align-items: center;
+
 }
 
 .socialemedier {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 36px 0px;
+    gap: 19px;
 }
 
 .logoer {
     display: flex;
     gap: 50px;
-    margin-top: 50px;
 }
 
 .timeslot {
-    display: flex;
+    display: none;
     flex-direction: column;
     gap: 33px;
 }
 
 
 /* Footer styling - Slut */
+
+/* Forside styling */
+/* Forside styling - Slut */
+
+/* Praktisk info styling */
+/* Praktisk info styling - Slut */
+
+/* Ashihara styling */
+/* Ashihara styling - Slut */
+
+/* Aktiviteter styling */
+/* Aktiviteter styling - Slut */
+
+/* Karateettikette styling */
+/* Karateetikkette styling - Slut */
+
+/* Instruktører styling */
+/* Instruktører styling - Slut */
+
+/* Bestyrelse styling */
+/* Bestyrelse styling - Slut */
+
+/* Galleri styling */
+/* Galleri styling - Slut */
