@@ -275,6 +275,18 @@ span p {
   left: 10%;
   color: var(--ShojiWhite);
 }
+.imgsensei img {
+  object-fit: cover;
+}
+.brian {
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+figure img {
+  height: 255px;
+}
+
 /* Instruktører styling - Slut */
 
 /* Bestyrelse styling */
