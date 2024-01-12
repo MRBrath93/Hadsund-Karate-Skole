@@ -203,6 +203,56 @@ footer i {
 /* Ashihara styling - Slut */
 
 /* Aktiviteter styling */
+
+button a {
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--ShojiWhite);
+}
+
+button {
+    width: 100px;
+    height: 35px;
+    background-color: var(--StPatricksBlue);
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.interNavigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+}
+
+.kalendercart1 {
+    display: flex;
+    align-items: center;
+    margin: 35px 20px;
+}
+
+.dato {
+    background-color: var(--GreyBlack);
+}
+
+.dato p {
+    color: var(--ShojiWhite);
+    padding: 25.5px 4.5px;
+    font-size: 16px;
+}
+
+.eventtitel {
+    background-color: var(--ShojiWhite);
+    width: 86.4%;
+}
+
+.eventtitel p {
+    padding-left: 0.5rem;
+}
+
 /* Aktiviteter styling - Slut */
 
 /* Karateettikette styling */
@@ -260,11 +310,6 @@ span p {
 .component1>div>p {
     margin-bottom: 1rem;
 }
-
-
-
-
-
 
 /* Karateetikkette styling - Slut */
 
