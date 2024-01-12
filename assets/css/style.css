@@ -203,12 +203,6 @@ footer i {
 /* Ashihara styling - Slut */
 
 /* Aktiviteter styling */
-button a {
-    font-weight: bold;
-    text-decoration: none;
-    color: var(--ShojiWhite);
-}
-
 button {
     width: 100px;
     height: 35px;
@@ -218,6 +212,8 @@ button {
     border-radius: 10px;
     cursor: pointer;
     margin: 5px;
+    color: var(--ShojiWhite);
+    font-weight: bold;
 }
 
 .interNavigation {
@@ -227,15 +223,28 @@ button {
     background-color: white;
 }
 
-.interNavigation+p,
-.aktivitetsintro h2 {
-    padding: 20px 35px;
+.aktivitetstitel+p,
+.aktivitetstitel h2 {
+    padding: 5px 35px;
+}
+
+.kalenderåret>a i {
+    display: inline;
+    font-size: 30px;
+    margin-left: 90%;
+    position: sticky;
+    top: 50%;
+    color: var(--StPatricksBlue);
+}
+
+.kalenderåret a {
+    text-decoration: none;
 }
 
 .kalendercart1 {
     display: flex;
     align-items: stretch;
-    margin: 10px 35px;
+    margin: 5px 35px;
 }
 
 .dato {
@@ -268,13 +277,36 @@ button {
 }
 
 #Februar h2,
-#Marts h2 {
-    margin-top: 20px;
+#Marts h2,
+#April h2,
+#Maj h2,
+#Juni h2,
+#August h2,
+#September h2,
+#Oktober h2,
+#November h2,
+#December h2 {
+    margin-top: 25px;
+    margin-bottom: 0px;
     padding: 0px 35px;
 }
 
 #Januar h2 {
     padding: 0px 35px;
+}
+
+#December a {
+    text-decoration: none;
+    font-weight: bold;
+    background-color: var(--StPatricksBlue);
+    color: var(--ShojiWhite);
+    border-radius: 12px;
+    padding: 8px 18px;
+    margin-bottom: 40px;
+}
+
+#December .kalendercart1:nth-of-type(2) {
+    margin-bottom: 40px;
 }
 
 
