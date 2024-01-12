@@ -281,29 +281,25 @@ span p {
 .brian {
   margin: 20px 35px;
 }
-.Senseireadmore {
-  height: 287px;
-  width: 393px;
+
+.text-and-button-sensei {
+  display: flex;
+  flex-direction: column;
   background-color: var(--ShojiWhite);
 }
-.Senseireadmore p,
-h3 {
+.text-sensei {
+  margin-top: 10px;
+  margin-bottom: 10px;
   margin-left: 35px;
   margin-right: 35px;
-  padding: 5px;
 }
-.Senseireadmore {
-  padding-top: 30px;
-}
-.btnsensei {
-  text-align: center;
+.btn-sensei {
   background-color: var(--StPatricksBlue);
-  margin: 5px 35px;
-  padding: 15px 35px;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
   color: var(--ShojiWhite);
+  padding: 15px 15px;
+  margin-bottom: 10px;
+  margin-left: 35px;
+  margin-right: 35px;
 }
 
 /* Instruktører styling - Slut */
