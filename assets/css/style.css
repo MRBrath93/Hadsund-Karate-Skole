@@ -194,6 +194,75 @@ footer i {
 /* Footer styling - Slut */
 
 /* Forside styling */
+
+#welcomeTxt {
+    color: var(--StPatricksBlue);
+}
+
+#trial {
+    background-image: url(/assets/img/Forside/proevetime_396x435_full.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#trial > h1 {
+    align-items: center;
+}
+
+.buttonIndex {
+    border: #23377F;
+    border-radius: 12px;
+    border-style: solid;
+    background-color: #23377F;
+    color: var(--ShojiWhite);
+    padding: 10px 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.buttonIndex:hover {
+    border: #23377F;
+    border-radius: 12px;
+    border-style: solid;
+    border-width: 5px;
+    background-color: var(--ShojiWhite);
+    color: #23377F;
+    padding: 10px 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.valuesHadsund p {
+    display: inline;
+}
+
+.boldTxt {
+    font-weight: bold;
+}
+
+.news {
+    background-color: rgb(231, 231, 231);
+    padding: 10px 20px;
+}
+
+.accordionIndex{
+    background-color: #23377F;
+    color: var(--ShojiWhite);
+    cursor: pointer;
+    padding: 10px 5px;
+    max-width: 80%;
+}
+
+.contentNews {
+    padding: 10px 5px;
+    background-color: var(--ShojiWhite);
+    display: none;
+    overflow: hidden;
+}
+
 /* Forside styling - Slut */
 
 /* Praktisk info styling */

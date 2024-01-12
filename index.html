@@ -5,16 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="karate hadsund sportsforening ashihara">
     <meta name="description" content="Hadsund Karate Skole er en klub for alle der har lyst til at dyrke Ashihara karate">
-    <title>Hadsund Karate Skole</title>
+    <title>Hadsund Karate Skole - Forside</title>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!--Kilde: Fonticons, Inc. 2022, Font awesome. [Online]. Available at:
+    https://fontawesome.com/ [Accessed 12. januar 2024].  -->
 </head>
 <body>
     <header>
         <nav>
             <div class="headbar">
                 <div>
-                    <img src="./assets/img/HadsundKarateSkole_logo_hvid_300px.png" alt="">
+                    <img src="./assets/img/HadsundKarateSkole_logo_hvid_300px.png" alt="logo">
                     <a href="#">Login til Hadsund Karate Skole</a>
                 </div>
                 <a href="#"><i class="fa-solid fa-bars"></i></a>
@@ -32,38 +34,106 @@
         </nav>
     </header>
     <main>
-        <form action="" method="post" enctype="multipart/form-data">
-            <label for="forname">Fornavn*</label>
-            <input type="text" name="fname" id="fname" placeholder="Fornavn" required>
-            <label for="lastname">Efternavn*</label> 
-            <input type="text" name="lname" id="lname" placeholder="Efternavn" required>
-            <br>
-            <label for="street-address">Adrasse*</label>
-            <input type="text" name="street-address" id="street-address" autocomplete="street-address" placeholder="Adresse" required>
-            <label for="zip-code">Post nummer</label>
-            <input type="text" id="zip-code" name="zip-code" autocomplete="postal-code" placeholder="Post nr">
-            <br>
-            <label for="tel">Telefon nummer*</label>
-            <input type="tel" name="phoneno" id="phoneno" pattern="[0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2}" maxlength="8" required placeholder="Telefon nr">
-            <label for="bday">Fødselsdag*</label>
-            <input required type="date" name="bday" id="bday">
-            <br>
-            <label for="email">Email*</label>
-            <input type="email" name="email" id="email" required placeholder="Email">
-            <br>
-            <label for="password">Password*</label>
-            <input required type="password" name="new-password" id="new-password" autocomplete="new-password" placeholder="Password" minlength="8">
-    <button id="passwShow" aria-label="vis kodeord">Vis kodeord</button>
-    <br>
-    <label>Køn*</label>
-    <br>
-    <label for="msex">Mand</label>
-    <input type="radio" name="sex" id="msex">
-    <label for="wsex">Kvinde</label>
-    <input type="radio" name="sex" id="wsex">
-    <br>
-<button onclick="alert('Du er nu tilmeld til Hadsund Karate Skole')" type="submit" value="submit">Tilmeld dig til Hadsund Karate Skole</button>
-        </form>
+        <section>
+            <img src="./assets/img/Forside/Forside_hero_396x185_full.jpg" alt="Medlemmer i Hadsund Karate Klub">
+            <h1 id="welcomeTxt">Velkommen til Ashihara Karate Hadsund</h1>
+            <p>I Hadsund Karate Skole træner vi Ashihara karate, som er en særlig græn af karate, hvor der er fokus på, at lære en selvforsvarsdisciplin og opnå fysisk kontrol over modstanderen ved hjælp af forskellige teknikker.<br>
+            Hadsund Karate Skole er medlem af “New International Karate Organization” (N.I.K.O) og den danske underorganisation “Dansk Ashihara Organisation” (D.A.O).<br>
+            Klubben blev grundlagt i 1983 af Sensei Hugo Thostrup og er nu under ledelse af Branch Chief Sensei Brian.</p>
+        </section>
+        <section>
+            <h2>Ashihara-karate er en selvforsvars disciplin</h2>
+            <p>Fokuset i Ashihara er at lære at forsvare sig selv, få styrke og god kondition. Det handler også om at opnå mental styrke, og en god psyke. Pointen er faktisk, at man skal undgå slagsmål, og lære ikke at slås.<br>
+                Balancen mellem det fysiske og det mentale er centralt i karaten, og beherskelsen af karatens teknikker giver både fysisk styrke, kontrol og balance, men også en generel sikkerhed i kropssproget.<br>
+                Udøvelsen af Ashihara handler rigtig meget om at opnå kontrol over modstanderen. Kernen er dermed at lære et væld af forskellige teknikker, der gør det muligt at gøre modstanderen ”ukampsdygtig”.<br>
+            </p>
+        </section>
+        <section id="trial">
+            <h1>Vil du prøve karate i<br>
+                vores klub?<br>
+                Kom ind til en gratis prøvetræning</h1>
+                <a href="/praktiskInfo.html">
+                    <button class="buttonIndex">
+                    Læs mere om prøve træning her</button>
+                </a>
+        </section>
+        <section class="valuesHadsund">
+            <h2>Værdier i Ashihara Karate Hadsund</h2>
+            <p>I Hadsund Karate Skole lægges der vægt på en god træningsindsats og en respektfuld indstilling til karate.<br>
+                Gennem karatetræningen lærer man hele tiden at udfordre sig selv og sætte sig nye mål for at blive bedre.</p>
+            <p>Hadsund Karate Skole følger de værdier og etikette, som er central for Ashihara karate.</p> 
+            <p>Det er en af klubbens værdier, at der skal være et</p>
+            <p class="boldTxt">trygt og godt fællesskab</p> 
+            <p>, og at alle, uanset alder, køn, religion eller etnicitet, kan føle sig velkomne.</p> 
+            <p>Det</p> 
+            <p class="boldTxt">sociale engagement</p>
+            <p>, med samvær og læring på tværs af alder og gradueringer, vægtes højt.</p>
+            <p>Medlemmerne forventes at kunne tale med alle, og der skal ikke være barrierer mellem dem på baggrund af deres graduering. Det skal være helt 
+                <p class="boldTxt">trygt</p>
+            <p>for nye medlemmer at tale med de mere erfarne, uanset bælte farve.</p><br><br>
+            <p>Vil du læse mere om sportgrenen:</p><br>
+            <a href="/praktiskInfo.html"><button class="buttonIndex">
+                Læs mere om Ashihara Karate
+            </button></a>
+
+        </section>
+        <section class="signUp">
+            <h2>Tilmeldelse til Hadsund Karate Skole</h2>
+                <form action="" method="post" enctype="multipart/form-data">
+                    <label for="forname">Fornavn*</label>
+                    <input type="text" name="fname" id="fname" placeholder="Fornavn" required>
+                    <label for="lastname">Efternavn*</label> 
+                    <input type="text" name="lname" id="lname" placeholder="Efternavn" required>
+                    <br>
+                    <label for="street-address">Adresse*</label>
+                    <input type="text" name="street-address" id="street-address" autocomplete="street-address" placeholder="Adresse" required>
+                    <label for="zip-code">Post nummer</label>
+                    <input type="text" id="zip-code" name="zip-code" autocomplete="postal-code" placeholder="Post nr">
+                    <br>
+                    <label for="tel">Telefon nummer*</label>
+                    <input type="tel" name="phoneno" id="phoneno" pattern="[0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2}" maxlength="8" required placeholder="Telefon nr">
+                    <label for="bday">Fødselsdag*</label>
+                    <input required type="date" name="bday" id="bday">
+                    <br>
+                    <label for="email">Email*</label>
+                    <input type="email" name="email" id="email" required placeholder="Email">
+                    <br>
+                    <label for="password">Password*</label>
+                    <input required type="password" name="new-password" id="new-password" autocomplete="new-password" placeholder="Password" minlength="8">
+                    <button id="passwShow" aria-label="vis kodeord">Vis kodeord</button>
+                    <br>
+                    <label>Køn*</label>
+                    <br>
+                    <label for="msex">Mand</label>
+                    <input type="radio" name="sex" id="msex">
+                    <label for="wsex">Kvinde</label>
+                    <input type="radio" name="sex" id="wsex">
+                    <br>
+                    <button class="buttonIndex" onclick="alert('Du er nu tilmeld til Hadsund Karate Skole')" type="submit" value="submit">Tilmeld dig til Hadsund Karate Skole</button>
+                </form>
+        </section>
+        <section id="news">
+            <h2>Nyhedsfeed</h2>
+            <details class="accordionIndex">
+                <summary>Gradueringer<span class="iconIndex"><i class="fa-solid fa-chevron-down"></i></span></summary>
+                <div class="contentNews">
+                    <p>Disse tre krigere bestod lørdag d. 17/12-22 deres DAO graduering til 2. og 1. Kyu.<br>
+                    Nu venter velfortjent juleferie.
+                    </p>
+                    <img src="../Glemte billeder til forside/news1.jpg" alt="Graduering på Hadsund Karate Skole" loading="lazy">
+                </div>
+            </details>
+
+        
+            <a href="/aktiviteter.html"><button class="buttonIndex">Aktivitetskalender</button></a>
+                <button class="buttonIndex">Ældre indlæg</button>
+        </section>
+        <section>
+            
+        </section>
+        <section>
+            
+        </section>
     </main>
     <footer>
         <div class="kontaktoplysninger">
