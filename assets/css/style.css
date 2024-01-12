@@ -291,7 +291,30 @@ h3 {
   font-size: 16px;
   color: var(--StPatricksBlue);
 }
-
+.text-and-button-bestyrelse {
+  display: flex;
+  flex-direction: column;
+}
+.text-bestyrelse {
+  margin: 35px;
+}
+.btn-bestyrelse {
+  background-color: var(--StPatricksBlue);
+  color: var(--ShojiWhite);
+  padding: 15px 15px;
+  margin-bottom: 10px;
+  margin-left: 35px;
+  margin-right: 35px;
+  border-radius: 12px;
+}
+.knapbestyrelse {
+  padding-bottom: 40px;
+  background-color: var(--ShojiWhite);
+  padding-top: 5px;
+}
+.bestyrelse-center {
+  text-align: center;
+}
 /* Bestyrelse styling - Slut */
 
 /* Galleri styling */
