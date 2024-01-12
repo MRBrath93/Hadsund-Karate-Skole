@@ -18,6 +18,7 @@ html {
     --AlizarinCrimson: #E31E24;
     --ShojiWhite: #EEEDE8;
     --GreyBlack: #333333;
+    --DarkGrey: #A5A5A5;
 }
 
 h1 {
@@ -197,6 +198,27 @@ footer i {
 /* Forside styling - Slut */
 
 /* Praktisk info styling */
+@media screen {
+    
+}
+.bluebold{
+    color: var(--StPatricksBlue);
+}
+.blackbold{
+    color: var(--GreyBlack);
+    text-decoration: none;
+}
+.reqred{
+    color: var(--AlizarinCrimson);
+}
+input{
+    background: var(--ShojiWhite);
+    border: none;
+    color: var(--DarkGrey);
+    padding: 1rem 0.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
 /* Praktisk info styling - Slut */
 
 /* Ashihara styling */
