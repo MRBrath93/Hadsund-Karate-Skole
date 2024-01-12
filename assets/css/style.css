@@ -261,7 +261,20 @@ span p {
 /* Karateetikkette styling - Slut */
 
 /* Instruktører styling */
-
+.hero-seneis {
+  background-image: url(../img/Instruktør/Mobile/heroMobile01.jpg);
+  height: 160px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.hero-senseistext h1 {
+  text-align: center;
+  position: absolute;
+  top: 28%;
+  left: 10%;
+  color: var(--ShojiWhite);
+}
 /* Instruktører styling - Slut */
 
 /* Bestyrelse styling */
