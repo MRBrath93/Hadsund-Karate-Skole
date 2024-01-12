@@ -271,7 +271,7 @@ span p {
 .hero-senseistext h1 {
   text-align: center;
   position: absolute;
-  top: 28%;
+  top: 46%;
   left: 10%;
   color: var(--ShojiWhite);
 }
@@ -279,12 +279,7 @@ span p {
   object-fit: cover;
 }
 .brian {
-  padding-top: 2rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-figure img {
-  height: 255px;
+  margin: 20px 35px;
 }
 
 /* Instruktører styling - Slut */
