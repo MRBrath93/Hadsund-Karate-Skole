@@ -281,6 +281,30 @@ span p {
 .brian {
   margin: 20px 35px;
 }
+.Senseireadmore {
+  height: 287px;
+  width: 393px;
+  background-color: var(--ShojiWhite);
+}
+.Senseireadmore p,
+h3 {
+  margin-left: 35px;
+  margin-right: 35px;
+  padding: 5px;
+}
+.Senseireadmore {
+  padding-top: 30px;
+}
+.btnsensei {
+  text-align: center;
+  background-color: var(--StPatricksBlue);
+  margin: 5px 35px;
+  padding: 15px 35px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  color: var(--ShojiWhite);
+}
 
 /* Instruktører styling - Slut */
 
