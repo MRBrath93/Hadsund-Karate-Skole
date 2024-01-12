@@ -286,6 +286,11 @@ span p {
   margin: 35px;
   gap: 20px;
 }
+.bestyrelse-title,
+h3 {
+  font-size: 16px;
+  color: var(--StPatricksBlue);
+}
 
 /* Bestyrelse styling - Slut */
 
