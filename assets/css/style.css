@@ -203,7 +203,6 @@ footer i {
 /* Ashihara styling - Slut */
 
 /* Aktiviteter styling */
-
 button a {
     font-weight: bold;
     text-decoration: none;
@@ -228,20 +227,27 @@ button {
     background-color: white;
 }
 
+.interNavigation+p,
+.aktivitetsintro h2 {
+    padding: 20px 35px;
+}
+
 .kalendercart1 {
     display: flex;
-    align-items: center;
-    margin: 35px 20px;
+    align-items: stretch;
+    margin: 10px 35px;
 }
 
 .dato {
     background-color: var(--GreyBlack);
+    display: flex;
+    align-items: center;
 }
 
 .dato p {
     color: var(--ShojiWhite);
-    padding: 25.5px 4.5px;
     font-size: 16px;
+    padding: 5px;
 }
 
 .eventtitel {
@@ -252,6 +258,25 @@ button {
 .eventtitel p {
     padding-left: 0.5rem;
 }
+
+.eventtitel :first-child {
+    font-weight: bold;
+}
+
+.eventtitel :nth-child(4) {
+    margin-top: 15px;
+}
+
+#Februar h2,
+#Marts h2 {
+    margin-top: 20px;
+    padding: 0px 35px;
+}
+
+#Januar h2 {
+    padding: 0px 35px;
+}
+
 
 /* Aktiviteter styling - Slut */
 
