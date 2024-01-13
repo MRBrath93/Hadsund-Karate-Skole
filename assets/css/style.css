@@ -194,6 +194,17 @@ footer i {
 /* Footer styling - Slut */
 
 /* Forside styling */
+.index {
+    margin-bottom: 30px;
+}
+
+.index p {
+    margin: 12px 30px;
+}
+
+.index h1, h2 {
+    margin: 12px 15px;
+}
 
 #welcomeTxt {
     color: var(--StPatricksBlue);
@@ -204,12 +215,21 @@ footer i {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    max-height: 100%;
-    max-width: 100%;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-#trial > h1 {
-    align-items: center;
+#trial h1 {
+    font-size: 2.8rem;
+    padding-top: 80px; 
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
 }
 
 .buttonIndex {
@@ -243,25 +263,112 @@ footer i {
     font-weight: bold;
 }
 
-.news {
+#indexNews {
     background-color: rgb(231, 231, 231);
-    padding: 10px 20px;
+    padding: 30px 20px;
+    border-radius: 5px;
 }
 
 .accordionIndex{
     background-color: #23377F;
     color: var(--ShojiWhite);
     cursor: pointer;
-    padding: 10px 5px;
-    max-width: 80%;
+    padding-right: 50px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 12px;
 }
 
-.contentNews {
+.accordionContent {
     padding: 10px 5px;
     background-color: var(--ShojiWhite);
-    display: none;
-    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 10px 10px rgb(0 0 0 / 0.2);
 }
+
+.graduation {
+    width: 100%;
+    object-fit: cover;
+}
+
+.trainingSeminar {
+    width: 100%;
+    object-fit: cover;
+}
+
+.sabakiCamp {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+details[open] .accordionIndex .iconIndex {
+    rotate: 180deg;
+}
+
+summary img {
+    object-fit: cover;
+}
+
+
+/* cards til Forsiden */ 
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 12px;
+    width: 100vw;
+
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 0.4s;
+    position: relative;
+}
+
+.cardTxt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 1;
+    position: absolute;
+    z-index: -1;
+}
+
+.cardTxt:hover {
+    z-index: 2;
+}
+
+.cardImg {
+    opacity: 1;
+}
+
+.cardImg:hover {
+    opacity: 0.3;
+}
+
+.buttonCards {
+    position: absolute;
+    bottom: 25px;
+    left: 40%;
+
+}
+
+
+
+
 
 /* Forside styling - Slut */
 
