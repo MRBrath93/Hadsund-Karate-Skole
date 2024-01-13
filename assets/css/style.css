@@ -286,6 +286,26 @@ span p {
   margin: 35px;
   gap: 20px;
 }
+.accordionIndex {
+  background-color: var(--StPatricksBlue);
+  color: var(--ShojiWhite);
+  cursor: pointer;
+  padding-right: 30px;
+  padding-left: 25px;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 12px;
+}
+
+.contentAccordion {
+  padding: 10px 5px;
+  background-color: var(--ShojiWhite);
+  cursor: pointer;
+  box-shadow: 0 10px 10px rgb(0 0 0 / 0.2);
+}
 .bestyrelse-title,
 h3 {
   font-size: 16px;
