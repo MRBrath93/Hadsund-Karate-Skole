@@ -215,7 +215,7 @@ footer i {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 110vh;
+    height: 60vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -231,6 +231,32 @@ footer i {
     padding-right: 30px;
     padding-bottom: 10px;
 }
+
+/* Værdier på forsiden */ 
+
+.valuesHadsund {
+    background-image: url(/assets/img/Forside/vaerdier_forside_393x299.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+.valuesHadsund h1 {
+    font-size: 2rem;
+    padding-left: 20px;
+}
+
+.valuesHadsund :nth-child(3) {
+    padding-bottom: 20px;
+}
+
+/*  Nyhedsfeed på forsiden */
 
 .buttonIndex {
     border: #23377F;
