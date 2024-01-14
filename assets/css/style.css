@@ -200,6 +200,124 @@ footer i {
 /* Praktisk info styling - Slut */
 
 /* Ashihara styling */
+
+.ashihara {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.ashihara p {
+    margin-bottom: 20px;
+}
+
+/* Hero section */ 
+.heroAshihara {
+    height: 160px;
+    background-image: url(../img/Ashihara/mobil/mobilHeroLanterner01.jpg) ;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Værdier Ashihara Karate */ 
+.valuesAshihara {
+    height: 80vh;
+   display: grid;
+   align-items: center;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 12px;
+}
+
+.motion {
+    background-image: url(../img/Ashihara/mobil/vaerdier_motion_190x145.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.styrke {
+    background-image: url(../img/Ashihara/mobil/vaerdier_styrke_190x145.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+.balance {
+    background-image: url(../img/Ashihara/mobil/vaerdier_balance_190x145.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+.disciplin {
+    background-image: url(../img/Ashihara/mobil/vaerdier_disciplin_190x145.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+.respekt {
+    background-image: url(../img/Ashihara/mobil/vaerdier_respekt_190x145.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.sammenhold {
+    background-image: url(../img/Ashihara/mobil/vaerdier_sammenhold_190x145.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+/* Målsætninger Ashihara */ 
+.objectives li {
+    color: var(--StPatricksBlue);
+    list-style-type: none;
+}
+
+.objectives ul {
+    padding-left: 12px;
+}
+
+/* Sektion "Næste side" */ 
+.nextPage {
+    background-color: var(--ShojiWhite);
+}
+
+.nextPageImg {
+    height: 100%;
+}
+
 /* Ashihara styling - Slut */
 
 /* Aktiviteter styling */
