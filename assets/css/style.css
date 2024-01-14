@@ -192,7 +192,7 @@ footer i {
 }
 
 .index h1, h2 {
-    margin: 15px 12px;
+    margin: 15px 20px;
 }
 
 #welcomeTxt {
@@ -201,6 +201,7 @@ footer i {
 
 #trial {
     background-image: url(/assets/img/Forside/proevetime_396x435_full.jpg);
+    /*Kilde: "COLOURBOX37668213. 2023. Coulourbox.dk. [online] Available at: https://www.colourbox.dk/billede/karate-gul-aikido-billede-37668213. Accessed: 07/01/2024. */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -225,6 +226,8 @@ footer i {
 
 .valuesHadsund {
     background-image: url(/assets/img/Forside/vaerdier_forside_393x299.jpg);
+    /*Kilde: "COLOURBOX50473355. 2023. Coulourbox.dk. [online] Available at: https://www.colourbox.dk/billede/karate-kvinde-karateka-billede-50473355. Accessed: 07/01/2024. */
+
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -253,10 +256,13 @@ footer i {
     border-style: solid;
     background-color: #23377F;
     color: var(--ShojiWhite);
-    padding: 10px 10px;
+    padding: 5px 10px;
     text-align: center;
     cursor: pointer;
     margin-top: 12px;
+    width: 70vw;
+    height: 50px;
+    font-size: 16px;
 }
 
 .buttonIndex:hover {
@@ -269,6 +275,10 @@ footer i {
     padding: 10px 10px;
     text-align: center;
     cursor: pointer;
+    width: 70vw;
+    height: 50px;
+    font-size: 16px;
+    margin-top: 12px;
 }
 
 
@@ -380,6 +390,7 @@ summary img {
 
 }
 
+/* Media Querie til forsiden */
 
 
 
@@ -754,7 +765,7 @@ span p {
     margin-bottom: 1.25rem;
 }
 
-section img {
+.component2>img {
     width: 100%;
     height: 203px;
     object-fit: cover;
