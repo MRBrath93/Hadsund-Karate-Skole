@@ -483,14 +483,14 @@ button {
     display: flex;
     align-items: center;
     padding: 8.91vw;
-    margin-bottom: 20px
+    margin-bottom: 1.25rem;
 }
 
 .numbercontainer {
     display: flex;
     gap: 1rem;
     padding: 0px 35px;
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
 }
 
 .numbercontainer div p:not(:last-child) {
@@ -515,7 +515,7 @@ span p {
     object-fit: cover;
     object-position: top;
     margin-top: 4px;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .component1 .foto2 img {
@@ -523,12 +523,42 @@ span p {
 }
 
 .component1>div>p,
-.component1 h2 {
+.component1 h2,
+.component2 h3 {
     padding: 0px 35px;
 }
 
 .component1>div>p {
     margin-bottom: 1rem;
+}
+
+.component2 {
+    background-color: var(--ShojiWhite);
+    padding: 35px 0px;
+}
+
+.component2 a {
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--ShojiWhite);
+    background-color: var(--StPatricksBlue);
+    text-decoration: none;
+    padding: 8px 25px;
+    border-radius: 10px;
+    margin: 0px 35px;
+}
+
+.component2 p {
+    margin: 5px 35px;
+    margin-bottom: 1.25rem;
+}
+
+section img {
+    width: 100%;
+    height: 203px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 1.25rem;
 }
 
 /* Karateetikkette styling - Slut */
