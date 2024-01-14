@@ -275,7 +275,7 @@ span p {
   text-align: center;
   position: absolute;
   top: 44%;
-  left: 10%;
+  left: 8%;
   color: var(--ShojiWhite);
 }
 .grid-bestyrelse {
@@ -287,8 +287,8 @@ span p {
   gap: 20px;
 }
 .accordionIndex {
-  background-color: var(--StPatricksBlue);
-  color: var(--ShojiWhite);
+  background-color: white;
+  color: var(--StPatricksBlue);
   cursor: pointer;
   padding-right: 30px;
   padding-left: 30px;
@@ -297,8 +297,11 @@ span p {
   justify-content: space-between;
   align-items: center;
   gap: 15px;
-  margin-bottom: 12px;
+
   height: 57px;
+  border-style: solid;
+  border-color: #333333;
+  border-width: thin;
 }
 
 .contentAccordion {
@@ -337,6 +340,63 @@ h3 {
 }
 .bestyrelse-center {
   text-align: center;
+}
+@media screen and (min-width: 1200px) {
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 25px;
+  }
+  h4 {
+    font-size: 22px;
+  }
+  p,
+  .dato p {
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .hero-bestyrelse {
+    background-image: url(../img/BestyrelseOgvedtægter/Desktop/heroJapan02.jpg);
+    height: 317px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  .hero-bestyrelsetext h1 {
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    color: var(--ShojiWhite);
+  }
+
+  .grid-bestyrelse {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media screen and (min-width: 1920px) {
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  h3 {
+    font-size: 35px;
+  }
+  h4 {
+    font-size: 30px;
+  }
+  p,
+  .dato p {
+    font-size: 25px;
+    line-height: 37.5px;
+  }
 }
 /* Bestyrelse styling - Slut */
 
