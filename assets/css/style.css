@@ -203,6 +203,7 @@ footer i {
 /* Ashihara styling - Slut */
 
 /* Aktiviteter styling */
+
 button {
     width: 100px;
     height: 35px;
@@ -221,11 +222,13 @@ button {
     flex-wrap: wrap;
     justify-content: center;
     background-color: white;
+    margin-top: 20px;
 }
 
 .aktivitetstitel+p,
 .aktivitetstitel h2 {
     padding: 5px 35px;
+    max-width: 812px;
 }
 
 .kalenderåret>a i {
@@ -254,6 +257,7 @@ button {
     display: flex;
     align-items: stretch;
     margin: 5px 35px;
+    max-width: 812px;
 }
 
 .dato {
@@ -317,6 +321,32 @@ button {
 #December .kalendercart1:nth-of-type(2) {
     margin-bottom: 40px;
 }
+
+@media screen and (min-width: 1200px) {
+
+    .dato p,
+    p,
+    button {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 22px;
+    }
+
+    button {
+        width: 125px;
+    }
+
+}
+
+@media screen and (min-width: 1900px) {
+    button {
+        width: 125px;
+        height: 65px;
+    }
+}
+
 
 
 /* Aktiviteter styling - Slut */
