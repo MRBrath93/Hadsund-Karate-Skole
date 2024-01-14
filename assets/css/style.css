@@ -429,12 +429,6 @@ button {
 }
 
 @media screen and (min-width: 1920px) {
-    .interNavigation button {
-        width: 120px;
-        margin-bottom: 30px;
-        font-size: 22px;
-    }
-
     h1 {
         font-size: 45px;
     }
@@ -467,6 +461,12 @@ button {
 
     footer a {
         font-size: 25px;
+    }
+
+    .interNavigation button {
+        width: 120px;
+        margin-bottom: 30px;
+        font-size: 22px;
     }
 
 }
