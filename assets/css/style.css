@@ -305,7 +305,7 @@ span p {
   border-width: thin;
 }
 
-.contentAccordion {
+.contentBestyrelse {
   padding: 10px 5px;
   background-color: var(--ShojiWhite);
   cursor: pointer;
@@ -332,6 +332,7 @@ span p {
   margin-left: 35px;
   margin-right: 35px;
   border-radius: 12px;
+  margin-top: 10px;
 }
 .knapbestyrelse {
   padding-bottom: 40px;
@@ -389,6 +390,40 @@ span p {
   }
   .accordionStart {
     font-size: 25px;
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+  .knapbestyrelse {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .knapbestyrelse {
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+  .btn-bestyrelse {
+    background-color: var(--StPatricksBlue);
+    color: var(--ShojiWhite);
+    padding: 10px 50px;
+    font-size: 15px;
+    margin-left: 70px;
+    margin-top: 40px;
+  }
+  .text-bestyrelse p {
+    padding-left: 80px;
+  }
+  .text-bestyrelse h3 {
+    padding-left: 80px;
+  }
+  .bestyrelse-center {
+    padding-left: 10px;
+    padding-right: 30px;
+  }
+  .contentBestyrelse {
+    margin-left: 35px;
+    margin-right: 35px;
+    font-size: 25px;
   }
 }
 @media screen and (min-width: 1920px) {
@@ -436,7 +471,7 @@ span p {
     font-size: 30px;
     height: 110px;
   }
-  .contentAccordion {
+  .contentBestyrelse {
     margin-left: 118px;
     margin-right: 118px;
     font-size: 25px;
@@ -456,13 +491,13 @@ span p {
     margin-right: 55px;
   }
   .text-bestyrelse p {
-    padding-left: 50px;
+    padding-left: 81px;
   }
   .text-bestyrelse h3 {
-    padding-left: 50px;
+    padding-left: 81px;
   }
   .bestyrelse-center {
-    padding-right: 230px;
+    padding-right: 200px;
   }
 }
 /* Bestyrelse styling - Slut */
