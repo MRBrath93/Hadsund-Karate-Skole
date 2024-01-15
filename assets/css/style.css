@@ -315,7 +315,7 @@ button {
 
 .heroetikette h1 {
     position: absolute;
-    bottom: 50%;
+    bottom: 40%;
     left: 35px;
 }
 
@@ -419,10 +419,12 @@ span p {
 
     h2 {
         font-size: 25px;
+        margin-bottom: 15px;
     }
 
     h3 {
         font-size: 25px;
+        margin-bottom: 15px;
     }
 
     h4 {
@@ -541,46 +543,47 @@ span p {
     /* Aktiviteter slut */
 
     /* Karateetikette */
-    /* .component1 {
-        display: flex;
-        height: 100%;
-        padding: 40px 60px;
-    }
-
-    .component1 picture img  {
-        height: 100%;
-        margin: 0;
-    }
-
-    .foto2>picture+img {
-        display: unset;
-    }
-
-    .foto2{
-        height: 100%;
-        width: 50%;
-    } */
     .component1 {
         display: grid;
         grid-template-columns: 50% 40%;
         justify-content: center;
         gap: 1.5rem;
         margin: 1.5rem;
+    }
 
+    span p {
+        height: 33px;
+    }
+
+    .linkvidere {
+        display: grid;
+        grid-template-columns: 52% 40%;
+        justify-content: center;
+        margin: 1.5rem;
     }
 
     .component1 :last-child {
         grid-column: 2/3;
     }
 
-    .component1 picture img {
+    .component1 picture img,
+    .linkvidere img {
         height: 100%;
         margin: 0;
         object-position: left;
     }
 
-    .component1 picture {
+    .component1 picture,
+    .component2 picture {
         height: 100%;
+    }
+
+    .component2 p {
+        margin-bottom: 2rem;
+    }
+
+    .component2 a {
+        font-size: 20px;
     }
 
     .foto2>picture+img {
@@ -598,6 +601,8 @@ span p {
         object-position: left;
     }
 
+
+
 }
 
 @media screen and (min-width: 1500px) {
@@ -612,27 +617,27 @@ span p {
 
 @media screen and (min-width: 1920px) {
     h1 {
-        font-size: 45px;
+        font-size: 70px;
     }
 
     h2 {
-        font-size: 35px;
+        font-size: 40px;
     }
 
     h3 {
-        font-size: 35px;
+        font-size: 40px;
     }
 
     h4 {
         font-size: 30px;
     }
 
-    p,
-    .dato p,
-    .aktivitetstitel+p {
+    p {
         font-size: 25px;
         line-height: 37.5px;
     }
+
+    /* Header */
 
     nav ul a {
         font-size: 24px;
@@ -642,9 +647,17 @@ span p {
         font-size: 24px;
     }
 
+    /* Header slut */
+
+    /* Footer */
+
     footer a {
         font-size: 25px;
     }
+
+    /* Footer slut */
+
+    /* Aktiviteter */
 
     .interNavigation button {
         width: 120px;
@@ -652,4 +665,31 @@ span p {
         font-size: 22px;
     }
 
+    .dato p,
+    .aktivitetstitel+p {
+        font-size: 25px;
+        line-height: 37.5px;
+    }
+
+    .component2 a {
+        font-size: 25px;
+    }
+
+    /* Aktiviteter slut */
+
+    /* Karateetikette */
+
+    .heroetikette img {
+        height: 317px;
+    }
+
+    .heroetikette {
+        height: 317px;
+    }
+
+    span p {
+        height: 36px;
+    }
+
+    /* Karateetikette slut */
 }
