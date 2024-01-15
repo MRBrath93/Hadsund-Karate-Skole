@@ -358,6 +358,12 @@ span p {
   margin-left: 35px;
   padding-bottom: 20px;
 }
+@media screen and (min-width: 700px) {
+  .grid-bestyrelse {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 @media screen and (min-width: 1000px) {
   h1 {
     font-size: 35px;
