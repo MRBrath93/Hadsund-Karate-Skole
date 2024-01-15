@@ -95,19 +95,18 @@ body {
 
 nav ul {
     display: none;
-    justify-content: center;
+    justify-content: space-around;
     list-style: none;
     padding-inline-start: unset;
     padding: 16px 0px;
 }
 
 nav ul a {
-    font-size: 19px;
+    font-size: 18px;
     font-weight: bold;
     text-decoration: none;
     border-bottom: 3px solid var(--GreyBlack);
     color: var(--ShojiWhite);
-    padding: 0 12px;
 }
 
 nav ul a:hover {
