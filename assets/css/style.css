@@ -199,13 +199,14 @@ footer i {
     color: var(--StPatricksBlue);
 }
 
+/* Prøvetime - sektion */
 #trial {
     background-image: url(/assets/img/Forside/proevetime_396x435_full.jpg);
     /*Kilde: "COLOURBOX37668213. 2023. Coulourbox.dk. [online] Available at: https://www.colourbox.dk/billede/karate-gul-aikido-billede-37668213. Accessed: 07/01/2024. */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 60vh;
+    height: 80vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -256,14 +257,15 @@ footer i {
     border-style: solid;
     background-color: #23377F;
     color: var(--ShojiWhite);
-    padding: 5px 10px;
+    padding: 10px 10px;
     text-align: center;
     cursor: pointer;
     margin-top: 12px;
-    width: 70vw;
+    width: 320px;
     height: 50px;
     font-size: 16px;
 }
+
 
 .buttonIndex:hover {
     border: #23377F;
@@ -346,8 +348,6 @@ summary img {
     justify-content: space-around;
     align-items: center;
     gap: 12px;
-    width: 100vw;
-
 }
 
 .cardContainer {
@@ -377,6 +377,7 @@ summary img {
 
 .cardImg {
     opacity: 1;
+    width: 100%;
 }
 
 .cardImg:hover {
@@ -385,13 +386,11 @@ summary img {
 
 .buttonCards {
     position: absolute;
-    bottom: 25px;
-    left: 28%;
-
+    bottom: 15px;
+    left: 15%;
+    width: 270px;
+    height: 50px;
 }
-
-/* Media Querie til forsiden */
-
 
 
 
