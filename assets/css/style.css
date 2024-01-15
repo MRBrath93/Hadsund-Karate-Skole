@@ -356,6 +356,10 @@ span p {
     object-position: center;
 }
 
+.foto2>picture+img {
+    display: none;
+}
+
 .component1>div>p,
 .component1 h2,
 .component2 h3 {
@@ -537,26 +541,61 @@ span p {
     /* Aktiviteter slut */
 
     /* Karateetikette */
-    .component1 {
+    /* .component1 {
         display: flex;
-    }
-
-    .heroetikette img {
         height: 100%;
-        object-fit: cover;
-        object-position: top;
+        padding: 40px 60px;
     }
 
-    .heroetikette {
-        height: 317px;
-        margin-bottom: 2rem;
-        position: relative;
+    .component1 picture img  {
+        height: 100%;
+        margin: 0;
     }
 
-    .heroetikette h1 {
-        position: absolute;
-        bottom: 50%;
-        left: 35px;
+    .foto2>picture+img {
+        display: unset;
+    }
+
+    .foto2{
+        height: 100%;
+        width: 50%;
+    } */
+    .component1 {
+        display: grid;
+        grid-template-columns: 50% 40%;
+        justify-content: center;
+        gap: 1.5rem;
+        margin: 1.5rem;
+
+    }
+
+    .component1 :last-child {
+        grid-column: 2/3;
+    }
+
+    .component1 picture img {
+        height: 100%;
+        margin: 0;
+        object-position: left;
+    }
+
+    .component1 picture {
+        height: 100%;
+    }
+
+    .foto2>picture+img {
+        display: unset;
+    }
+
+    .foto2 {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .foto2>picture>img {
+        width: 100%;
+        object-position: left;
     }
 
 }
