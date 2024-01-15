@@ -272,6 +272,7 @@ span p {
   position: relative;
   background-size: cover;
 }
+
 .hero-bestyrelsetext h1 {
   text-align: center;
   position: absolute;
@@ -280,6 +281,7 @@ span p {
 
   color: var(--ShojiWhite);
 }
+
 .grid-bestyrelse {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -289,6 +291,7 @@ span p {
   gap: 10px;
   background-size: cover;
 }
+
 .accordionStart {
   background-color: white;
   color: var(--StPatricksBlue);
@@ -315,17 +318,21 @@ span p {
   padding-right: 25px;
   padding-left: 26px;
 }
+
 .bestyrelse-title {
   font-size: 18px;
   color: var(--StPatricksBlue);
 }
+
 .text-and-button-bestyrelse {
   display: flex;
   flex-direction: column;
 }
+
 .text-bestyrelse {
   margin: 35px;
 }
+
 .btn-bestyrelse {
   background-color: var(--StPatricksBlue);
   color: var(--ShojiWhite);
@@ -336,47 +343,50 @@ span p {
   border-radius: 12px;
   margin-top: 10px;
 }
+
 .knapbestyrelse {
   padding-bottom: 40px;
   background-color: var(--ShojiWhite);
   padding-top: 5px;
 }
+
 .bestyrelse-center {
   text-align: center;
 }
+
 .bestyrelseAccordion h2 {
   margin-left: 35px;
   padding-bottom: 20px;
-}
-@media screen and (min-width: 700px) {
-  .grid-bestyrelse {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-  }
 }
 @media screen and (min-width: 1000px) {
   h1 {
     font-size: 35px;
   }
+
   h2 {
     font-size: 25px;
   }
+
   h3 {
     font-size: 25px;
   }
+
   h4 {
     font-size: 22px;
   }
+
   p,
   .dato p {
     font-size: 20px;
     line-height: 27px;
   }
+
   .hero-bestyrelse {
     background-image: url(../img/BestyrelseOgvedtægter/Desktop/heroJapan02.jpg);
     height: 317px;
     position: relative;
   }
+
   .hero-bestyrelsetext h1 {
     text-align: center;
     position: absolute;
@@ -384,6 +394,7 @@ span p {
     left: 118px;
     color: var(--ShojiWhite);
   }
+
   .bestyrelse-title h5 {
     font-size: 30px;
     color: var(--StPatricksBlue);
@@ -393,23 +404,28 @@ span p {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
   }
+
   .grid-bestyrelse h5 {
     font-size: 20px;
   }
+
   .accordionStart {
     font-size: 25px;
     margin-left: 35px;
     margin-right: 35px;
   }
+
   .knapbestyrelse {
     display: flex;
     align-items: center;
     justify-content: flex-end;
   }
+
   .knapbestyrelse {
     margin-left: 35px;
     margin-right: 35px;
   }
+
   .btn-bestyrelse {
     background-color: var(--StPatricksBlue);
     color: var(--ShojiWhite);
@@ -418,40 +434,50 @@ span p {
     margin-left: 70px;
     margin-top: 40px;
   }
+
   .text-bestyrelse p {
     padding-left: 80px;
   }
+
   .text-bestyrelse h3 {
     padding-left: 80px;
   }
+
   .bestyrelse-center {
     padding-left: 10px;
     padding-right: 30px;
   }
+
   .contentBestyrelse {
     margin-left: 35px;
     margin-right: 35px;
     font-size: 25px;
   }
 }
+
 @media screen and (min-width: 1920px) {
   h1 {
     font-size: 45px;
   }
+
   h2 {
     font-size: 35px;
   }
+
   h3 {
     font-size: 35px;
   }
+
   h4 {
     font-size: 30px;
   }
+
   p,
   .dato p {
     font-size: 25px;
     line-height: 37.5px;
   }
+
   .hero-bestyrelse {
     background-image: url(../img/BestyrelseOgvedtægter/Desktop/heroJapan02.jpg);
     height: 317px;
@@ -459,6 +485,7 @@ span p {
     background-repeat: no-repeat;
     position: relative;
   }
+
   .grid-bestyrelse {
     display: grid;
     grid-template-columns: repeat(4, 415px);
@@ -466,30 +493,36 @@ span p {
     margin-right: 35px;
     margin-top: 50px;
   }
+
   .grid-bestyrelse h5 {
     font-size: 35px;
   }
+
   .bestyrelseAccordion h2 {
     margin-left: 118px;
     padding-bottom: 20px;
   }
+
   .accordionStart {
     margin-left: 118px;
     margin-right: 118px;
     font-size: 30px;
     height: 110px;
   }
+
   .contentBestyrelse {
     margin-left: 118px;
     margin-right: 118px;
     font-size: 25px;
   }
+
   .knapbestyrelse {
     display: flex;
     align-items: center;
     margin-right: 118px;
     margin-left: 118px;
   }
+
   .btn-bestyrelse {
     background-color: var(--StPatricksBlue);
     color: var(--ShojiWhite);
@@ -498,16 +531,20 @@ span p {
     margin-top: 50px;
     margin-right: 55px;
   }
+
   .text-bestyrelse p {
     padding-left: 81px;
   }
+
   .text-bestyrelse h3 {
     padding-left: 81px;
   }
+
   .bestyrelse-center {
     padding-right: 200px;
   }
 }
+
 /* Bestyrelse styling - Slut */
 
 /* Galleri styling */
