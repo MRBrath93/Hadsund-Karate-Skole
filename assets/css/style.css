@@ -18,7 +18,7 @@ html {
     --AlizarinCrimson: #E31E24;
     --ShojiWhite: #EEEDE8;
     --GreyBlack: #333333;
-    --DarkGrey: #A5A5A5;
+    --DarkGrey: #a5A5A5;
 }
 
 h1 {
@@ -35,7 +35,7 @@ h2 {
 
 h3 {
     font-size: 1.1875rem;
-    color: var(--GreyBlack);
+    color: var(--StPatricksBlue);
 }
 
 h4 {
@@ -201,6 +201,7 @@ footer i {
 @media screen {
     
 }
+
 .bluebold{
     color: var(--StPatricksBlue);
 }
@@ -211,13 +212,50 @@ footer i {
 .reqred{
     color: var(--AlizarinCrimson);
 }
+.heroPrak{
+    height: 160px;
+    background-image: url(../img/Praktiskinformation/mobil/heroMobil01.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 8.91vw;
+    margin-bottom: 20px
+}
+.signupForm{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+} 
+label{
+    color: var(--DarkGrey);
+    font-weight: 700;
+}
 input{
     background: var(--ShojiWhite);
     border: none;
-    color: var(--DarkGrey);
-    padding: 1rem 0.5rem;
+    padding: 18px 32px;
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 700;
+    width: 338px;
+    border-radius: 10px;
+    
+}
+.radiob{
+    width: 30px;
+    padding: 30px;
+    background-color: var(--AlizarinCrimson);
+    
+}
+main{
+    padding: 0 25px ;
+}
+.imgFill{
+    padding: 0;
+}
+
+button{
+
 }
 /* Praktisk info styling - Slut */
 
