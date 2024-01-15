@@ -267,11 +267,12 @@ span p {
   object-fit: cover;
   background-repeat: no-repeat;
   position: relative;
+  background-size: cover;
 }
 .hero-senseistext h1 {
   text-align: center;
   position: absolute;
-  top: 44%;
+  top: 25%;
   left: 10%;
   color: var(--ShojiWhite);
 }
@@ -279,7 +280,17 @@ span p {
   object-fit: cover;
 }
 
-.brian {
+.brian picture {
+  margin-top: 20px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+.brian p {
+  margin-top: 20px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+.brian h2 {
   margin-top: 20px;
   margin-left: 35px;
   margin-right: 35px;
@@ -305,7 +316,7 @@ span p {
 .knapvidere {
   padding-bottom: 40px;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1000px) {
   h1 {
     font-size: 35px;
   }
@@ -336,7 +347,22 @@ span p {
     font-size: 70px;
     top: 40%;
   }
+  .hero-senseistext h1 {
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: var(--ShojiWhite);
+  }
+  .brian,
+  .brian-grid figure h2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-right: 35px;
+    align-items: baseline;
+  }
 }
+
 @media screen and (min-width: 1920px) {
   h1 {
     font-size: 45px;
