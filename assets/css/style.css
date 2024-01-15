@@ -64,7 +64,7 @@ body {
 }
 
 .headbar>div>a {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     padding: 13px 21px;
     background-color: rgba(35, 55, 127, 0.35);
@@ -102,7 +102,7 @@ nav ul {
 }
 
 nav ul a {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     text-decoration: none;
     border-bottom: 3px solid var(--GreyBlack);
@@ -142,7 +142,7 @@ footer h4 {
 }
 
 footer a {
-    font-size: 20px;
+    font-size: 16px;
     text-decoration: none;
 }
 
@@ -398,7 +398,7 @@ span p {
 
 
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1000px) {
     h1 {
         font-size: 35px;
     }
@@ -478,7 +478,7 @@ span p {
     }
 
     footer a {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     /* Footer slut */
@@ -522,6 +522,16 @@ span p {
     #November h2,
     #December h2 {
         padding: 0px 135px;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    nav ul a {
+        font-size: 20px;
+    }
+
+    .headbar>div>a {
+        font-size: 20px;
     }
 }
 
