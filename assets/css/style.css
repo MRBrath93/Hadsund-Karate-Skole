@@ -523,6 +523,32 @@ span p {
     #December h2 {
         padding: 0px 135px;
     }
+
+    /* Aktiviteter slut */
+
+    /* Karateetikette */
+    .component1 {
+        display: flex;
+    }
+
+    .heroetikette img {
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    .heroetikette {
+        height: 317px;
+        margin-bottom: 2rem;
+        position: relative;
+    }
+
+    .heroetikette h1 {
+        position: absolute;
+        bottom: 50%;
+        left: 35px;
+    }
+
 }
 
 @media screen and (min-width: 1500px) {
