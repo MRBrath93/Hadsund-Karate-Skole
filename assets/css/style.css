@@ -307,7 +307,7 @@ span p {
 .btn-sensei {
   background-color: var(--StPatricksBlue);
   color: var(--ShojiWhite);
-  padding: 15px 15px;
+  padding: 20px 15px;
   margin-bottom: 10px;
   margin-left: 35px;
   margin-right: 35px;
@@ -420,33 +420,37 @@ span p {
   .brian-grid figure h2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-right: 35px;
-    margin-left: 35px;
-    align-items: baseline;
+  }
+  .brain {
+    margin: 0px 0px 0px 0px;
   }
   .brian img {
     width: 527px;
     height: 395px;
+    display: inline;
   }
-  .knapvidere {
+  .text-and-button-sensei {
     display: flex;
-    align-items: center;
-    margin-right: 118px;
-    margin-left: 118px;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 35px;
+    margin-right: 35px;
   }
-
-  .btn-sensei {
-    background-color: var(--StPatricksBlue);
-    color: var(--ShojiWhite);
-    padding: 20px 50px;
-    font-size: 25px;
+  .text-and-button-sensei h3 {
+    margin-left: 50px;
     margin-top: 50px;
-    margin-right: 55px;
+    margin-right: 50px;
   }
+  .text-and-button-sensei p {
+    margin-left: 50px;
 
-  .text-sensei p {
-    padding-left: 81px;
+    margin-right: 50px;
   }
+}
+.btn-sensei {
+  padding: 20px 70px;
+  font-size: 20px;
+  margin-top: 20px;
 }
 
 /* Instruktører styling - Slut */
