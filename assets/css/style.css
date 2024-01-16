@@ -193,17 +193,18 @@ footer i {
 
 /* Aktiviteter styling */
 
-.interNavigation button {
-    width: 100px;
-    height: 35px;
+.interNavigation a {
     background-color: var(--StPatricksBlue);
-    border: none;
     font-size: 16px;
     border-radius: 10px;
     cursor: pointer;
-    margin: 5px;
     color: var(--ShojiWhite);
     font-weight: bold;
+    width: 100px;
+    text-align: center;
+    padding: 10px 0px;
+    margin: 5px;
+    border: 5px solid var(--StPatricksBlue);
 }
 
 .interNavigation {
@@ -580,16 +581,15 @@ footer i {
         padding: 0px 135px;
     }
 
-    .interNavigation button {
-        width: 100px;
-        margin: 5px 10px;
+    .interNavigation a {
         font-size: 18px;
+        margin: 5px 10px;
     }
 
-    .interNavigation button:hover {
+
+    .interNavigation a:hover {
         background-color: var(--ShojiWhite);
         color: var(--StPatricksBlue);
-        border: 5px solid var(--StPatricksBlue);
     }
 
     .aktivitetstitel+p,
@@ -758,7 +758,7 @@ footer i {
 
     /* Aktiviteter */
 
-    .interNavigation button {
+    .interNavigation a {
         width: 120px;
         margin-bottom: 30px;
         font-size: 22px;
