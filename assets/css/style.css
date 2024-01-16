@@ -303,6 +303,7 @@ span p {
 }
 .text-sensei {
   margin: 35px;
+  font-size: 16px;
 }
 .btn-sensei {
   background-color: var(--StPatricksBlue);
@@ -415,11 +416,14 @@ span p {
   .hero-senseistext h1 {
     font-size: 70px;
     top: 37%;
+    left: 148px;
   }
-  .brian,
-  .brian-grid figure h2 {
+  .brian {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 0fr);
+    margin-right: 0px;
+    justify-content: center;
+    margin-top: 10px;
   }
   .brain {
     margin: 0px 0px 0px 0px;
@@ -433,8 +437,8 @@ span p {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-left: 35px;
-    margin-right: 35px;
+    margin-left: 145px;
+    margin-right: 115px;
   }
   .text-and-button-sensei h3 {
     margin-left: 50px;
