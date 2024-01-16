@@ -357,6 +357,8 @@ span p {
   padding-bottom: 40px;
   background-color: var(--ShojiWhite);
   padding-top: 5px;
+  display: flex;
+  flex-direction: column;
 }
 
 .bestyrelse-center {
@@ -419,6 +421,7 @@ span p {
   .bestyrelse-title h5 {
     font-size: 30px;
     color: var(--StPatricksBlue);
+    margin-top: 40px;
   }
 
   .grid-bestyrelse {
@@ -447,9 +450,8 @@ span p {
     margin-right: 35px;
   }
   .knapbestyrelse img {
-    width: 400px;
+    width: 930px;
     height: 300px;
-    margin-right: 500px;
   }
 
   .btn-bestyrelse {
@@ -457,30 +459,44 @@ span p {
     color: var(--ShojiWhite);
     padding: 10px 50px;
     font-size: 15px;
-    margin-left: 70px;
+    margin-left: 50px;
     margin-top: 40px;
+    height: 65px;
+    width: 450px;
+    font-size: 22px;
   }
 
   .text-bestyrelse p {
-    padding-left: 80px;
-    margin-left: 420px;
+    margin-left: 50px;
+    font-size: 25px;
   }
 
   .text-bestyrelse h3 {
-    padding-left: 80px;
-    margin-left: 420px;
+    margin-left: 50px;
+    font-size: 40px;
   }
 
   .bestyrelse-center {
     padding-left: 10px;
     padding-right: 30px;
-    margin-left: 150px;
+    margin-left: 90px;
   }
 
   .contentBestyrelse {
     margin-left: 35px;
     margin-right: 35px;
     font-size: 25px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .knapbestyrelse {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  .knapbestyrelse img {
+    width: 450px;
+    height: 400px;
   }
 }
 
@@ -520,7 +536,7 @@ span p {
     grid-template-columns: repeat(4, 415px);
     margin-left: 35px;
     margin-right: 35px;
-    margin-top: 50px;
+    margin-top: 40px;
   }
 
   .grid-bestyrelse h5 {
@@ -550,23 +566,27 @@ span p {
     align-items: center;
     margin-right: 118px;
     margin-left: 118px;
+    flex-direction: row;
+    height: 419.34;
+  }
+  .knapbestyrelse img {
+    height: 455px;
+    width: 930px;
   }
 
   .btn-bestyrelse {
     background-color: var(--StPatricksBlue);
     color: var(--ShojiWhite);
     padding: 20px 50px;
-    font-size: 25px;
-    margin-top: 50px;
+    font-size: 22px;
+
     margin-right: 55px;
+    width: 450px;
+    height: 65px;
   }
 
   .text-bestyrelse p {
-    padding-left: 81px;
-  }
-
-  .text-bestyrelse h3 {
-    padding-left: 81px;
+    font-size: 25px;
   }
 
   .bestyrelse-center {
