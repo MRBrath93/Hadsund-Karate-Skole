@@ -414,7 +414,7 @@ span p {
   }
   .hero-senseistext h1 {
     font-size: 70px;
-    top: 14%;
+    top: 37%;
   }
   .brian,
   .brian-grid figure h2 {
@@ -427,6 +427,25 @@ span p {
   .brian img {
     width: 527px;
     height: 395px;
+  }
+  .knapvidere {
+    display: flex;
+    align-items: center;
+    margin-right: 118px;
+    margin-left: 118px;
+  }
+
+  .btn-sensei {
+    background-color: var(--StPatricksBlue);
+    color: var(--ShojiWhite);
+    padding: 20px 50px;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-right: 55px;
+  }
+
+  .text-sensei p {
+    padding-left: 81px;
   }
 }
 
