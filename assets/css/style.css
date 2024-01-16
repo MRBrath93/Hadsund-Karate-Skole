@@ -49,6 +49,7 @@ p {
     font-weight: 400;
     color: var(--GreyBlack);
     line-height: 1.5rem;
+    
 }
 
 body {
@@ -198,16 +199,30 @@ footer i {
 /* Forside styling - Slut */
 
 /* Praktisk info styling */
-@media screen {
+/* mobil */
+@media only screen and (max-width: 1000px){
     
-}
 
-.bluebold{
+h2, p, li {
+    padding: 0 35px;
+}
+.fac a{
+    padding: 0 35px;
+}
+section h2{
+    margin-top: 30px;
+}
+.bluel{
     color: var(--StPatricksBlue);
+}
+.bluel, li{
+    line-height: 1.5rem;
+    list-style: none;
 }
 .blackbold{
     color: var(--GreyBlack);
     text-decoration: none;
+    font-weight: bold;
 }
 .reqred{
     color: var(--AlizarinCrimson);
@@ -247,16 +262,107 @@ input{
     background-color: var(--AlizarinCrimson);
     
 }
-main{
-    padding: 0 25px ;
+
+.imgFill>picture>img{
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
 }
-.imgFill{
-    padding: 0;
+.card{
+    margin: 0;
+    background-color: var(--ShojiWhite);
+
+}
+}
+/* desktop */
+@media only screen and (min-width: 1200px){
+    
+   .grid{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(7,1fr);
+    grid-gap: 16px;
+   }
+   .fac{
+grid-column: 2/6;
+grid-row: 1/2;
+   }
+   .imgFill{
+    grid-column: 7/12;
+    grid-row: 1/2;
+   }
+   h1{
+    font-size: 3.75rem;
+    color: white;
+   }
+    section h2{
+        margin-top: 30px;
+    }
+    .bluel{
+        color: var(--StPatricksBlue);
+    }
+    .bluel, li{
+        line-height: 1.5rem;
+        list-style: none;
+    }
+    .blackbold{
+        color: var(--GreyBlack);
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .reqred{
+        color: var(--AlizarinCrimson);
+    }
+    .heroPrak{
+        height: 160px;
+        background-image: url(../img/Praktiskinformation/desktop/heroPraktiskinfo.jpg);
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        padding: 8.91vw;
+        margin-bottom: 20px
+    }
+    .signupForm{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    } 
+    label{
+        color: var(--DarkGrey);
+        font-weight: 700;
+    }
+    input{
+        background: var(--ShojiWhite);
+        border: none;
+        padding: 18px 32px;
+        font-size: 1rem;
+        font-weight: 700;
+        width: 338px;
+        border-radius: 10px;
+        
+    }
+    .radiob{
+        width: 30px;
+        padding: 30px;
+        background-color: var(--AlizarinCrimson);
+        
+    }
+    
+    .imgFill>picture>img{
+        display: flex;
+        width: 100%;
+        height: auto;
+        padding-top: 20px;
+    }
+    .card{
+        margin: 0;
+        background-color: var(--ShojiWhite);
+    
+    }
 }
 
-button{
-
-}
 /* Praktisk info styling - Slut */
 
 /* Ashihara styling */
