@@ -676,6 +676,27 @@ span p {
         object-position: left;
     }
 
+    /* Karateetikette slut */
+
+    /* Galleri */
+
+    .galleri {
+        display: grid;
+        grid-template-areas:
+            'en nul to'
+            'en tre to'
+            'fire tre fem'
+            'seks tre syv';
+        grid-gap: 20px;
+        grid-auto-rows: 10em;
+        margin: 24px;
+    }
+
+    .internNavigation+h2,
+    .internNavigation {
+        margin-left: 24px;
+    }
+
 
 
 }
