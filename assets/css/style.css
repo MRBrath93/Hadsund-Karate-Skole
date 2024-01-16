@@ -314,6 +314,13 @@ span p {
   border-radius: 12px;
   font-size: 16px;
 }
+.btn-sensei:hover {
+  background-color: var(--ShojiWhite);
+  color: var(--StPatricksBlue);
+  border: 2px solid #23377f;
+  border-color: var(--StPatricksBlue);
+  transition: 0.5s;
+}
 .knapvidere {
   padding-bottom: 40px;
 }
