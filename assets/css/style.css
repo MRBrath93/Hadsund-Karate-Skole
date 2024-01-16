@@ -336,14 +336,16 @@ span p {
 .btn-bestyrelse {
   background-color: var(--StPatricksBlue);
   color: var(--ShojiWhite);
-  padding: 15px 15px;
   margin-bottom: 10px;
-  margin-left: 35px;
-  margin-right: 35px;
+  margin-right: 50px;
   border-radius: 12px;
   margin-top: 10px;
   border: 2px solid #23377f;
   transition: 0.5s;
+  height: 35px;
+  width: 279px;
+  font-weight: bold;
+  font-size: 16px;
 }
 .btn-bestyrelse:hover {
   background-color: var(--ShojiWhite);
@@ -369,6 +371,12 @@ span p {
   .grid-bestyrelse {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+  }
+  .knapbestyrelse img {
+    width: 700px;
+  }
+  .btn-bestyrelse {
+    margin-right: 410px;
   }
 }
 @media screen and (min-width: 1000px) {
@@ -431,12 +439,17 @@ span p {
   .knapbestyrelse {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
   }
 
   .knapbestyrelse {
     margin-left: 35px;
     margin-right: 35px;
+  }
+  .knapbestyrelse img {
+    width: 400px;
+    height: 300px;
+    margin-right: 500px;
   }
 
   .btn-bestyrelse {
@@ -450,15 +463,18 @@ span p {
 
   .text-bestyrelse p {
     padding-left: 80px;
+    margin-left: 420px;
   }
 
   .text-bestyrelse h3 {
     padding-left: 80px;
+    margin-left: 420px;
   }
 
   .bestyrelse-center {
     padding-left: 10px;
     padding-right: 30px;
+    margin-left: 150px;
   }
 
   .contentBestyrelse {
