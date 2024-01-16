@@ -342,6 +342,11 @@ span p {
   margin-right: 35px;
   border-radius: 12px;
   margin-top: 10px;
+  border: 2px solid #23377f;
+}
+.btn-bestyrelse:hover {
+  background-color: var(--ShojiWhite);
+  color: var(--StPatricksBlue);
 }
 
 .knapbestyrelse {
