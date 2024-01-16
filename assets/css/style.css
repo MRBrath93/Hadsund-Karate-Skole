@@ -332,7 +332,7 @@ footer i {
     margin-bottom: 16px;
 }
 
-span p {
+.numbercontainer :first-child p {
     height: 28px;
     aspect-ratio: 1/1;
     background-color: var(--GreyBlack);
@@ -627,7 +627,7 @@ span p {
         margin: 1.5rem;
     }
 
-    span p {
+    .numbercontainer:first-child p {
         height: 33px;
     }
 
@@ -786,7 +786,7 @@ span p {
         height: 317px;
     }
 
-    span p {
+    .numbercontainer:first-child p {
         height: 36px;
     }
 
