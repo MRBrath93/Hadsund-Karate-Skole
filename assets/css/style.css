@@ -568,3 +568,34 @@ span p {
     }
 
 }
+/* tilmelding og priser */
+.reqred{
+    color: var(--AlizarinCrimson);
+}
+
+.signupForm{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+} 
+label{
+    color: var(--DarkGrey);
+    font-weight: 700;
+}
+input{
+    background: var(--ShojiWhite);
+    border: none;
+    padding: 18px 32px;
+    font-size: 1rem;
+    font-weight: 700;
+    width: 338px;
+    border-radius: 10px;
+    
+}
+.radiob{
+    width: 30px;
+    padding: 30px;
+    background-color: var(--AlizarinCrimson);
+    
+}
