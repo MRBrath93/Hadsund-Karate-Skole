@@ -269,6 +269,9 @@ span p {
   position: relative;
   background-size: cover;
 }
+.main-instruktor {
+  padding: 35px;
+}
 
 .hero-senseistext h1 {
   text-align: center;
@@ -310,6 +313,9 @@ span p {
 .text-and-button-sensei h3 {
   padding-bottom: 10px;
 }
+.text-and-button-sensei p {
+  margin-bottom: 20px;
+}
 .text-sensei {
   margin: 35px;
 }
@@ -321,9 +327,13 @@ span p {
   height: 35px;
   font-weight: bold;
   width: 322px;
-
+  font-size: 16px;
+  text-align: center;
+  padding: 10px 10px;
+  cursor: pointer;
   border-radius: 12px;
   font-size: 16px;
+  text-decoration: none;
 }
 .btn-sensei:hover {
   background-color: var(--ShojiWhite);
@@ -335,6 +345,7 @@ span p {
 }
 .knapvidere {
   padding-bottom: 40px;
+  width: 100%;
 }
 @media screen and (min-width: 700px) {
   .brian {
@@ -404,7 +415,8 @@ span p {
   .brian {
     display: grid;
     grid-template-columns: repeat(2, 0fr);
-    justify-content: space-evenly;
+    justify-content: center;
+    padding-right: 20px;
   }
 
   .brian h2 {
@@ -418,8 +430,8 @@ span p {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-left: 100px;
-    margin-right: 130px;
+    margin-left: 126px;
+    margin-right: 96px;
   }
 
   .text-and-button-sensei img {
@@ -493,7 +505,7 @@ span p {
     align-items: baseline;
   }
   .brain {
-    margin: 0px 0px 0px 0px;
+    margin: 0;
   }
 
   .brian img {
@@ -505,8 +517,8 @@ span p {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-left: 148px;
-    margin-right: 115px;
+    margin-left: 113px;
+    margin-right: 113px;
   }
   .text-and-button-sensei h3 {
     margin-left: 50px;
