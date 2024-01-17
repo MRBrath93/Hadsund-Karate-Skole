@@ -1417,18 +1417,12 @@ input[type=checkbox] {
     /*FORSIDE*/
     .index p {
         width: 80%;
-        margin-left: 100px;
-        margin-right: 10px;
     }
 
     .index h2 {
         margin-left: 80px;
     }
 
-    .heroForside {
-        max-width: 100%;
-        height: auto;
-    }
 
     #welcomeTxt {
         margin: 20px 35px;
@@ -1440,42 +1434,47 @@ input[type=checkbox] {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 80%;
+        height: 100%;
         width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin-top: 30px;
-        margin-bottom: 50px;
         box-shadow: inset 0 0 0 1000px rgba(72, 90, 117, 0.2);
     }
 
     #trial h1 {
         font-size: 2rem;
-        padding-top: 10px;
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-bottom: 10px;
+
     }
 
     .valuesHadsund {
         height: 600px;
-        margin: 20px 30px;
     }
 
     .valuesImg {
         bottom: 260px;
-        left: 70px;
+        left: 30px;
     }
 
     .valuesImg h1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
-    .indexnews {
-        margin-bottom: 30px;
+    .newsSection {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #indexNews {
+        width: 50%;
+    }
+
+    .newsImg {
+        display: unset;
+        width: 50%;
+    }
+
+    .newsImg img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 
     .graduation {
@@ -1501,17 +1500,26 @@ input[type=checkbox] {
     }
 
     .buttonCards {
-        left: 25%;
+        left: 10%;
         bottom: 80px;
+    }
+
+    .buttonIndex {
+        font-size: 22px;
+        width: 390px;
+        height: 65px;
+        margin: 10px;
     }
 
     .indexgridOne {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
         grid-template-areas:
+            "Title Title"
             "welcome trialArea"
             "valueArea valuesImg";
         gap: 30px;
+        padding: 2rem;
     }
 
     .registrationImg {
