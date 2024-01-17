@@ -196,9 +196,11 @@ h2 {
     margin: 15px 20px;
 }
 
+
 #welcomeTxt {
     color: var(--StPatricksBlue);
     margin-left: 12px;
+    grid-area: Title;
 }
 
 .indexWelcome {
@@ -224,14 +226,12 @@ h2 {
     align-items: center;
     text-align: center;
     grid-area: trialArea;
+    padding: 20px;
 }
 
 #trial h1 {
     font-size: 2rem;
-    padding-top: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 10px;
+    margin: 0;
 }
 
 /* Værdier på forsiden */
@@ -307,20 +307,20 @@ input {
 }
 
 /*  Nyhedsfeed på forsiden */
-
 .buttonIndex {
-    border: #23377F;
-    border-radius: 12px;
-    border-style: solid;
-    background-color: #23377F;
-    color: var(--ShojiWhite);
-    padding: 10px 10px;
-    text-align: center;
+    background-color: var(--StPatricksBlue);
+    font-size: 16px;
+    border-radius: 10px;
+    border: var(--StPatricksBlue) 5px solid;
     cursor: pointer;
-    margin-top: 12px;
+    color: var(--ShojiWhite);
+    font-weight: bold;
     width: 320px;
     height: 50px;
-    font-size: 16px;
+    text-align: center;
+    padding: 10px 0px;
+    margin: 5px;
+    display: block;
 }
 
 
@@ -349,7 +349,7 @@ input {
     background-color: rgb(231, 231, 231);
     padding: 30px 20px;
     border-radius: 5px;
-    width: 50%;
+    width: 100%;
 }
 
 .accordionIndex {
@@ -432,6 +432,10 @@ summary img {
     z-index: -1;
 }
 
+.cardcontainer .cardTxt p {
+    margin: 0;
+}  
+
 .cardTxt:hover {
     z-index: 2;
 }
@@ -446,11 +450,31 @@ summary img {
 }
 
 .buttonCards {
+    background-color: var(--StPatricksBlue);
+    font-size: 16px;
+    border-radius: 10px;
+    border: var(--StPatricksBlue) 5px solid;
+    cursor: pointer;
+    color: var(--ShojiWhite);
+    font-weight: bold;
+    width: 280px;
+    height: 60px;
+    text-align: center;
+    padding: 10px 0px;
     position: absolute;
     bottom: 15px;
-    left: 15%;
-    width: 270px;
-    height: 50px;
+    left: 50px;
+}
+
+.buttonCards:hover {
+    border: #23377F;
+    border-radius: 12px;
+    border-style: solid;
+    border-width: 5px;
+    background-color: var(--ShojiWhite);
+    color: #23377F;
+    text-align: center;
+    cursor: pointer;
 }
 
 
@@ -915,10 +939,7 @@ summary img {
 
     #trial h1 {
         font-size: 2rem;
-        padding-top: 10px;
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-bottom: 10px;
+  
     }
 
     .valuesHadsund {
@@ -927,11 +948,11 @@ summary img {
 
     .valuesImg {
         bottom: 260px;
-        left: 70px;
+        left: 30px;
     }
 
     .valuesImg h1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .newsSection {
@@ -939,8 +960,8 @@ summary img {
         flex-direction: row;
     }
 
-    .indexnews {
-        margin-bottom: 30px;
+    #indexNews {
+        width: 50%;
     }
 
     .newsImg {
@@ -977,14 +998,22 @@ summary img {
     }
 
     .buttonCards {
-        left: 25%;
+        left: 10%;
         bottom: 80px;
     }
 
+    .buttonIndex {
+        font-size: 22px;
+        width: 390px;
+        height: 65px;
+        margin: 10px;
+    }
+    
     .indexgridOne {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-areas:
+            "Title Title"
             "welcome trialArea"
             "valueArea valuesImg";
         gap: 30px;
@@ -1225,6 +1254,11 @@ summary img {
 
     .component2 a {
         font-size: 25px;
+    }
+
+    .buttonCards {
+        left: 30%;
+        bottom: 80px;
     }
 
     /* Aktiviteter slut */
