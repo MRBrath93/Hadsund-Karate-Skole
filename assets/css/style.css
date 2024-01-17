@@ -14,15 +14,17 @@ html {
 
 /* Variables */
 :root {
-  --StPatricksBlue: #23377f;
-  --AlizarinCrimson: #e31e24;
-  --ShojiWhite: #eeede8;
-  --GreyBlack: #333333;
+    --StPatricksBlue: #23377F;
+    --AlizarinCrimson: #E31E24;
+    --ShojiWhite: #EEEDE8;
+    --GreyBlack: #333333;
+    --DarkGrey: #a5A5A5;
 }
 
 h1 {
-  font-size: 1.25rem;
-  color: white;
+    font-size: 1.25rem;
+    color: white;
+    font-weight: 900;
 }
 
 h2 {
@@ -38,9 +40,9 @@ h3 {
 }
 
 h4 {
-  font-size: 30px;
-  font-weight: 400;
-  color: var(--GreyBlack);
+    font-size: 1.1875rem;
+    font-weight: 400;
+    color: var(--GreyBlack);
 }
 
 p {
@@ -56,24 +58,21 @@ body {
 
 /* Header styling */
 .headbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
 }
 
 .headbar>div>a {
-  font-size: 24px;
-  font-weight: bold;
-  padding: 13px 21px;
-  background-color: var(--StPatricksBlue);
-  color: var(--ShojiWhite);
-  text-decoration: none;
-  margin-top: 35px;
-  margin-right: 1rem;
-  border-radius: 10px;
-  border: 5px solid var(--StPatricksBlue);
+    font-size: 16px;
+    font-weight: bold;
+    padding: 13px 21px;
+    background-color: rgba(35, 55, 127, 0.35);
+    color: var(--ShojiWhite);
+    text-decoration: none;
+    border-radius: 10px;
+    border: 5px solid rgba(35, 55, 127, 0.35);
 }
 
 .headbar a {
@@ -86,8 +85,9 @@ body {
 }
 
 .headbar a:hover {
-  background-color: var(--ShojiWhite);
-  color: var(--StPatricksBlue);
+    background-color: var(--ShojiWhite);
+    color: var(--StPatricksBlue);
+    border-color: var(--StPatricksBlue);
 }
 
 .headbar img {
@@ -95,35 +95,24 @@ body {
 }
 
 nav ul {
-  display: none;
-  justify-content: center;
-  list-style: none;
-  margin-top: 25px;
-  padding-inline-start: unset;
+    display: none;
+    justify-content: space-around;
+    list-style: none;
+    padding-inline-start: unset;
+    padding: 16px 0px;
 }
 
 nav ul a {
-  font-size: 24px;
-  font-weight: bold;
-  text-decoration: 3px solid underline var(--GreyBlack);
-  color: var(--ShojiWhite);
-  border: solid 1px var(--GreyBlack);
-  border-right: solid 2px var(--AlizarinCrimson);
-  padding: 0 12px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 3px solid var(--GreyBlack);
+    color: var(--ShojiWhite);
 }
 
 nav ul a:hover {
-  text-decoration: 3px solid underline var(--AlizarinCrimson);
-  transition: 0.2s ease-in;
-}
-
-nav ul li:last-of-type a {
-  border: none;
-  text-decoration: 3px solid underline var(--GreyBlack);
-}
-
-nav ul li:last-of-type a:hover {
-  text-decoration: 3px solid underline var(--AlizarinCrimson);
+    border-bottom: 3px solid var(--AlizarinCrimson);
+    transition: 0.2s ease-in;
 }
 
 nav {
@@ -153,8 +142,8 @@ footer h4 {
 }
 
 footer a {
-  font-size: 20px;
-  text-decoration: none;
+    font-size: 16px;
+    text-decoration: none;
 }
 
 footer i {
@@ -191,6 +180,260 @@ footer i {
 /* Footer styling - Slut */
 
 /* Forside styling */
+.index {
+    margin-bottom: 30px;
+}
+
+.index p {
+    margin: 12px 30px;
+}
+
+.index h1,
+h2 {
+    margin: 15px 20px;
+}
+
+#welcomeTxt {
+    color: var(--StPatricksBlue);
+    margin-left: 12px;
+}
+
+.indexWelcome {
+    grid-area: welcome;
+}
+
+/* Prøvetime - sektion */
+#trial {
+    background-image: url(/assets/img/Forside/proevetime_396x435_full.jpg);
+    /*Kilde: "COLOURBOX37668213. 2023. Coulourbox.dk. [online] Available at: https://www.colourbox.dk/billede/karate-gul-aikido-billede-37668213. Accessed: 07/01/2024. */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-area: trialArea;
+}
+
+#trial h1 {
+    font-size: 2rem;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+/* Værdier på forsiden */
+
+.valuesHadsund {
+    width: 100%;
+    grid-area: valuesImg;
+    margin-bottom: 30px;
+}
+
+.valuesImg {
+    position: relative;
+    bottom: 170px;
+    left: 40px;
+}
+
+.valuesImg h1 {
+    font-size: 2rem;
+}
+
+.valuesHKS {
+    grid-area: valueArea;
+}
+
+/* Tilmeldingsblanket på forsiden */
+.formGrid {
+    display: grid;
+    gap: 12px;
+}
+
+.formColumn {
+    width: 95%;
+}
+
+.formColumn input {
+    width: 100%;
+}
+
+.registrationSection {
+    margin: 30px;
+}
+
+label {
+    color: var(--DarkGrey);
+    font-weight: 700;
+}
+
+input {
+    background: var(--ShojiWhite);
+    border: none;
+    padding: 18px 32px;
+    font-size: 1rem;
+    font-weight: 700;
+    width: 338px;
+    border-radius: 10px;
+}
+
+.radiob {
+    width: 30px;
+    padding: 30px;
+    background-color: var(--AlizarinCrimson);
+}
+
+.registrationImg {
+    display: none;
+}
+
+/*  Nyhedsfeed på forsiden */
+
+.buttonIndex {
+    border: #23377F;
+    border-radius: 12px;
+    border-style: solid;
+    background-color: #23377F;
+    color: var(--ShojiWhite);
+    padding: 10px 10px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 12px;
+    width: 320px;
+    height: 50px;
+    font-size: 16px;
+}
+
+
+.buttonIndex:hover {
+    border: #23377F;
+    border-radius: 12px;
+    border-style: solid;
+    border-width: 5px;
+    background-color: var(--ShojiWhite);
+    color: #23377F;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.boldTxt {
+    font-weight: bold;
+    margin: 0;
+}
+
+#indexNews {
+    background-color: rgb(231, 231, 231);
+    padding: 30px 20px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.accordionIndex {
+    background-color: #23377F;
+    color: var(--ShojiWhite);
+    cursor: pointer;
+    padding-right: 50px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 12px;
+}
+
+.accordionContent {
+    padding: 10px 5px;
+    background-color: var(--ShojiWhite);
+    cursor: pointer;
+    box-shadow: 0 10px 10px rgb(0 0 0 / 0.2);
+}
+
+.graduation {
+    width: 100%;
+    object-fit: cover;
+}
+
+.trainingSeminar {
+    width: 100%;
+    object-fit: cover;
+}
+
+.sabakiCamp {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+details[open] .accordionIndex .iconIndex {
+    rotate: 180deg;
+}
+
+summary img {
+    object-fit: cover;
+}
+
+.newsImg {
+    display: none;
+}
+
+/* cards til Forsiden */
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 12px;
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 0.4s;
+    position: relative;
+}
+
+.cardTxt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 1;
+    position: absolute;
+    z-index: -1;
+}
+
+.cardTxt:hover {
+    z-index: 2;
+}
+
+.cardImg {
+    opacity: 1;
+    width: 100%;
+}
+
+.cardImg:hover {
+    opacity: 0.3;
+}
+
+.buttonCards {
+    position: absolute;
+    bottom: 15px;
+    left: 15%;
+    width: 270px;
+    height: 50px;
+}
+
 /* Forside styling - Slut */
 
 /* Praktisk info styling */
@@ -200,63 +443,212 @@ footer i {
 /* Ashihara styling - Slut */
 
 /* Aktiviteter styling */
+
+.interNavigation a {
+    background-color: var(--StPatricksBlue);
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: var(--ShojiWhite);
+    font-weight: bold;
+    width: 100px;
+    text-align: center;
+    padding: 10px 0px;
+    margin: 5px;
+    border: 5px solid var(--StPatricksBlue);
+}
+
+.interNavigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.aktivitetstitel+p,
+.aktivitetstitel h2 {
+    margin: 5px 35px;
+    max-width: 812px;
+}
+
+.kalenderåret a {
+    text-decoration: none;
+}
+
+.kalenderåret h1 {
+    color: var(--StPatricksBlue);
+}
+
+.kalendercart1 {
+    display: flex;
+    align-items: stretch;
+    margin: 10px 35px;
+    max-width: 812px;
+}
+
+.dato {
+    background-color: var(--GreyBlack);
+    display: flex;
+    align-items: center;
+}
+
+.dato p {
+    color: var(--ShojiWhite);
+    font-size: 16px;
+    padding: 5px;
+}
+
+.eventtitel {
+    background-color: var(--ShojiWhite);
+    width: 86.4%;
+}
+
+.eventtitel p {
+    padding-left: 0.5rem;
+}
+
+.eventtitel :first-child {
+    font-weight: bold;
+}
+
+.eventtitel :nth-child(4) {
+    margin-top: 15px;
+}
+
+.kalenderåret h1,
+#Februar h2,
+#Marts h2,
+#April h2,
+#Maj h2,
+#Juni h2,
+#August h2,
+#September h2,
+#Oktober h2,
+#November h2,
+#December h2 {
+    margin-top: 25px;
+    margin-bottom: 0px;
+    padding: 0px 35px;
+}
+
+#Januar h2 {
+    padding: 0px 35px;
+}
+
+#December a {
+    text-decoration: none;
+    font-weight: bold;
+    background-color: var(--StPatricksBlue);
+    color: var(--ShojiWhite);
+    border-radius: 12px;
+    padding: 8px 18px;
+    margin-bottom: 40px;
+}
+
+#December .kalendercart1:nth-of-type(2) {
+    margin-bottom: 40px;
+}
+
 /* Aktiviteter styling - Slut */
 
 /* Karateettikette styling */
-.hero {
-  height: 160px;
-  background-image: url(../img/karateetikette/mobil/karateslagmobil01.jpg);
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  padding: 8.91vw;
-  margin-bottom: 20px;
+.heroetikette img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    object-position: top;
 }
 
+.heroetikette {
+    height: 160px;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.heroetikette h1 {
+    position: absolute;
+    bottom: 40%;
+    left: 35px;
+}
+
+
 .numbercontainer {
-  display: flex;
-  gap: 1rem;
-  padding: 0px 35px;
-  margin-bottom: 16px;
+    display: flex;
+    gap: 1rem;
+    padding: 0px 35px;
+    margin-bottom: 1rem;
 }
 
 .numbercontainer div p:not(:last-child) {
   margin-bottom: 16px;
 }
 
-span p {
-  height: 28px;
-  aspect-ratio: 1/1;
-  background-color: var(--GreyBlack);
-  color: var(--ShojiWhite);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  border: 2px solid var(--AlizarinCrimson);
+.numbercontainer :first-child p {
+    height: 28px;
+    aspect-ratio: 1/1;
+    background-color: var(--GreyBlack);
+    color: var(--ShojiWhite);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid var(--AlizarinCrimson);
 }
 
-.component1 div img {
-  width: 100%;
-  height: 203px;
-  object-fit: cover;
-  object-position: top;
-  margin-top: 4px;
-  margin-bottom: 20px;
+.component1 picture img {
+    width: 100%;
+    height: 203px;
+    object-fit: cover;
+    object-position: top;
+    margin-top: 4px;
+    margin-bottom: 1.25rem;
 }
 
-.component1 .foto2 img {
-  object-position: center;
+.component1 .foto2 picture img {
+    object-position: center;
+}
+
+.foto2>picture+img {
+    display: none;
 }
 
 .component1>div>p,
-.component1 h2 {
-  padding: 0px 35px;
+.component1 h2,
+.component2 h3 {
+    padding: 0px 35px;
 }
 
 .component1>div>p {
   margin-bottom: 1rem;
 }
+.component2 {
+    background-color: var(--ShojiWhite);
+    padding: 35px 0px;
+}
+
+.component2 a {
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--ShojiWhite);
+    background-color: var(--StPatricksBlue);
+    text-decoration: none;
+    padding: 8px 25px;
+    border-radius: 10px;
+    margin: 0px 35px;
+}
+
+.component2 p {
+    margin: 5px 35px;
+    margin-bottom: 1.25rem;
+}
+
+.linkvidere img {
+    width: 100%;
+    height: 203px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 1.25rem;
 
 /* Karateetikkette styling - Slut */
 
@@ -618,4 +1010,768 @@ span p {
 /* Bestyrelse styling - Slut */
 
 /* Galleri styling */
+.internNavigation button {
+    height: 35px;
+    background-color: var(--StPatricksBlue);
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 5px;
+    color: var(--ShojiWhite);
+    font-weight: bold;
+}
+
+.galleri {
+    display: grid;
+    grid-template-areas:
+        'en nul'
+        'en to'
+        'tre to'
+        'tre fire'
+        'fem fire'
+        'fem seks'
+        'syv seks'
+        'syv otte';
+    grid-gap: 10px;
+    grid-auto-rows: 10em;
+    margin: 5px;
+}
+
+.billederamme {
+    width: 100%;
+    height: 100%;
+}
+
+.billederamme img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.p-0 img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+.p-1 {
+    grid-area: en;
+}
+
+.p-2 {
+    grid-area: to;
+}
+
+.p-3 {
+    grid-area: tre;
+}
+
+.p-4 {
+    grid-area: fire;
+}
+
+.p-5 {
+    grid-area: fem;
+}
+
+.p-6 {
+    grid-area: seks;
+}
+
+.p-7 {
+    grid-area: syv;
+}
+
 /* Galleri styling - Slut */
+
+/* tilmelding og priser */
+.signupAndPaying p {
+    margin-top: 20px;
+}
+
+.signupAndPaying {
+    margin-top: 20px;
+}
+
+.signupAndPaying .bluebold {
+    color: var(--StPatricksBlue);
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.signupAndPaying h2 {
+    margin-left: 0;
+}
+
+.tilmeldingform {
+    padding: 0 23px;
+}
+
+.formbutton {
+    width: 100%;
+    height: fit-content;
+    margin: 0;
+    padding: 18px 0;
+
+}
+
+.radiob {
+    margin: 15px 0 15px 22px;
+}
+
+.reqred {
+    color: var(--AlizarinCrimson);
+    margin-left: 0;
+}
+
+.signupForm {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    max-width: 700px;
+}
+
+label {
+    color: var(--DarkGrey);
+    font-weight: 700;
+    margin-left: 22px;
+}
+
+input {
+    background: var(--ShojiWhite);
+    border: none;
+    padding: 18px 23px;
+    font-size: 1rem;
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px 0;
+
+}
+
+input[type=radio] {
+    width: 30px;
+    height: 30px;
+    color: #a5A5A5;
+
+}
+
+input[type=date] {
+    color: var(--DarkGrey);
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+}
+
+input[type=radio]:checked {
+    color: #23377F;
+}
+
+input[type=checkbox] {
+    width: 30px;
+    height: 30px;
+    color: #a5A5A5;
+}
+
+.checkboxl {
+    margin-left: auto;
+}
+
+::placeholder {
+    color: var(--DarkGrey);
+}
+
+/* Tilmelding og priser slut */
+
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 1000px) {
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    h3 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    h4 {
+        font-size: 22px;
+    }
+
+    p,
+    .dato p {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    /* Header */
+    Nav ul {
+        display: flex;
+    }
+
+    .headbar :first-of-type a {
+        display: flex;
+    }
+
+    .headbar>a {
+        display: none;
+    }
+
+    .headbar>div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .headbar {
+        justify-content: unset;
+        display: unset;
+        padding: 16px 0px;
+
+    }
+
+    /* Header slut */
+
+    /* Footer */
+
+    footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 486px;
+    }
+
+    .kontaktoplysninger {
+        display: flex;
+        align-items: unset;
+    }
+
+    .logoer {
+        display: flex;
+        gap: 50px;
+    }
+
+    .timeslot {
+        display: flex;
+    }
+
+    .socialemedier {
+        padding: 0;
+    }
+
+    footer a {
+        font-size: 20px;
+    }
+
+    /* Footer slut */
+
+    /* Aktiviteter */
+    .interNavigation {
+        padding: 0px 135px;
+    }
+
+    .interNavigation a {
+        font-size: 18px;
+        margin: 5px 10px;
+    }
+
+
+    .interNavigation a:hover {
+        background-color: var(--ShojiWhite);
+        color: var(--StPatricksBlue);
+    }
+
+    .aktivitetstitel+p,
+    .aktivitetstitel h2 {
+        margin-left: 135px;
+    }
+
+    .kalendercart1 {
+        margin: 10px 135px;
+    }
+
+    .kalenderåret h1,
+    #Januar h2,
+    #Februar h2,
+    #Marts h2,
+    #April h2,
+    #Maj h2,
+    #Juni h2,
+    #August h2,
+    #September h2,
+    #Oktober h2,
+    #November h2,
+    #December h2 {
+        padding: 0px 135px;
+    }
+
+    /* Aktiviteter slut */
+
+    /*FORSIDE*/
+    .index p {
+        width: 80%;
+        margin-left: 100px;
+        margin-right: 10px;
+    }
+
+    .index h2 {
+        margin-left: 80px;
+    }
+
+    .heroForside {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #welcomeTxt {
+        margin: 20px 35px;
+    }
+
+    #trial {
+        background-image: url(/assets/img/Forside/proevetime_677×891_full.jpg);
+        /*Kilde: "COLOURBOX37668213. 2023. Coulourbox.dk. [online] Available at: https://www.colourbox.dk/billede/karate-gul-aikido-billede-37668213. Accessed: 07/01/2024. */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 80%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        box-shadow: inset 0 0 0 1000px rgba(72, 90, 117, 0.2);
+    }
+
+    #trial h1 {
+        font-size: 2rem;
+        padding-top: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 10px;
+    }
+
+    .valuesHadsund {
+        height: 600px;
+        margin: 20px 30px;
+    }
+
+    .valuesImg {
+        bottom: 260px;
+        left: 70px;
+    }
+
+    .valuesImg h1 {
+        font-size: 3rem;
+    }
+
+    .indexnews {
+        margin-bottom: 30px;
+    }
+
+    .graduation {
+        width: 50%;
+        margin-bottom: 12px;
+    }
+
+    .trainingSeminar {
+        width: 50%;
+        margin-bottom: 12px;
+    }
+
+    .sabakiCamp {
+        width: 50%;
+        margin-bottom: 12px;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .buttonCards {
+        left: 25%;
+        bottom: 80px;
+    }
+
+    .indexgridOne {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "welcome trialArea"
+            "valueArea valuesImg";
+        gap: 30px;
+    }
+
+    .registrationImg {
+        display: unset;
+        width: 100%;
+        margin-top: 90px;
+    }
+
+    .registration {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .registrationSection {
+        width: 50%;
+    }
+
+    #consent {
+        transform: scale(2);
+        position: relative;
+        top: 30px;
+        left: -150px;
+    }
+
+    #consentTxt {
+        margin-left: 40px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+
+    /* Karateetikette */
+    .component1 {
+        display: grid;
+        grid-template-columns: 50% 40%;
+        justify-content: center;
+        gap: 1.5rem;
+        margin: 1.5rem;
+    }
+
+    .numbercontainer:first-child p {
+        height: 33px;
+    }
+
+    .linkvidere {
+        display: grid;
+        grid-template-columns: 52% 40%;
+        justify-content: center;
+        margin: 1.5rem;
+    }
+
+    .component1 :last-child {
+        grid-column: 2/3;
+    }
+
+    .component1 picture img,
+    .linkvidere img {
+        height: 100%;
+        margin: 0;
+        object-position: left;
+    }
+
+    .component1 picture,
+    .component2 picture {
+        height: 100%;
+    }
+
+    .component2 p {
+        margin-bottom: 2rem;
+    }
+
+    .component2 a {
+        font-size: 20px;
+    }
+
+    .foto2>picture+img {
+        display: unset;
+    }
+
+    .foto2 {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .foto2>picture>img {
+        width: 100%;
+        object-position: left;
+    }
+
+    /* Karateetikette slut */
+
+    /* Galleri */
+
+    .galleri {
+        display: grid;
+        grid-template-areas:
+            'en nul to'
+            'en tre to'
+            'fire tre fem'
+            'seks tre syv';
+        grid-gap: 20px;
+        grid-auto-rows: 10em;
+        margin: 24px;
+    }
+
+    .internNavigation+h2,
+    .internNavigation {
+        margin-left: 24px;
+    }
+
+    /* Galleri slut */
+
+    /* Tilmelding og betaling */
+    .tilmeldingform {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 130px;
+        padding: 50px 140px;
+    }
+
+    .reqred {
+        color: var(--AlizarinCrimson);
+        margin-left: 0;
+    }
+
+    .signupForm {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    label {
+        color: var(--DarkGrey);
+        font-weight: 700;
+        margin-left: 22px;
+
+    }
+
+    .radiob {
+        margin: 15px 0 15px 22px;
+    }
+
+    .sexl {
+        margin: 0;
+    }
+
+    .checkboxl {
+        margin: 0;
+    }
+
+    .formbutton {
+        width: 100%;
+        height: fit-content;
+        margin: 0;
+        font-size: 16pt;
+        padding: 18px 0;
+
+    }
+
+    input {
+        background: var(--ShojiWhite);
+        border: none;
+        padding: 18px 23px;
+        font-size: 25px;
+        width: 100%;
+        border-radius: 10px;
+        margin: 15px 0 15px 0;
+
+    }
+
+    input[type=radio] {
+        width: 30px;
+        height: 30px;
+        color: #a5A5A5;
+
+    }
+
+    input[type=date] {
+        color: var(--DarkGrey);
+        font-family: 'Lato', sans-serif;
+        font-size: 25px;
+    }
+
+    input[type=radio]:checked {
+        color: #23377F;
+    }
+
+    input[type=checkbox] {
+        width: 30px;
+        height: 30px;
+        color: #a5A5A5;
+    }
+
+    ::placeholder {
+        color: var(--DarkGrey);
+    }
+
+
+}
+
+@media screen and (min-width: 1500px) {
+
+    /* Header */
+    nav ul a {
+        font-size: 20px;
+    }
+
+    .headbar>div>a {
+        font-size: 20px;
+    }
+
+    /* Header slut */
+}
+
+@media screen and (min-width: 1920px) {
+    h1 {
+        font-size: 70px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+
+    h4 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 25px;
+        line-height: 37.5px;
+    }
+
+    /* Header */
+
+    nav ul a {
+        font-size: 24px;
+    }
+
+    .headbar>div>a {
+        font-size: 24px;
+    }
+
+    /* Header slut */
+
+    /* Footer */
+
+    footer a {
+        font-size: 25px;
+    }
+
+    /* Footer slut */
+
+    /* Aktiviteter */
+
+    .interNavigation a {
+        width: 120px;
+        margin-bottom: 30px;
+        font-size: 22px;
+    }
+
+    .dato p,
+    .aktivitetstitel+p {
+        font-size: 25px;
+        line-height: 37.5px;
+    }
+
+    .component2 a {
+        font-size: 25px;
+    }
+
+    /* Aktiviteter slut */
+
+    /* Forside */
+
+    .index p {
+        margin: 50px 145px;
+    }
+
+    .index h2 {
+        margin: 40px 110px;
+    }
+
+    #welcomeTxt {
+        font-size: 70px;
+        margin-top: 20px;
+        margin-bottom: 0;
+        margin-left: 50px;
+    }
+
+    .indexNews {
+        width: 50%
+    }
+
+
+    .newsImg {
+        display: unset;
+        width: 50%;
+    }
+
+    .newsSection {
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+    }
+
+    #trial {
+        height: 600px;
+        width: 800px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    #trial h1 {
+        font-size: 4rem;
+    }
+
+    .valuesImg {
+        bottom: 380px;
+    }
+
+    .valuesImg h1 {
+        font-size: 4rem;
+    }
+
+    .registration {
+        margin-left: 135px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .formGrid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* Forside slut */
+
+    /* Karateetikette */
+
+    .heroetikette img {
+        height: 317px;
+    }
+
+    .heroetikette {
+        height: 317px;
+    }
+
+    .numbercontainer:first-child p {
+        height: 36px;
+    }
+
+    /* Karateetikette slut */
+}
