@@ -49,7 +49,6 @@ p {
     font-weight: 400;
     color: var(--GreyBlack);
     line-height: 1.5rem;
-    
 }
 
 body {
@@ -200,7 +199,7 @@ footer i {
 
 /* Praktisk info styling */
 /* mobil */
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1200px){
     h2, p, li {
     padding: 0 35px;
 }
@@ -274,7 +273,7 @@ input{
 }
 /* desktop */
 @media only screen and (min-width: 1200px){
-    main{
+    .mainPrak{
         display: grid;
         grid-template-columns: repeat(6, 1fr);
         grid-template-rows: repeat(7, 0.5fr);
@@ -309,6 +308,9 @@ input{
         grid-column: 1/4;
         grid-row: 4;
     }
+    .traningForms ul{
+        padding: 0;
+    }
     .damage{
         grid-column: 1/4;
         grid-row: 5;
@@ -329,6 +331,7 @@ input{
         }
     p li{
         font-size: 1.7rem;
+        padding: 0%;
     }
   
     .bluel{
