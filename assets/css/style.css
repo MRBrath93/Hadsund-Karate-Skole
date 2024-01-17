@@ -183,6 +183,262 @@ footer i {
 /* Footer styling - Slut */
 
 /* Forside styling */
+.index {
+    margin-bottom: 30px;
+}
+
+.index p {
+    margin: 12px 30px;
+}
+
+.index h1,
+h2 {
+    margin: 15px 20px;
+}
+
+#welcomeTxt {
+    color: var(--StPatricksBlue);
+    margin-left: 12px;
+}
+
+.indexWelcome {
+    grid-area: welcome;
+}
+
+/* Prøvetime - sektion */
+#trial {
+    background-image: url(/assets/img/Forside/proevetime_396x435_full.jpg);
+    /*Kilde: "COLOURBOX37668213. 2023. Coulourbox.dk. [online] Available at: https://www.colourbox.dk/billede/karate-gul-aikido-billede-37668213. Accessed: 07/01/2024. */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-area: trialArea;
+}
+
+#trial h1 {
+    font-size: 2rem;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+/* Værdier på forsiden */
+
+.valuesHadsund {
+    width: 100%;
+    grid-area: valuesImg;
+    margin-bottom: 30px;
+}
+
+.valuesImg {
+    position: relative;
+    bottom: 170px;
+    left: 40px;
+}
+
+.valuesImg h1 {
+    font-size: 2rem;
+}
+
+.valuesHKS {
+    grid-area: valueArea;
+}
+
+/* Tilmeldingsblanket på forsiden */
+.formGrid {
+    display: grid;
+    gap: 12px;
+}
+
+.formColumn {
+    width: 95%;
+}
+
+.formColumn input {
+    width: 100%;
+}
+
+.registrationSection {
+    margin: 30px;
+}
+
+label {
+    color: var(--DarkGrey);
+    font-weight: 700;
+}
+
+input {
+    background: var(--ShojiWhite);
+    border: none;
+    padding: 18px 32px;
+    font-size: 1rem;
+    font-weight: 700;
+    width: 338px;
+    border-radius: 10px;
+}
+
+.radiob {
+    width: 30px;
+    padding: 30px;
+    background-color: var(--AlizarinCrimson);
+}
+
+.registrationImg {
+    display: none;
+}
+
+/*  Nyhedsfeed på forsiden */
+
+.buttonIndex {
+    border: #23377F;
+    border-radius: 12px;
+    border-style: solid;
+    background-color: #23377F;
+    color: var(--ShojiWhite);
+    padding: 10px 10px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 12px;
+    width: 320px;
+    height: 50px;
+    font-size: 16px;
+}
+
+
+.buttonIndex:hover {
+    border: #23377F;
+    border-radius: 12px;
+    border-style: solid;
+    border-width: 5px;
+    background-color: var(--ShojiWhite);
+    color: #23377F;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.boldTxt {
+    font-weight: bold;
+    margin: 0;
+}
+
+#indexNews {
+    background-color: rgb(231, 231, 231);
+    padding: 30px 20px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.accordionIndex {
+    background-color: #23377F;
+    color: var(--ShojiWhite);
+    cursor: pointer;
+    padding-right: 50px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 12px;
+}
+
+.accordionContent {
+    padding: 10px 5px;
+    background-color: var(--ShojiWhite);
+    cursor: pointer;
+    box-shadow: 0 10px 10px rgb(0 0 0 / 0.2);
+}
+
+.graduation {
+    width: 100%;
+    object-fit: cover;
+}
+
+.trainingSeminar {
+    width: 100%;
+    object-fit: cover;
+}
+
+.sabakiCamp {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+details[open] .accordionIndex .iconIndex {
+    rotate: 180deg;
+}
+
+summary img {
+    object-fit: cover;
+}
+
+.newsImg {
+    display: none;
+}
+
+/* cards til Forsiden */
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 12px;
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 0.4s;
+    position: relative;
+}
+
+.cardTxt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 1;
+    position: absolute;
+    z-index: -1;
+}
+
+.cardTxt:hover {
+    z-index: 2;
+}
+
+.cardImg {
+    opacity: 1;
+    width: 100%;
+}
+
+.cardImg:hover {
+    opacity: 0.3;
+}
+
+.buttonCards {
+    position: absolute;
+    bottom: 15px;
+    left: 15%;
+    width: 270px;
+    height: 50px;
+}
+
+
+
 /* Forside styling - Slut */
 
 /* Praktisk info styling */
@@ -488,6 +744,7 @@ footer i {
 /* Galleri styling - Slut */
 
 
+/* MEDIA QUERIES */
 
 @media screen and (min-width: 1000px) {
     h1 {
@@ -614,6 +871,136 @@ footer i {
     #November h2,
     #December h2 {
         padding: 0px 135px;
+    }
+
+    /* Media query FORSIDE 1000 */
+    .index p {
+        width: 80%;
+        margin-left: 100px;
+        margin-right: 10px;
+    }
+
+    .index h2 {
+        margin-left: 80px;
+    }
+
+    .heroForside {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #welcomeTxt {
+        margin: 20px 35px;
+    }
+
+    #trial {
+        background-image: url(/assets/img/Forside/proevetime_677×891_full.jpg);
+        /*Kilde: "COLOURBOX37668213. 2023. Coulourbox.dk. [online] Available at: https://www.colourbox.dk/billede/karate-gul-aikido-billede-37668213. Accessed: 07/01/2024. */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 80%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        box-shadow: inset 0 0 0 1000px rgba(72, 90, 117, 0.2);
+    }
+
+    #trial h1 {
+        font-size: 2rem;
+        padding-top: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 10px;
+    }
+
+    .valuesHadsund {
+        height: 600px;
+        margin: 20px 30px;
+    }
+
+    .valuesImg {
+        bottom: 260px;
+        left: 70px;
+    }
+
+    .valuesImg h1 {
+        font-size: 3rem;
+    }
+
+    .indexnews {
+        margin-bottom: 30px;
+    }
+
+    .graduation {
+        width: 50%;
+        margin-bottom: 12px;
+    }
+
+    .trainingSeminar {
+        width: 50%;
+        margin-bottom: 12px;
+    }
+
+    .sabakiCamp {
+        width: 50%;
+        margin-bottom: 12px;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .buttonCards {
+        left: 25%;
+        bottom: 80px;
+    }
+
+    .indexgridOne {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "welcome trialArea"
+            "valueArea valuesImg";
+        gap: 30px;
+    }
+
+    .registrationImg {
+        display: unset;
+        width: 100%;
+        margin-top: 90px;
+    }
+
+    .registration {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .registrationSection {
+        width: 50%;
+    }
+
+    #consent {
+        transform: scale(2);
+        position: relative;
+        top: 30px;
+        left: -150px;
+    }
+
+    #consentTxt {
+        margin-left: 40px;
+        margin-right: 30px;
+        margin-bottom: 30px;
     }
 
     /* Aktiviteter slut */
@@ -764,6 +1151,70 @@ footer i {
         font-size: 22px;
     }
 
+    /* Media query FORSIDE 1920px */
+
+    .index p {
+        margin: 50px 145px;
+    }
+
+    .index h2 {
+        margin: 40px 110px;
+    }
+
+    #welcomeTxt {
+        font-size: 70px;
+        margin-top: 20px;
+        margin-bottom: 0;
+        margin-left: 50px;
+    }
+
+    .indexNews {
+        width:
+    }
+
+
+    .newsImg {
+        display: unset;
+        width: 50%;
+    }
+
+    .newsSection {
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+    }
+
+    #trial {
+        height: 600px;
+        width: 800px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    #trial h1 {
+        font-size: 4rem;
+    }
+
+    .valuesImg {
+        bottom: 380px;
+    }
+
+    .valuesImg h1 {
+        font-size: 4rem;
+    }
+
+    .registration {
+        margin-left: 135px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .formGrid {
+        grid-template-columns: 1fr 1fr;
+    }
+  
     .dato p,
     .aktivitetstitel+p {
         font-size: 25px;
