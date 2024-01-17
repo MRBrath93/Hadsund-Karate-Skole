@@ -131,6 +131,7 @@ nav {
 }
 
 
+
 /* Header styling - Slut */
 
 /* Footer styling - Start */
@@ -203,55 +204,74 @@ footer i {
 
 
 
-/* Hero section */ 
+
+
+
+@media screen and (min-width: 1200px){
+    .ashiharaHero{
+        height: 160px;
+        background-image: url(/assets/img/Ashihara/mobil/mobilHeroLanterner01.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        padding: 8.91vw;
+        margin-bottom: 20px
+    }
+    
+    .mainAsh{
+    }
+    .vaerdier_container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    .vaerdier_container img{
+        width: 100%;
+        position: relative;
+    }
+    .vardier_text{
+        position: absolute;
+        font-size: 21px;
+        color: var(--ShojiWhite);
+    }
+    .ashIntro, .disciplin, .maalsaetninger{
+        padding: 0 20px 20px 20px;
+    }
+    .vidre{
+        margin-top: 40px;
+        background-color: var(--ShojiWhite);
+    }
+    .vidre div{
+        padding:20px 30px;
+    }
+    
+    .vidre img{
+       width: 100%;
+    }
+    .ashIntro>p{
+        padding-bottom: 30px;
+    }
+    .maalsaetninger ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    } 
+}
+@media screen and (min-width: 1920px){
 .ashiharaHero{
-    height: 160px;
-     background-image: url(/assets/img/Ashihara/mobil/mobilHeroLanterner01.jpg);
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    padding: 8.91vw;
-    margin-bottom: 20px
-}
+        height: 100%;
+        background-image: url(./assets/img/Ashihara/desktop/heroLanterner01.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        padding: 8.91vw;
+        margin-bottom: 20px;
 
-.mainAsh{
-}
-.vaerdier_container{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-.vaerdier_container img{
-    position: relative;
-}
-.vardier_text{
-    position: absolute;
-    font-size: 21px;
-    color: var(--ShojiWhite);
-}
-.ashIntro, .disciplin, .maalsaetninger{
-    padding: 0 20px 20px 20px;
-}
-.vidre{
-    margin-top: 40px;
-    background-color: var(--ShojiWhite);
-}
-/* .vidre>div{
-padding: 15px ;
-} */
-.vidreImg img{
-    object-fit: cover;
-}
-.ashIntro>p{
-    padding-bottom: 30px;
-}
-.maalsaetninger ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
+    }
 
-
-
+}
 
 
 
