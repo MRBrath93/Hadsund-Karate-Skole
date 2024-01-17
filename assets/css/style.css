@@ -205,6 +205,10 @@ h2 {
     grid-area: welcome;
 }
 
+.heroForside {
+    width: 100%;
+}
+
 /* Prøvetime - sektion */
 #trial {
     background-image: url(/assets/img/Forside/proevetime_396x435_full.jpg);
@@ -212,7 +216,7 @@ h2 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 40%;
+    height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -235,13 +239,20 @@ h2 {
 .valuesHadsund {
     width: 100%;
     grid-area: valuesImg;
-    margin-bottom: 30px;
 }
 
 .valuesImg {
     position: relative;
     bottom: 170px;
     left: 40px;
+    width: fit-content;
+}
+
+.valuesHadsund picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
 }
 
 .valuesImg h1 {
@@ -436,7 +447,6 @@ summary img {
     width: 270px;
     height: 50px;
 }
-
 
 
 /* Forside styling - Slut */
@@ -876,18 +886,12 @@ summary img {
     /* Media query FORSIDE 1000 */
     .index p {
         width: 80%;
-        margin-left: 100px;
-        margin-right: 10px;
     }
 
     .index h2 {
         margin-left: 80px;
     }
 
-    .heroForside {
-        max-width: 100%;
-        height: auto;
-    }
 
     #welcomeTxt {
         margin: 20px 35px;
@@ -899,15 +903,8 @@ summary img {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 80%;
+        height: 100%;
         width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin-top: 30px;
-        margin-bottom: 50px;
         box-shadow: inset 0 0 0 1000px rgba(72, 90, 117, 0.2);
     }
 
@@ -921,7 +918,6 @@ summary img {
 
     .valuesHadsund {
         height: 600px;
-        margin: 20px 30px;
     }
 
     .valuesImg {
@@ -933,8 +929,18 @@ summary img {
         font-size: 3rem;
     }
 
+    .newsSection {
+        display: flex;
+        flex-direction: row;
+    }
+
     .indexnews {
         margin-bottom: 30px;
+    }
+
+    .newsImg {
+        display: unset;
+        width: 50%;
     }
 
     .graduation {
@@ -966,11 +972,12 @@ summary img {
 
     .indexgridOne {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
         grid-template-areas:
             "welcome trialArea"
             "valueArea valuesImg";
         gap: 30px;
+        padding: 2rem;
     }
 
     .registrationImg {
@@ -1168,22 +1175,6 @@ summary img {
         margin-left: 50px;
     }
 
-    .indexNews {
-        width:
-    }
-
-
-    .newsImg {
-        display: unset;
-        width: 50%;
-    }
-
-    .newsSection {
-        display: flex;
-        flex-direction: row;
-        gap: 12px;
-    }
-
     #trial {
         height: 600px;
         width: 800px;
@@ -1214,7 +1205,7 @@ summary img {
     .formGrid {
         grid-template-columns: 1fr 1fr;
     }
-  
+
     .dato p,
     .aktivitetstitel+p {
         font-size: 25px;
