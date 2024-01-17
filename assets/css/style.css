@@ -207,27 +207,22 @@ footer i {
         display: grid;
         grid-template-columns: repeat(2, 50%);
         gap: 2rem;
-        padding: 50px 139px;
     }
 
-    .mainPrak p {
+    .fac,
+    .imgFill .mainPrak p {
         font-size: 20px;
+        margin: 10px;
     }
 
-    .imgFill {
-        grid-column: 2/3;
-
-    }
-
-    .imgFill,
-    img {
+    .imgFill img {
         width: 100%;
-        height: 100%;
         object-fit: cover;
     }
 
-    .fac {
-        grid-column: 1/2;
+    .beholder {
+        grid-column: 1/3;
+        display: flex;
     }
 
 
