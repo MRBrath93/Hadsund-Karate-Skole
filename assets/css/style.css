@@ -4,12 +4,12 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
-  margin: 0;
+    box-sizing: border-box;
+    margin: 0;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 /* Variables */
@@ -28,15 +28,15 @@ h1 {
 }
 
 h2 {
-  font-size: 1.1875rem;
-  color: var(--StPatricksBlue);
-  margin-bottom: 5px;
-  font-weight: 900;
+    font-size: 1.1875rem;
+    color: var(--StPatricksBlue);
+    margin-bottom: 5px;
+    font-weight: 900;
 }
 
 h3 {
-  font-size: 1.1875rem;
-  color: var(--GreyBlack);
+    font-size: 1.1875rem;
+    color: var(--GreyBlack);
 }
 
 h4 {
@@ -46,10 +46,10 @@ h4 {
 }
 
 p {
-  font-size: 1rem;
-  font-weight: 400;
-  color: var(--GreyBlack);
-  line-height: 1.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--GreyBlack);
+    line-height: 1.5rem;
 }
 
 body {
@@ -76,12 +76,12 @@ body {
 }
 
 .headbar a {
-  font-size: 40px;
-  color: var(--ShojiWhite);
+    font-size: 40px;
+    color: var(--ShojiWhite);
 }
 
 .headbar :first-of-type a {
-  display: none;
+    display: none;
 }
 
 .headbar a:hover {
@@ -91,7 +91,7 @@ body {
 }
 
 .headbar img {
-  height: 57px;
+    height: 57px;
 }
 
 nav ul {
@@ -116,7 +116,7 @@ nav ul a:hover {
 }
 
 nav {
-  background-color: var(--GreyBlack);
+    background-color: var(--GreyBlack);
 }
 
 /* Header styling - Slut */
@@ -124,21 +124,21 @@ nav {
 /* Footer styling - Start */
 
 footer {
-  background-color: var(--GreyBlack);
+    background-color: var(--GreyBlack);
 }
 
 footer p,
 footer a,
 footer h4 {
-  color: var(--ShojiWhite);
+    color: var(--ShojiWhite);
 }
 
 footer p {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 footer h4 {
-  font-weight: 900;
+    font-weight: 900;
 }
 
 footer a {
@@ -147,8 +147,8 @@ footer a {
 }
 
 footer i {
-  font-size: 58px;
-  color: var(--ShojiWhite);
+    font-size: 58px;
+    color: var(--ShojiWhite);
 }
 
 .kontaktoplysninger {
@@ -159,22 +159,22 @@ footer i {
 }
 
 .socialemedier {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 36px 0px;
-  gap: 19px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 36px 0px;
+    gap: 19px;
 }
 
 .logoer {
-  display: flex;
-  gap: 50px;
+    display: flex;
+    gap: 50px;
 }
 
 .timeslot {
-  display: none;
-  flex-direction: column;
-  gap: 33px;
+    display: none;
+    flex-direction: column;
+    gap: 33px;
 }
 
 /* Footer styling - Slut */
@@ -555,9 +555,9 @@ summary img {
 /* Karateettikette styling */
 .heroetikette img {
     width: 100%;
-    height: 160px;
+    height: 100%;
     object-fit: cover;
-    object-position: top;
+    object-position: center;
 }
 
 .heroetikette {
@@ -581,7 +581,7 @@ summary img {
 }
 
 .numbercontainer div p:not(:last-child) {
-  margin-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 .numbercontainer :first-child p {
@@ -619,11 +619,10 @@ summary img {
     padding: 0px 35px;
 }
 
-.component1 > div > p {
-  margin-bottom: 1rem;
+.component1>div>p {
+    margin-bottom: 1rem;
 }
 
-<
 .component2 {
     background-color: var(--ShojiWhite);
     padding: 35px 0px;
@@ -656,122 +655,135 @@ summary img {
 /* Karateetikkette styling - Slut */
 
 /* Instruktører styling */
-.hero-seneis {
-  background-image: url(../img/Instruktør/Mobile/heroMobile01.jpg);
-  height: 160px;
-  object-fit: cover;
-  background-repeat: no-repeat;
-  position: relative;
-  background-size: cover;
-}
 .main-instruktor {
-  padding: 35px;
+    padding: 35px;
 }
 
 .hero-senseistext h1 {
-  text-align: center;
-  position: absolute;
-  top: 160px;
-  left: 9%;
-  color: var(--ShojiWhite);
-}
-.imgsensei img {
-  object-fit: cover;
-}
-.brian,
-.brian-grid figure h2 {
-  display: grid;
-  grid-template-columns: repeat(1, 0fr);
+    text-align: center;
+    position: absolute;
+    top: 160px;
+    left: 9%;
+    color: var(--ShojiWhite);
 }
 
-.brian picture {
-  margin-top: 20px;
-  margin-left: 35px;
-  margin-right: 35px;
+.imgsensei img {
+    object-fit: cover;
 }
+
+.brian,
+.brian-grid figure h2 {
+    display: grid;
+    grid-template-columns: repeat(1, 0fr);
+}
+
+.brian {
+    justify-content: center;
+}
+
+
+.brian picture {
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
 .brian p {
-  margin-left: 35px;
-  padding-bottom: 25px;
-  margin-right: 35px;
+    margin-left: 35px;
+    padding-bottom: 25px;
+    margin-right: 35px;
 }
 
 .brian h2 {
-  margin-top: 20px;
-  margin-left: 35px;
-  margin-right: 35px;
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-right: 35px;
 }
 
 .text-and-button-sensei {
-  display: flex;
-  flex-direction: column;
-  background-color: var(--ShojiWhite);
-  background-size: contain;
-}
-.text-and-button-sensei h3 {
-  padding-bottom: 10px;
-}
-.text-and-button-sensei p {
-  margin-bottom: 20px;
-}
-.text-sensei {
-  margin: 35px;
-}
-.btn-sensei {
-  background-color: var(--StPatricksBlue);
-  color: var(--ShojiWhite);
-  margin-bottom: 10px;
-  margin-top: 10px;
-  height: 35px;
-  font-weight: bold;
-  width: 322px;
-  font-size: 16px;
-  text-align: center;
-  padding: 10px 10px;
-  cursor: pointer;
-  border-radius: 12px;
-  font-size: 16px;
-  text-decoration: none;
-}
-.btn-sensei:hover {
-  background-color: var(--ShojiWhite);
-  color: var(--StPatricksBlue);
-  border: 2px solid #23377f;
-  border-color: var(--StPatricksBlue);
-  transition: 0.5s;
-  cursor: pointer;
-}
-.knapvidere {
-  padding-bottom: 40px;
-}
-@media screen and (min-width: 700px) {
-  .brian {
-    display: grid;
-    flex-direction: column;
-    grid-template-columns: repeat(2, 350px);
-  }
-  .brian img {
-    height: 241px;
-  }
-  .hero-senseistext h1 {
-    top: 160px;
-    font-size: 30px;
-    left: 35px;
-  }
-  .text-and-button-sensei {
     display: flex;
     flex-direction: column;
+    background-color: var(--ShojiWhite);
+    background-size: contain;
+}
 
-    justify-content: center;
-    margin-left: 35px;
-    margin-right: 35px;
-    background-size: cover;
-  }
-  .text-and-button-sensei img {
-    width: 630px;
-  }
-  .brian p {
-    margin-right: 4px;
-  }
+.text-and-button-sensei h3 {
+    padding-bottom: 10px;
+}
+
+.text-and-button-sensei p {
+    margin-bottom: 20px;
+}
+
+.text-sensei {
+    margin: 35px;
+}
+
+.btn-sensei {
+    background-color: var(--StPatricksBlue);
+    color: var(--ShojiWhite);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 35px;
+    font-weight: bold;
+    width: 322px;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 12px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.btn-sensei:hover {
+    background-color: var(--ShojiWhite);
+    color: var(--StPatricksBlue);
+    border: 2px solid #23377f;
+    border-color: var(--StPatricksBlue);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.knapvidere {
+    padding-bottom: 40px;
+}
+
+@media screen and (min-width: 700px) {
+    .brian {
+        display: grid;
+        flex-direction: column;
+        grid-template-columns: repeat(2, 350px);
+    }
+
+    .brian img {
+        height: 241px;
+    }
+
+    .hero-senseistext h1 {
+        top: 160px;
+        font-size: 30px;
+        left: 35px;
+    }
+
+    .text-and-button-sensei {
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        margin-left: 35px;
+        margin-right: 35px;
+        background-size: cover;
+    }
+
+    .text-and-button-sensei img {
+        width: 630px;
+    }
+
+    .brian p {
+        margin-right: 4px;
+    }
+}
 
 /* Instruktører styling - Slut */
 
@@ -890,6 +902,106 @@ summary img {
 }
 
 /* Bestyrelse styling - Slut */
+
+
+/* tilmelding og priser */
+.signupAndPaying p {
+    margin-top: 20px;
+}
+
+.signupAndPaying {
+    margin-top: 20px;
+}
+
+.signupAndPaying .bluebold {
+    color: var(--StPatricksBlue);
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.signupAndPaying h2 {
+    margin-left: 0;
+}
+
+.tilmeldingform {
+    padding: 0 23px;
+}
+
+.formbutton {
+    width: 100%;
+    height: fit-content;
+    margin: 0;
+    padding: 18px 0;
+
+}
+
+.radiob {
+    margin: 15px 0 15px 22px;
+}
+
+.reqred {
+    color: var(--AlizarinCrimson);
+    margin-left: 0;
+}
+
+.signupForm {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    max-width: 700px;
+}
+
+label {
+    color: var(--DarkGrey);
+    font-weight: 700;
+    margin-left: 22px;
+}
+
+input {
+    background: var(--ShojiWhite);
+    border: none;
+    padding: 18px 23px;
+    font-size: 1rem;
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px 0;
+
+}
+
+input[type=radio] {
+    width: 30px;
+    height: 30px;
+    color: #a5A5A5;
+
+}
+
+input[type=date] {
+    color: var(--DarkGrey);
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+}
+
+input[type=radio]:checked {
+    color: #23377F;
+}
+
+input[type=checkbox] {
+    width: 30px;
+    height: 30px;
+    color: #a5A5A5;
+}
+
+.checkboxl {
+    margin-left: auto;
+}
+
+::placeholder {
+    color: var(--DarkGrey);
+}
+
+
+/* Tilmelding og priser slut */
 
 /* Galleri styling */
 .internNavigation button {
@@ -1064,6 +1176,7 @@ input[type=checkbox] {
     color: var(--DarkGrey);
 }
 
+
 /* Tilmelding og priser slut */
 
 
@@ -1170,73 +1283,83 @@ input[type=checkbox] {
     }
 
     /* Footer slut */
-  
-  h1 {
-    font-size: 35px;
-  }
-  h2 {
-    font-size: 25px;
-  }
-  h3 {
-    font-size: 25px;
-  }
-  h4 {
-    font-size: 22px;
-  }
-  p,
-  .dato p {
-    font-size: 20px;
-    line-height: 27px;
-  }
 
-  .hero-seneis {
-    background-image: url(../img/Instruktør/Desktop/heroInstruktør02.jpg);
+    h1 {
+        font-size: 35px;
+    }
 
-    object-fit: cover;
-    background-repeat: no-repeat;
-    position: relative;
-  }
-  .hero-senseistext h1 {
-    font-size: 70px;
-    top: 40%;
-  }
-  .hero-senseistext h1 {
-    text-align: center;
-    position: absolute;
-    top: 120px;
-    left: 11.5%;
-    color: var(--ShojiWhite);
-  }
-  .brian {
-    display: grid;
-    grid-template-columns: repeat(2, 0fr);
-    justify-content: center;
-    padding-right: 20px;
-    justify-items: start;
-  }
-  .brian p {
-    margin-right: 30px;
-  }
+    h2 {
+        font-size: 25px;
+    }
 
-  .brian h2 {
-    margin-right: 100px;
-  }
-  .brain img {
-    margin-right: 100px;
-  }
-  .text-and-button-sensei {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-left: 126px;
-    margin-right: 96px;
-  }
+    h3 {
+        font-size: 25px;
+    }
 
-  .text-and-button-sensei img {
-    width: 320px;
-    height: 345px;
-  }
+    h4 {
+        font-size: 22px;
+    }
+
+    p,
+    .dato p {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .hero-seneis {
+        background-image: url(../img/Instruktør/Desktop/heroInstruktør02.jpg);
+
+        object-fit: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .hero-senseistext h1 {
+        font-size: 70px;
+        top: 40%;
+    }
+
+    .hero-senseistext h1 {
+        text-align: center;
+        position: absolute;
+        top: 120px;
+        left: 11.5%;
+        color: var(--ShojiWhite);
+    }
+
+    .brian {
+        display: grid;
+        grid-template-columns: repeat(2, 0fr);
+        justify-content: center;
+        padding-right: 20px;
+        justify-items: start;
+    }
+
+    .brian p {
+        margin-right: 30px;
+    }
+
+    .brian h2 {
+        margin-right: 100px;
+    }
+
+    .brain img {
+        margin-right: 100px;
+    }
+
+    .text-and-button-sensei {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 126px;
+        margin-right: 96px;
+    }
+
+    .text-and-button-sensei img {
+        width: 320px;
+        height: 345px;
+    }
 
     /*FORSIDE*/
     .index p {
@@ -1414,6 +1537,11 @@ input[type=checkbox] {
 
 
     /* Karateetikette */
+
+    .heroetikette {
+        height: 317px;
+    }
+
     .component1 {
         display: grid;
         grid-template-columns: 50% 40%;
@@ -1657,6 +1785,40 @@ input[type=checkbox] {
 
 }
 
+
+@media screen and (min-width: 1200px) {
+
+    .brian,
+    .brian-grid figure h2 {
+        display: grid;
+        grid-template-columns: repeat(3, 0fr);
+
+        justify-content: center;
+        margin-top: 20px;
+        align-items: baseline;
+        padding-right: 0px;
+    }
+
+    .imgsensei img {
+        object-fit: cover;
+    }
+
+    .brian img {
+        height: 241px;
+        width: 321px;
+    }
+
+    .text-and-button-sensei {
+        margin-left: 30px;
+        margin-right: 60px;
+    }
+
+    .text-and-button-sensei img {
+        width: 450px;
+        height: 345px;
+    }
+}
+
 @media screen and (min-width: 1500px) {
 
     /* Header */
@@ -1801,19 +1963,84 @@ input[type=checkbox] {
 
     /* Karateetikette */
 
-    .heroetikette img {
-        height: 317px;
-    }
-
-    .heroetikette {
-        height: 317px;
-    }
-
     .numbercontainer:first-child p {
         height: 36px;
     }
 
     /* Karateetikette slut */
+
+    /* Instruktører */
+    .hero-seneis {
+        background-image: url(../img/Instruktør/Desktop/heroInstruktør02.jpg);
+        height: 317px;
+        object-fit: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .hero-senseistext h1 {
+        font-size: 70px;
+        top: 200px;
+        left: 98px;
+    }
+
+    .brian {
+        display: grid;
+        grid-template-columns: repeat(3, 0fr);
+        margin-right: 0px;
+        justify-content: center;
+        margin-top: 10px;
+
+        align-items: baseline;
+        justify-content: center;
+        padding-right: 0px;
+    }
+
+    .brain {
+        margin: 0;
+    }
+
+    .brian img {
+        width: 527px;
+        height: 395px;
+        display: inline;
+    }
+
+    .text-and-button-sensei {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 93px;
+        margin-right: 89px;
+    }
+
+    .text-and-button-sensei h3 {
+        margin-left: 50px;
+
+        margin-right: 50px;
+    }
+
+    .text-and-button-sensei p {
+        margin-left: 50px;
+
+        margin-right: 50px;
+    }
+
+    .btn-sensei {
+        font-size: 22px;
+        margin-top: 20px;
+        margin-left: 45px;
+        height: 65px;
+        width: 430px;
+        font-weight: bold;
+    }
+
+    .knapvidere img {
+        height: 431px;
+        width: 800px;
+    }
+
+    /* Instruktører slut */
 
     /* Bestyrelse */
     .hero-bestyrelse {
@@ -1875,111 +2102,6 @@ input[type=checkbox] {
     }
 
     /* Bestyrelse slut */
-}
-  @media screen and (min-width: 1200px) {
-  .brian,
-  .brian-grid figure h2 {
-    display: grid;
-    grid-template-columns: repeat(3, 0fr);
 
-    justify-content: center;
-    margin-top: 20px;
-    align-items: baseline;
-    padding-right: 0px;
-  }
-  .imgsensei img {
-    object-fit: cover;
-  }
-  .brian img {
-    height: 241px;
-    width: 321px;
-  }
-  .text-and-button-sensei {
-    margin-left: 30px;
-    margin-right: 60px;
-  }
-  .text-and-button-sensei img {
-    width: 450px;
-    height: 345px;
-  }
-}
-@media screen and (min-width: 1920px) {
-  h1 {
-    font-size: 45px;
-  }
-  h2 {
-    font-size: 35px;
-  }
-  h3 {
-    font-size: 35px;
-  }
-  h4 {
-    font-size: 30px;
-  }
-  p,
-  .dato p {
-    font-size: 25px;
-    line-height: 37.5px;
-  }
-  .hero-seneis {
-    background-image: url(../img/Instruktør/Desktop/heroInstruktør02.jpg);
-    height: 317px;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    position: relative;
-  }
-  .hero-senseistext h1 {
-    font-size: 70px;
-    top: 200px;
-    left: 98px;
-  }
-  .brian {
-    display: grid;
-    grid-template-columns: repeat(3, 0fr);
-    margin-right: 0px;
-    justify-content: center;
-    margin-top: 10px;
 
-    align-items: baseline;
-    justify-content: center;
-    padding-right: 0px;
-  }
-  .brain {
-    margin: 0;
-  }
-
-  .brian img {
-    width: 527px;
-    height: 395px;
-    display: inline;
-  }
-  .text-and-button-sensei {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-left: 93px;
-    margin-right: 89px;
-  }
-  .text-and-button-sensei h3 {
-    margin-left: 50px;
-
-    margin-right: 50px;
-  }
-  .text-and-button-sensei p {
-    margin-left: 50px;
-
-    margin-right: 50px;
-  }
-  .btn-sensei {
-    font-size: 22px;
-    margin-top: 20px;
-    margin-left: 45px;
-    height: 65px;
-    width: 430px;
-    font-weight: bold;
-  }
-  .knapvidere img {
-    height: 431px;
-    width: 800px;
-  }
 }
