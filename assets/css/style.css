@@ -199,157 +199,102 @@ footer i {
 
 /* Praktisk info styling */
 /* mobil */
-@media only screen and (max-width: 1200px){
-    h2, p, li {
-    padding: 0 35px;
-}
-.fac a{
-    padding: 0 35px;
-}
-section h2{
-    margin-top: 30px;
-}
-.bluel{
-    color: var(--StPatricksBlue);
-}
-.bluel, li{
-    line-height: 1.5rem;
-    list-style: none;
-}
-.blackbold{
-    color: var(--GreyBlack);
-    text-decoration: none;
-    font-weight: bold;
-}
-.reqred{
-    color: var(--AlizarinCrimson);
-}
-.heroPrak{
-    height: 160px;
-    background-image: url(../img/Praktiskinformation/mobil/heroMobil01.jpg);
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    padding: 8.91vw;
-    margin-bottom: 20px
-}
-.signupForm{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-} 
-label{
-    color: var(--DarkGrey);
-    font-weight: 700;
-}
-input{
-    background: var(--ShojiWhite);
-    border: none;
-    padding: 18px 32px;
-    font-size: 1rem;
-    font-weight: 700;
-    width: 338px;
-    border-radius: 10px;
-    
-}
-.radiob{
-    width: 30px;
-    padding: 30px;
-    background-color: var(--AlizarinCrimson);
-    
-}
 
-.imgFill>picture>img{
-    display: flex;
-    width: 100%;
-    height: auto;
-    padding-top: 20px;
-}
-.card{
-    margin: 0;
-    background-color: var(--ShojiWhite);
-}
-}
 /* desktop */
-@media only screen and (min-width: 1200px){
-    .mainPrak{
+
+@media only screen and (min-width: 1000px) {
+    .mainPrak {
         display: grid;
-        grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: repeat(7, 0.5fr);
-        gap: 80px;
+        grid-template-columns: repeat(2, 50%);
+        gap: 2rem;
         padding: 50px 139px;
     }
-    .imgFill{
-        grid-column: 4/7;
-  
+
+    .mainPrak p {
+        font-size: 20px;
     }
-    .imgFill, img{
+
+    .imgFill {
+        grid-column: 2/3;
+
+    }
+
+    .imgFill,
+    img {
         width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
-    .fac{
-        grid-column: 1/4;
-        grid-row: 1;
+
+    .fac {
+        grid-column: 1/2;
     }
-    .workoutH{
-        grid-column: 1/4;
-        grid-row: 2;
-}   
-.freeWorkout{
-    grid-column: 1/4;
-    grid-row: 3;
+
+
+    .workoutH {
+        grid-column: 1/2;
     }
-    .Prevented{
-        grid-column: 4/7;
-        grid-row: 3;
-    
-        }
-    .traningForms{
-        grid-column: 1/4;
-        grid-row: 4;
+
+    .freeWorkout {
+        grid-column: 1/2;
     }
-    .traningForms ul{
+
+    .Prevented {
+        grid-column: 2/3;
+
+    }
+
+    .traningForms {
+        grid-column: 1/2;
+    }
+
+    .traningForms ul {
         padding: 0;
     }
-    .damage{
-        grid-column: 1/4;
-        grid-row: 5;
+
+    .damage {
+        grid-column: 1/2;
     }
-    .equipment{
-        grid-column: 1/4;
-        grid-row: 6;
-    } 
-    .compAndTour{
-        grid-column: 1/4;
-        grid-row: 7;
-    } 
-    
-    
-    h1{
-    font-size: 3.75rem;
-    color: white;
-        }
-    p li{
+
+    .equipment {
+        grid-column: 1/2;
+    }
+
+    .compAndTour {
+        grid-column: 1/2;
+    }
+
+    h1 {
+        font-size: 3.75rem;
+        color: white;
+    }
+
+    p li {
         font-size: 1.7rem;
         padding: 0%;
     }
-  
-    .bluel{
+
+    .bluel {
         color: var(--StPatricksBlue);
     }
-    .bluel, li{
+
+    .bluel,
+    li {
         line-height: 1.5rem;
         list-style: none;
     }
-    .blackbold{
+
+    .blackbold {
         color: var(--GreyBlack);
         text-decoration: none;
         font-weight: bold;
     }
-    .reqred{
+
+    .reqred {
         color: var(--AlizarinCrimson);
     }
-    .heroPrak{
+
+    .heroPrak {
         height: 160px;
         background-image: url(../img/Praktiskinformation/desktop/heroPraktiskinfo.jpg);
         background-size: cover;
@@ -358,17 +303,20 @@ input{
         padding: 8.91vw;
         margin-bottom: 20px
     }
-    .signupForm{
+
+    .signupForm {
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
         align-items: center;
-    } 
-    label{
+    }
+
+    label {
         color: var(--DarkGrey);
         font-weight: 700;
     }
-    input{
+
+    input {
         background: var(--ShojiWhite);
         border: none;
         padding: 18px 32px;
@@ -376,19 +324,20 @@ input{
         font-weight: 700;
         width: 338px;
         border-radius: 10px;
-        
+
     }
-    .radiob{
+
+    .radiob {
         width: 30px;
         padding: 30px;
         background-color: var(--AlizarinCrimson);
-        
+
     }
-    
-    .card{
+
+    .card {
         margin: 0;
         background-color: var(--ShojiWhite);
-    
+
     }
 }
 
