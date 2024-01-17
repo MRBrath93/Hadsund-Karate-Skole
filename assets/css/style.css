@@ -738,8 +738,105 @@ summary img {
     grid-area: syv;
 }
 
-
 /* Galleri styling - Slut */
+
+/* tilmelding og priser */
+.signupAndPaying p {
+    margin-top: 20px;
+}
+
+.signupAndPaying {
+    margin-top: 20px;
+}
+
+.signupAndPaying .bluebold {
+    color: var(--StPatricksBlue);
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.signupAndPaying h2 {
+    margin-left: 0;
+}
+
+.tilmeldingform {
+    padding: 0 23px;
+}
+
+.formbutton {
+    width: 100%;
+    height: fit-content;
+    margin: 0;
+    padding: 18px 0;
+
+}
+
+.radiob {
+    margin: 15px 0 15px 22px;
+}
+
+.reqred {
+    color: var(--AlizarinCrimson);
+    margin-left: 0;
+}
+
+.signupForm {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    max-width: 700px;
+}
+
+label {
+    color: var(--DarkGrey);
+    font-weight: 700;
+    margin-left: 22px;
+}
+
+input {
+    background: var(--ShojiWhite);
+    border: none;
+    padding: 18px 23px;
+    font-size: 1rem;
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px 0;
+
+}
+
+input[type=radio] {
+    width: 30px;
+    height: 30px;
+    color: #a5A5A5;
+
+}
+
+input[type=date] {
+    color: var(--DarkGrey);
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+}
+
+input[type=radio]:checked {
+    color: #23377F;
+}
+
+input[type=checkbox] {
+    width: 30px;
+    height: 30px;
+    color: #a5A5A5;
+}
+
+.checkboxl {
+    margin-left: auto;
+}
+
+::placeholder {
+    color: var(--DarkGrey);
+}
+
+/* Tilmelding og priser slut */
 
 
 /* MEDIA QUERIES */
@@ -1332,88 +1429,3 @@ summary img {
 
     /* Karateetikette slut */
 }
-
-/* tilmelding og priser */
-.bluebold {
-    color: var(--StPatricksBlue);
-    font-weight: bold;
-}
-
-.tilmeldingform {
-    padding: 0 23px;
-}
-
-.formbutton {
-    width: 100%;
-    height: fit-content;
-    margin: 0;
-    padding: 18px 0;
-
-}
-
-.radiob {
-    margin: 15px 0 15px 22px;
-}
-
-.reqred {
-    color: var(--AlizarinCrimson);
-    margin-left: 0;
-}
-
-.signupForm {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-    max-width: 700px;
-}
-
-label {
-    color: var(--DarkGrey);
-    font-weight: 700;
-    margin-left: 22px;
-}
-
-input {
-    background: var(--ShojiWhite);
-    border: none;
-    padding: 18px 23px;
-    font-size: 1rem;
-    width: 100%;
-    border-radius: 10px;
-    margin: 10px 0;
-
-}
-
-input[type=radio] {
-    width: 30px;
-    height: 30px;
-    color: #a5A5A5;
-
-}
-
-input[type=date] {
-    color: var(--DarkGrey);
-    font-family: 'Lato', sans-serif;
-    font-size: 1rem;
-}
-
-input[type=radio]:checked {
-    color: #23377F;
-}
-
-input[type=checkbox] {
-    width: 30px;
-    height: 30px;
-    color: #a5A5A5;
-}
-
-.checkboxl {
-    margin-left: auto;
-}
-
-::placeholder {
-    color: var(--DarkGrey);
-}
-
-/* Tilmelding og priser slut */
