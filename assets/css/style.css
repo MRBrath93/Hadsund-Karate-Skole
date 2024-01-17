@@ -4,12 +4,12 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
-  margin: 0;
+    box-sizing: border-box;
+    margin: 0;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 /* Variables */
@@ -28,15 +28,15 @@ h1 {
 }
 
 h2 {
-  font-size: 1.1875rem;
-  color: var(--StPatricksBlue);
-  margin-bottom: 5px;
-  font-weight: 900;
+    font-size: 1.1875rem;
+    color: var(--StPatricksBlue);
+    margin-bottom: 5px;
+    font-weight: 900;
 }
 
 h3 {
-  font-size: 1.1875rem;
-  color: var(--GreyBlack);
+    font-size: 1.1875rem;
+    color: var(--GreyBlack);
 }
 
 h4 {
@@ -46,14 +46,14 @@ h4 {
 }
 
 p {
-  font-size: 1rem;
-  font-weight: 400;
-  color: var(--GreyBlack);
-  line-height: 1.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--GreyBlack);
+    line-height: 1.5rem;
 }
 
 body {
-  font-family: "Lato", sans-serif;
+    font-family: "Lato", sans-serif;
 }
 
 /* Header styling */
@@ -76,12 +76,12 @@ body {
 }
 
 .headbar a {
-  font-size: 40px;
-  color: var(--ShojiWhite);
+    font-size: 40px;
+    color: var(--ShojiWhite);
 }
 
 .headbar :first-of-type a {
-  display: none;
+    display: none;
 }
 
 .headbar a:hover {
@@ -91,7 +91,7 @@ body {
 }
 
 .headbar img {
-  height: 57px;
+    height: 57px;
 }
 
 nav ul {
@@ -116,7 +116,7 @@ nav ul a:hover {
 }
 
 nav {
-  background-color: var(--GreyBlack);
+    background-color: var(--GreyBlack);
 }
 
 /* Header styling - Slut */
@@ -124,21 +124,21 @@ nav {
 /* Footer styling - Start */
 
 footer {
-  background-color: var(--GreyBlack);
+    background-color: var(--GreyBlack);
 }
 
 footer p,
 footer a,
 footer h4 {
-  color: var(--ShojiWhite);
+    color: var(--ShojiWhite);
 }
 
 footer p {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 footer h4 {
-  font-weight: 900;
+    font-weight: 900;
 }
 
 footer a {
@@ -147,34 +147,34 @@ footer a {
 }
 
 footer i {
-  font-size: 58px;
-  color: var(--ShojiWhite);
+    font-size: 58px;
+    color: var(--ShojiWhite);
 }
 
 .kontaktoplysninger {
-  display: none;
-  flex-direction: column;
-  gap: 25px;
-  align-items: center;
+    display: none;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
 }
 
 .socialemedier {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 36px 0px;
-  gap: 19px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 36px 0px;
+    gap: 19px;
 }
 
 .logoer {
-  display: flex;
-  gap: 50px;
+    display: flex;
+    gap: 50px;
 }
 
 .timeslot {
-  display: none;
-  flex-direction: column;
-  gap: 33px;
+    display: none;
+    flex-direction: column;
+    gap: 33px;
 }
 
 /* Footer styling - Slut */
@@ -581,7 +581,7 @@ summary img {
 }
 
 .numbercontainer div p:not(:last-child) {
-  margin-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 .numbercontainer :first-child p {
@@ -620,8 +620,9 @@ summary img {
 }
 
 .component1>div>p {
-  margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
+
 .component2 {
     background-color: var(--ShojiWhite);
     padding: 35px 0px;
@@ -650,890 +651,475 @@ summary img {
     object-position: center;
     margin-bottom: 1.25rem;
 
-/* Karateetikkette styling - Slut */
-
-/* Instruktører styling */
-/* Instruktører styling - Slut */
-
-/* Bestyrelse styling */
-.hero-bestyrelse {
-  background-image: url(../img/BestyrelseOgvedtægter/Mobile/HeroBestyrelseMobile01.jpg);
-  height: 160px;
-  object-fit: cover;
-  background-repeat: no-repeat;
-  position: relative;
-  background-size: cover;
-}
-
-.hero-bestyrelsetext h1 {
-  text-align: center;
-  position: absolute;
-  top: 160px;
-  left: 35px;
-
-  color: var(--ShojiWhite);
-}
-
-.grid-bestyrelse {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  justify-content: center;
-  align-items: center;
-  margin: 35px;
-  gap: 10px;
-  background-size: cover;
-}
-
-.accordionStart {
-  background-color: white;
-  color: var(--StPatricksBlue);
-  cursor: pointer;
-  padding-right: 35px;
-  padding-left: 35px;
-  max-width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 10px;
-
-  height: 57px;
-  border-style: solid;
-  border-color: #333333;
-  border-width: thin;
-}
-
-.contentBestyrelse {
-  padding: 10px 5px;
-  background-color: var(--ShojiWhite);
-  cursor: pointer;
-  box-shadow: 0 10px 10px rgb(0 0 0 / 0.2);
-  padding-right: 25px;
-  padding-left: 26px;
-}
-
-.bestyrelse-title {
-  font-size: 18px;
-  color: var(--StPatricksBlue);
-  margin: 0 auto;
-}
-
-.text-and-button-bestyrelse {
-  display: flex;
-  flex-direction: column;
-}
-
-.text-bestyrelse {
-  margin: 35px;
-}
-
-.text-bestyrelse h3 {
-  padding-bottom: 10px;
-}
-
-.text-bestyrelse p {
-  margin-bottom: 25px;
-}
-
-.btn-bestyrelse {
-  background-color: var(--StPatricksBlue);
-  color: var(--ShojiWhite);
-  margin-bottom: 10px;
-  margin-right: 50px;
-  border-radius: 10px;
-  margin-top: 30px;
-  border: 2px solid #23377f;
-  transition: 0.5s;
-  height: 35px;
-  width: 279px;
-  font-weight: bold;
-  font-size: 16px;
-  cursor: pointer;
-  text-align: center;
-  padding: 10px 10px;
-  text-decoration: none;
-}
-
-.btn-bestyrelse:hover {
-  background-color: var(--ShojiWhite);
-  color: var(--StPatricksBlue);
-  cursor: pointer;
-}
-
-.knapbestyrelse {
-  margin-bottom: 40px;
-  background-color: var(--ShojiWhite);
-  margin-top: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.knapbestyrelse img {
-  max-height: 20%;
-  width: 100%;
-  object-fit: cover;
-}
-
-.bestyrelse-center {
-  text-align: center;
-}
-
-.bestyrelseAccordion h2 {
-  margin-left: 35px;
-  padding-bottom: 20px;
-}
-
-@media screen and (min-width: 700px) {
-  .grid-bestyrelse {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .btn-bestyrelse {
-    margin-right: 410px;
-  }
-}
-
-@media screen and (min-width: 1000px) {
-  h1 {
-    font-size: 35px;
-  }
-
-  h2 {
-    font-size: 25px;
-  }
-
-  h3 {
-    font-size: 25px;
-  }
-
-  h4 {
-    font-size: 22px;
-  }
-
-  p,
-  .dato p {
-    font-size: 20px;
-    line-height: 27px;
-  }
-
-  .hero-bestyrelse {
-    background-image: url(../img/BestyrelseOgvedtægter/Desktop/heroJapan02.jpg);
-    height: 317px;
-    position: relative;
-  }
-
-  .hero-bestyrelsetext h1 {
-    text-align: center;
-    position: absolute;
-    top: 230px;
-    left: 118px;
-    color: var(--ShojiWhite);
-  }
-
-  .bestyrelse-title h5 {
-    font-size: 30px;
-    color: var(--StPatricksBlue);
-  }
-
-  .grid-bestyrelse {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-  }
-
-  .grid-bestyrelse h5 {
-    font-size: 20px;
-  }
-
-  .accordionStart {
-    font-size: 25px;
-    margin-left: 35px;
-    margin-right: 35px;
-  }
-
-  .knapbestyrelse {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .knapbestyrelse {
-    margin-left: 35px;
-    margin-right: 35px;
-  }
-
-
-  .btn-bestyrelse {
-    background-color: var(--StPatricksBlue);
-    color: var(--ShojiWhite);
-    padding: 10px 50px;
-    font-size: 15px;
-    margin-left: 50px;
-    margin-top: 40px;
-    height: 65px;
-    width: 450px;
-    font-size: 22px;
-  }
-
-  .text-bestyrelse p {
-    margin-left: 50px;
-    font-size: 25px;
-  }
-
-  .text-bestyrelse h3 {
-    margin-left: 50px;
-    font-size: 40px;
-  }
-
-  .bestyrelse-center {
-    padding-left: 10px;
-    padding-right: 30px;
-    margin-left: 90px;
-  }
-
-  .contentBestyrelse {
-    margin-left: 35px;
-    margin-right: 35px;
-    font-size: 25px;
-  }
-}
-
-@media screen and (min-width: 1500px) {
-  .knapbestyrelse {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-  }
-
-  .knapbestyrelse img {
-    width: 450px;
-    height: 400px;
-  }
-}
-
-@media screen and (min-width: 1920px) {
-  h1 {
-    font-size: 45px;
-  }
-
-  h2 {
-    font-size: 35px;
-  }
-
-  h3 {
-    font-size: 35px;
-  }
-
-  h4 {
-    font-size: 30px;
-  }
-
-  p,
-  .dato p {
-    font-size: 25px;
-    line-height: 37.5px;
-  }
-
-  .hero-bestyrelse {
-    background-image: url(../img/BestyrelseOgvedtægter/Desktop/heroJapan02.jpg);
-    height: 317px;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    position: relative;
-  }
-
-  .grid-bestyrelse {
-    display: grid;
-    grid-template-columns: repeat(4, 415px);
-    margin-left: 35px;
-    margin-right: 35px;
-    margin-top: 40px;
-    padding-left: 20px;
-  }
-
-  .grid-bestyrelse h5 {
-    font-size: 35px;
-  }
-
-  .bestyrelseAccordion h2 {
-    margin-left: 118px;
-    padding-bottom: 20px;
-  }
-
-  .accordionStart {
-    margin-left: 118px;
-    margin-right: 118px;
-    font-size: 30px;
-    height: 110px;
-  }
-
-  .contentBestyrelse {
-    margin-left: 118px;
-    margin-right: 118px;
-    font-size: 25px;
-  }
-
-  .knapbestyrelse {
-    display: flex;
-    align-items: center;
-    margin-right: 118px;
-    margin-left: 118px;
-    flex-direction: row;
-    height: 419.34;
-  }
-
-  .knapbestyrelse img {
-    height: 100%;
-    width: 100%;
-  }
-
-  .btn-bestyrelse {
-    background-color: var(--StPatricksBlue);
-    color: var(--ShojiWhite);
-    padding: 20px 50px;
-    font-size: 22px;
-
-    margin-right: 55px;
-    width: 450px;
-    height: 65px;
-  }
-
-  .text-bestyrelse p {
-    font-size: 25px;
-  }
-
-  .bestyrelse-center {
-    padding-right: 200px;
-  }
-}
-
-/* Bestyrelse styling - Slut */
-
-/* Galleri styling */
-.internNavigation button {
-    height: 35px;
-    background-color: var(--StPatricksBlue);
-    border: none;
-    font-size: 16px;
-    border-radius: 10px;
-    cursor: pointer;
-    margin: 5px;
-    color: var(--ShojiWhite);
-    font-weight: bold;
-}
-
-.galleri {
-    display: grid;
-    grid-template-areas:
-        'en nul'
-        'en to'
-        'tre to'
-        'tre fire'
-        'fem fire'
-        'fem seks'
-        'syv seks'
-        'syv otte';
-    grid-gap: 10px;
-    grid-auto-rows: 10em;
-    margin: 5px;
-}
-
-.billederamme {
-    width: 100%;
-    height: 100%;
-}
-
-.billederamme img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: top;
-}
-
-.p-0 img {
-    object-fit: contain;
-    height: 100%;
-    width: 100%;
-}
-
-.p-1 {
-    grid-area: en;
-}
-
-.p-2 {
-    grid-area: to;
-}
-
-.p-3 {
-    grid-area: tre;
-}
-
-.p-4 {
-    grid-area: fire;
-}
-
-.p-5 {
-    grid-area: fem;
-}
-
-.p-6 {
-    grid-area: seks;
-}
-
-.p-7 {
-    grid-area: syv;
-}
-
-/* Galleri styling - Slut */
-
-/* tilmelding og priser */
-.signupAndPaying p {
-    margin-top: 20px;
-}
-
-.signupAndPaying {
-    margin-top: 20px;
-}
-
-.signupAndPaying .bluebold {
-    color: var(--StPatricksBlue);
-    font-weight: bold;
-    margin-top: 0;
-}
-
-.signupAndPaying h2 {
-    margin-left: 0;
-}
-
-.tilmeldingform {
-    padding: 0 23px;
-}
-
-.formbutton {
-    width: 100%;
-    height: fit-content;
-    margin: 0;
-    padding: 18px 0;
-
-}
-
-.radiob {
-    margin: 15px 0 15px 22px;
-}
-
-.reqred {
-    color: var(--AlizarinCrimson);
-    margin-left: 0;
-}
-
-.signupForm {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-    max-width: 700px;
-}
-
-label {
-    color: var(--DarkGrey);
-    font-weight: 700;
-    margin-left: 22px;
-}
-
-input {
-    background: var(--ShojiWhite);
-    border: none;
-    padding: 18px 23px;
-    font-size: 1rem;
-    width: 100%;
-    border-radius: 10px;
-    margin: 10px 0;
-
-}
-
-input[type=radio] {
-    width: 30px;
-    height: 30px;
-    color: #a5A5A5;
-
-}
-
-input[type=date] {
-    color: var(--DarkGrey);
-    font-family: 'Lato', sans-serif;
-    font-size: 1rem;
-}
-
-input[type=radio]:checked {
-    color: #23377F;
-}
-
-input[type=checkbox] {
-    width: 30px;
-    height: 30px;
-    color: #a5A5A5;
-}
-
-.checkboxl {
-    margin-left: auto;
-}
-
-::placeholder {
-    color: var(--DarkGrey);
-}
-
-/* Tilmelding og priser slut */
-
-
-/* MEDIA QUERIES */
-
-@media screen and (min-width: 1000px) {
-    h1 {
-        font-size: 35px;
+    /* Karateetikkette styling - Slut */
+
+    /* Instruktører styling */
+    /* Instruktører styling - Slut */
+
+    /* Bestyrelse styling */
+    .hero-bestyrelse {
+        background-image: url(../img/BestyrelseOgvedtægter/Mobile/HeroBestyrelseMobile01.jpg);
+        height: 160px;
+        object-fit: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        background-size: cover;
     }
 
-    h2 {
-        font-size: 25px;
-        margin-bottom: 15px;
+    .hero-bestyrelsetext h1 {
+        text-align: center;
+        position: absolute;
+        top: 160px;
+        left: 35px;
+
+        color: var(--ShojiWhite);
     }
 
-    h3 {
-        font-size: 25px;
-        margin-bottom: 15px;
+    .grid-bestyrelse {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        margin: 35px;
+        gap: 10px;
+        background-size: cover;
     }
 
-    h4 {
-        font-size: 22px;
-    }
-
-    p,
-    .dato p {
-        font-size: 20px;
-        line-height: 27px;
-    }
-
-    /* Header */
-    Nav ul {
-        display: flex;
-    }
-
-    .headbar :first-of-type a {
-        display: flex;
-    }
-
-    .headbar>a {
-        display: none;
-    }
-
-    .headbar>div {
+    .accordionStart {
+        background-color: white;
+        color: var(--StPatricksBlue);
+        cursor: pointer;
+        padding-right: 35px;
+        padding-left: 35px;
+        max-width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 1rem;
+        gap: 10px;
+
+        height: 57px;
+        border-style: solid;
+        border-color: #333333;
+        border-width: thin;
     }
 
-    .headbar {
-        justify-content: unset;
-        display: unset;
-        padding: 16px 0px;
-
-    }
-
-    /* Header slut */
-
-    /* Footer */
-
-    footer {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        height: 486px;
-    }
-
-    .kontaktoplysninger {
-        display: flex;
-        align-items: unset;
-    }
-
-    .logoer {
-        display: flex;
-        gap: 50px;
-    }
-
-    .timeslot {
-        display: flex;
-    }
-
-    .socialemedier {
-        padding: 0;
-    }
-
-    footer a {
-        font-size: 20px;
-    }
-
-    /* Footer slut */
-
-    /* Aktiviteter */
-    .interNavigation {
-        padding: 0px 135px;
-    }
-
-    .interNavigation a {
-        font-size: 18px;
-        margin: 5px 10px;
-    }
-
-
-    .interNavigation a:hover {
+    .contentBestyrelse {
+        padding: 10px 5px;
         background-color: var(--ShojiWhite);
+        cursor: pointer;
+        box-shadow: 0 10px 10px rgb(0 0 0 / 0.2);
+        padding-right: 25px;
+        padding-left: 26px;
+    }
+
+    .bestyrelse-title {
+        font-size: 18px;
         color: var(--StPatricksBlue);
+        margin: 0 auto;
     }
 
-    .aktivitetstitel+p,
-    .aktivitetstitel h2 {
-        margin-left: 135px;
-    }
-
-    .kalendercart1 {
-        margin: 10px 135px;
-    }
-
-    .kalenderåret h1,
-    #Januar h2,
-    #Februar h2,
-    #Marts h2,
-    #April h2,
-    #Maj h2,
-    #Juni h2,
-    #August h2,
-    #September h2,
-    #Oktober h2,
-    #November h2,
-    #December h2 {
-        padding: 0px 135px;
-    }
-
-    /* Aktiviteter slut */
-
-    /*FORSIDE*/
-    .index p {
-        width: 80%;
-        margin-left: 100px;
-        margin-right: 10px;
-    }
-
-    .index h2 {
-        margin-left: 80px;
-    }
-
-    .heroForside {
-        max-width: 100%;
-        height: auto;
-    }
-
-    #welcomeTxt {
-        margin: 20px 35px;
-    }
-
-    #trial {
-        background-image: url(/assets/img/Forside/proevetime_677×891_full.jpg);
-        /*Kilde: "COLOURBOX37668213. 2023. Coulourbox.dk. [online] Available at: https://www.colourbox.dk/billede/karate-gul-aikido-billede-37668213. Accessed: 07/01/2024. */
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 80%;
-        width: 100%;
+    .text-and-button-bestyrelse {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin-top: 30px;
-        margin-bottom: 50px;
-        box-shadow: inset 0 0 0 1000px rgba(72, 90, 117, 0.2);
     }
 
-    #trial h1 {
-        font-size: 2rem;
-        padding-top: 10px;
-        padding-left: 30px;
-        padding-right: 30px;
+    .text-bestyrelse {
+        margin: 35px;
+    }
+
+    .text-bestyrelse h3 {
         padding-bottom: 10px;
     }
 
-    .valuesHadsund {
-        height: 600px;
-        margin: 20px 30px;
+    .text-bestyrelse p {
+        margin-bottom: 25px;
     }
 
-    .valuesImg {
-        bottom: 260px;
-        left: 70px;
+    .btn-bestyrelse {
+        background-color: var(--StPatricksBlue);
+        color: var(--ShojiWhite);
+        margin-bottom: 10px;
+        margin-right: 50px;
+        border-radius: 10px;
+        margin-top: 30px;
+        border: 2px solid #23377f;
+        transition: 0.5s;
+        height: 35px;
+        width: 279px;
+        font-weight: bold;
+        font-size: 16px;
+        cursor: pointer;
+        text-align: center;
+        padding: 10px 10px;
+        text-decoration: none;
     }
 
-    .valuesImg h1 {
-        font-size: 3rem;
+    .btn-bestyrelse:hover {
+        background-color: var(--ShojiWhite);
+        color: var(--StPatricksBlue);
+        cursor: pointer;
     }
 
-    .indexnews {
-        margin-bottom: 30px;
-    }
-
-    .graduation {
-        width: 50%;
-        margin-bottom: 12px;
-    }
-
-    .trainingSeminar {
-        width: 50%;
-        margin-bottom: 12px;
-    }
-
-    .sabakiCamp {
-        width: 50%;
-        margin-bottom: 12px;
-    }
-
-    .cards {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .buttonCards {
-        left: 25%;
-        bottom: 80px;
-    }
-
-    .indexgridOne {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-areas:
-            "welcome trialArea"
-            "valueArea valuesImg";
-        gap: 30px;
-    }
-
-    .registrationImg {
-        display: unset;
-        width: 100%;
-        margin-top: 90px;
-    }
-
-    .registration {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        gap: 20px;
-    }
-
-    .registrationSection {
-        width: 50%;
-    }
-
-    #consent {
-        transform: scale(2);
-        position: relative;
-        top: 30px;
-        left: -150px;
-    }
-
-    #consentTxt {
-        margin-left: 40px;
-        margin-right: 30px;
-        margin-bottom: 30px;
-    }
-
-    /* Karateetikette */
-    .component1 {
-        display: grid;
-        grid-template-columns: 50% 40%;
-        justify-content: center;
-        gap: 1.5rem;
-        margin: 1.5rem;
-    }
-
-    .numbercontainer:first-child p {
-        height: 33px;
-    }
-
-    .linkvidere {
-        display: grid;
-        grid-template-columns: 52% 40%;
-        justify-content: center;
-        margin: 1.5rem;
-    }
-
-    .component1 :last-child {
-        grid-column: 2/3;
-    }
-
-    .component1 picture img,
-    .linkvidere img {
-        height: 100%;
-        margin: 0;
-        object-position: left;
-    }
-
-    .component1 picture,
-    .component2 picture {
-        height: 100%;
-    }
-
-    .component2 p {
-        margin-bottom: 2rem;
-    }
-
-    .component2 a {
-        font-size: 20px;
-    }
-
-    .foto2>picture+img {
-        display: unset;
-    }
-
-    .foto2 {
+    .knapbestyrelse {
+        margin-bottom: 40px;
+        background-color: var(--ShojiWhite);
+        margin-top: 20px;
         display: flex;
         flex-direction: column;
-        gap: 1.5rem;
+        justify-content: space-between;
     }
 
-    .foto2>picture>img {
+    .knapbestyrelse img {
+        max-height: 20%;
         width: 100%;
-        object-position: left;
+        object-fit: cover;
     }
 
-    /* Karateetikette slut */
+    .bestyrelse-center {
+        text-align: center;
+    }
 
-    /* Galleri */
+    .bestyrelseAccordion h2 {
+        margin-left: 35px;
+        padding-bottom: 20px;
+    }
+
+    @media screen and (min-width: 700px) {
+        .grid-bestyrelse {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        .btn-bestyrelse {
+            margin-right: 410px;
+        }
+    }
+
+    @media screen and (min-width: 1000px) {
+        h1 {
+            font-size: 35px;
+        }
+
+        h2 {
+            font-size: 25px;
+        }
+
+        h3 {
+            font-size: 25px;
+        }
+
+        h4 {
+            font-size: 22px;
+        }
+
+        p,
+        .dato p {
+            font-size: 20px;
+            line-height: 27px;
+        }
+
+        .hero-bestyrelse {
+            background-image: url(../img/BestyrelseOgvedtægter/Desktop/heroJapan02.jpg);
+            height: 317px;
+            position: relative;
+        }
+
+        .hero-bestyrelsetext h1 {
+            text-align: center;
+            position: absolute;
+            top: 230px;
+            left: 118px;
+            color: var(--ShojiWhite);
+        }
+
+        .bestyrelse-title h5 {
+            font-size: 30px;
+            color: var(--StPatricksBlue);
+        }
+
+        .grid-bestyrelse {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        .grid-bestyrelse h5 {
+            font-size: 20px;
+        }
+
+        .accordionStart {
+            font-size: 25px;
+            margin-left: 35px;
+            margin-right: 35px;
+        }
+
+        .knapbestyrelse {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .knapbestyrelse {
+            margin-left: 35px;
+            margin-right: 35px;
+        }
+
+
+        .btn-bestyrelse {
+            background-color: var(--StPatricksBlue);
+            color: var(--ShojiWhite);
+            padding: 10px 50px;
+            font-size: 15px;
+            margin-left: 50px;
+            margin-top: 40px;
+            height: 65px;
+            width: 450px;
+            font-size: 22px;
+        }
+
+        .text-bestyrelse p {
+            margin-left: 50px;
+            font-size: 25px;
+        }
+
+        .text-bestyrelse h3 {
+            margin-left: 50px;
+            font-size: 40px;
+        }
+
+        .bestyrelse-center {
+            padding-left: 10px;
+            padding-right: 30px;
+            margin-left: 90px;
+        }
+
+        .contentBestyrelse {
+            margin-left: 35px;
+            margin-right: 35px;
+            font-size: 25px;
+        }
+    }
+
+    @media screen and (min-width: 1500px) {
+        .knapbestyrelse {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+        }
+
+        .knapbestyrelse img {
+            width: 450px;
+            height: 400px;
+        }
+    }
+
+    @media screen and (min-width: 1920px) {
+        h1 {
+            font-size: 45px;
+        }
+
+        h2 {
+            font-size: 35px;
+        }
+
+        h3 {
+            font-size: 35px;
+        }
+
+        h4 {
+            font-size: 30px;
+        }
+
+        p,
+        .dato p {
+            font-size: 25px;
+            line-height: 37.5px;
+        }
+
+        .hero-bestyrelse {
+            background-image: url(../img/BestyrelseOgvedtægter/Desktop/heroJapan02.jpg);
+            height: 317px;
+            object-fit: cover;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+
+        .grid-bestyrelse {
+            display: grid;
+            grid-template-columns: repeat(4, 415px);
+            margin-left: 35px;
+            margin-right: 35px;
+            margin-top: 40px;
+            padding-left: 20px;
+        }
+
+        .grid-bestyrelse h5 {
+            font-size: 35px;
+        }
+
+        .bestyrelseAccordion h2 {
+            margin-left: 118px;
+            padding-bottom: 20px;
+        }
+
+        .accordionStart {
+            margin-left: 118px;
+            margin-right: 118px;
+            font-size: 30px;
+            height: 110px;
+        }
+
+        .contentBestyrelse {
+            margin-left: 118px;
+            margin-right: 118px;
+            font-size: 25px;
+        }
+
+        .knapbestyrelse {
+            display: flex;
+            align-items: center;
+            margin-right: 118px;
+            margin-left: 118px;
+            flex-direction: row;
+            height: 419.34;
+        }
+
+        .knapbestyrelse img {
+            height: 100%;
+            width: 100%;
+        }
+
+        .btn-bestyrelse {
+            background-color: var(--StPatricksBlue);
+            color: var(--ShojiWhite);
+            padding: 20px 50px;
+            font-size: 22px;
+
+            margin-right: 55px;
+            width: 450px;
+            height: 65px;
+        }
+
+        .text-bestyrelse p {
+            font-size: 25px;
+        }
+
+        .bestyrelse-center {
+            padding-right: 200px;
+        }
+    }
+
+    /* Bestyrelse styling - Slut */
+
+    /* Galleri styling */
+    .internNavigation button {
+        height: 35px;
+        background-color: var(--StPatricksBlue);
+        border: none;
+        font-size: 16px;
+        border-radius: 10px;
+        cursor: pointer;
+        margin: 5px;
+        color: var(--ShojiWhite);
+        font-weight: bold;
+    }
 
     .galleri {
         display: grid;
         grid-template-areas:
-            'en nul to'
-            'en tre to'
-            'fire tre fem'
-            'seks tre syv';
-        grid-gap: 20px;
+            'en nul'
+            'en to'
+            'tre to'
+            'tre fire'
+            'fem fire'
+            'fem seks'
+            'syv seks'
+            'syv otte';
+        grid-gap: 10px;
         grid-auto-rows: 10em;
-        margin: 24px;
+        margin: 5px;
     }
 
-    .internNavigation+h2,
-    .internNavigation {
-        margin-left: 24px;
+    .billederamme {
+        width: 100%;
+        height: 100%;
     }
 
-    /* Galleri slut */
+    .billederamme img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
 
-    /* Tilmelding og betaling */
+    .p-0 img {
+        object-fit: contain;
+        height: 100%;
+        width: 100%;
+    }
+
+    .p-1 {
+        grid-area: en;
+    }
+
+    .p-2 {
+        grid-area: to;
+    }
+
+    .p-3 {
+        grid-area: tre;
+    }
+
+    .p-4 {
+        grid-area: fire;
+    }
+
+    .p-5 {
+        grid-area: fem;
+    }
+
+    .p-6 {
+        grid-area: seks;
+    }
+
+    .p-7 {
+        grid-area: syv;
+    }
+
+    /* Galleri styling - Slut */
+
+    /* tilmelding og priser */
+    .signupAndPaying p {
+        margin-top: 20px;
+    }
+
+    .signupAndPaying {
+        margin-top: 20px;
+    }
+
+    .signupAndPaying .bluebold {
+        color: var(--StPatricksBlue);
+        font-weight: bold;
+        margin-top: 0;
+    }
+
+    .signupAndPaying h2 {
+        margin-left: 0;
+    }
+
     .tilmeldingform {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 130px;
-        padding: 50px 140px;
+        padding: 0 23px;
+    }
+
+    .formbutton {
+        width: 100%;
+        height: fit-content;
+        margin: 0;
+        padding: 18px 0;
+
+    }
+
+    .radiob {
+        margin: 15px 0 15px 22px;
     }
 
     .reqred {
@@ -1546,44 +1132,23 @@ input[type=checkbox] {
         flex-direction: column;
         flex-wrap: nowrap;
         align-items: center;
+        max-width: 700px;
     }
 
     label {
         color: var(--DarkGrey);
         font-weight: 700;
         margin-left: 22px;
-
-    }
-
-    .radiob {
-        margin: 15px 0 15px 22px;
-    }
-
-    .sexl {
-        margin: 0;
-    }
-
-    .checkboxl {
-        margin: 0;
-    }
-
-    .formbutton {
-        width: 100%;
-        height: fit-content;
-        margin: 0;
-        font-size: 16pt;
-        padding: 18px 0;
-
     }
 
     input {
         background: var(--ShojiWhite);
         border: none;
         padding: 18px 23px;
-        font-size: 25px;
+        font-size: 1rem;
         width: 100%;
         border-radius: 10px;
-        margin: 15px 0 15px 0;
+        margin: 10px 0;
 
     }
 
@@ -1597,7 +1162,7 @@ input[type=checkbox] {
     input[type=date] {
         color: var(--DarkGrey);
         font-family: 'Lato', sans-serif;
-        font-size: 25px;
+        font-size: 1rem;
     }
 
     input[type=radio]:checked {
@@ -1610,168 +1175,604 @@ input[type=checkbox] {
         color: #a5A5A5;
     }
 
+    .checkboxl {
+        margin-left: auto;
+    }
+
     ::placeholder {
         color: var(--DarkGrey);
     }
 
+    /* Tilmelding og priser slut */
 
-}
 
-@media screen and (min-width: 1500px) {
+    /* MEDIA QUERIES */
 
-    /* Header */
-    nav ul a {
-        font-size: 20px;
+    @media screen and (min-width: 1000px) {
+        h1 {
+            font-size: 35px;
+        }
+
+        h2 {
+            font-size: 25px;
+            margin-bottom: 15px;
+        }
+
+        h3 {
+            font-size: 25px;
+            margin-bottom: 15px;
+        }
+
+        h4 {
+            font-size: 22px;
+        }
+
+        p,
+        .dato p {
+            font-size: 20px;
+            line-height: 27px;
+        }
+
+        /* Header */
+        Nav ul {
+            display: flex;
+        }
+
+        .headbar :first-of-type a {
+            display: flex;
+        }
+
+        .headbar>a {
+            display: none;
+        }
+
+        .headbar>div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+        }
+
+        .headbar {
+            justify-content: unset;
+            display: unset;
+            padding: 16px 0px;
+
+        }
+
+        /* Header slut */
+
+        /* Footer */
+
+        footer {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 486px;
+        }
+
+        .kontaktoplysninger {
+            display: flex;
+            align-items: unset;
+        }
+
+        .logoer {
+            display: flex;
+            gap: 50px;
+        }
+
+        .timeslot {
+            display: flex;
+        }
+
+        .socialemedier {
+            padding: 0;
+        }
+
+        footer a {
+            font-size: 20px;
+        }
+
+        /* Footer slut */
+
+        /* Aktiviteter */
+        .interNavigation {
+            padding: 0px 135px;
+        }
+
+        .interNavigation a {
+            font-size: 18px;
+            margin: 5px 10px;
+        }
+
+
+        .interNavigation a:hover {
+            background-color: var(--ShojiWhite);
+            color: var(--StPatricksBlue);
+        }
+
+        .aktivitetstitel+p,
+        .aktivitetstitel h2 {
+            margin-left: 135px;
+        }
+
+        .kalendercart1 {
+            margin: 10px 135px;
+        }
+
+        .kalenderåret h1,
+        #Januar h2,
+        #Februar h2,
+        #Marts h2,
+        #April h2,
+        #Maj h2,
+        #Juni h2,
+        #August h2,
+        #September h2,
+        #Oktober h2,
+        #November h2,
+        #December h2 {
+            padding: 0px 135px;
+        }
+
+        /* Aktiviteter slut */
+
+        /*FORSIDE*/
+        .index p {
+            width: 80%;
+            margin-left: 100px;
+            margin-right: 10px;
+        }
+
+        .index h2 {
+            margin-left: 80px;
+        }
+
+        .heroForside {
+            max-width: 100%;
+            height: auto;
+        }
+
+        #welcomeTxt {
+            margin: 20px 35px;
+        }
+
+        #trial {
+            background-image: url(/assets/img/Forside/proevetime_677×891_full.jpg);
+            /*Kilde: "COLOURBOX37668213. 2023. Coulourbox.dk. [online] Available at: https://www.colourbox.dk/billede/karate-gul-aikido-billede-37668213. Accessed: 07/01/2024. */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 80%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 50px;
+            box-shadow: inset 0 0 0 1000px rgba(72, 90, 117, 0.2);
+        }
+
+        #trial h1 {
+            font-size: 2rem;
+            padding-top: 10px;
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-bottom: 10px;
+        }
+
+        .valuesHadsund {
+            height: 600px;
+            margin: 20px 30px;
+        }
+
+        .valuesImg {
+            bottom: 260px;
+            left: 70px;
+        }
+
+        .valuesImg h1 {
+            font-size: 3rem;
+        }
+
+        .indexnews {
+            margin-bottom: 30px;
+        }
+
+        .graduation {
+            width: 50%;
+            margin-bottom: 12px;
+        }
+
+        .trainingSeminar {
+            width: 50%;
+            margin-bottom: 12px;
+        }
+
+        .sabakiCamp {
+            width: 50%;
+            margin-bottom: 12px;
+        }
+
+        .cards {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .buttonCards {
+            left: 25%;
+            bottom: 80px;
+        }
+
+        .indexgridOne {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas:
+                "welcome trialArea"
+                "valueArea valuesImg";
+            gap: 30px;
+        }
+
+        .registrationImg {
+            display: unset;
+            width: 100%;
+            margin-top: 90px;
+        }
+
+        .registration {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .registrationSection {
+            width: 50%;
+        }
+
+        #consent {
+            transform: scale(2);
+            position: relative;
+            top: 30px;
+            left: -150px;
+        }
+
+        #consentTxt {
+            margin-left: 40px;
+            margin-right: 30px;
+            margin-bottom: 30px;
+        }
+
+        /* Karateetikette */
+        .component1 {
+            display: grid;
+            grid-template-columns: 50% 40%;
+            justify-content: center;
+            gap: 1.5rem;
+            margin: 1.5rem;
+        }
+
+        .numbercontainer:first-child p {
+            height: 33px;
+        }
+
+        .linkvidere {
+            display: grid;
+            grid-template-columns: 52% 40%;
+            justify-content: center;
+            margin: 1.5rem;
+        }
+
+        .component1 :last-child {
+            grid-column: 2/3;
+        }
+
+        .component1 picture img,
+        .linkvidere img {
+            height: 100%;
+            margin: 0;
+            object-position: left;
+        }
+
+        .component1 picture,
+        .component2 picture {
+            height: 100%;
+        }
+
+        .component2 p {
+            margin-bottom: 2rem;
+        }
+
+        .component2 a {
+            font-size: 20px;
+        }
+
+        .foto2>picture+img {
+            display: unset;
+        }
+
+        .foto2 {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .foto2>picture>img {
+            width: 100%;
+            object-position: left;
+        }
+
+        /* Karateetikette slut */
+
+        /* Galleri */
+
+        .galleri {
+            display: grid;
+            grid-template-areas:
+                'en nul to'
+                'en tre to'
+                'fire tre fem'
+                'seks tre syv';
+            grid-gap: 20px;
+            grid-auto-rows: 10em;
+            margin: 24px;
+        }
+
+        .internNavigation+h2,
+        .internNavigation {
+            margin-left: 24px;
+        }
+
+        /* Galleri slut */
+
+        /* Tilmelding og betaling */
+        .tilmeldingform {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 130px;
+            padding: 50px 140px;
+        }
+
+        .reqred {
+            color: var(--AlizarinCrimson);
+            margin-left: 0;
+        }
+
+        .signupForm {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-items: center;
+        }
+
+        label {
+            color: var(--DarkGrey);
+            font-weight: 700;
+            margin-left: 22px;
+
+        }
+
+        .radiob {
+            margin: 15px 0 15px 22px;
+        }
+
+        .sexl {
+            margin: 0;
+        }
+
+        .checkboxl {
+            margin: 0;
+        }
+
+        .formbutton {
+            width: 100%;
+            height: fit-content;
+            margin: 0;
+            font-size: 16pt;
+            padding: 18px 0;
+
+        }
+
+        input {
+            background: var(--ShojiWhite);
+            border: none;
+            padding: 18px 23px;
+            font-size: 25px;
+            width: 100%;
+            border-radius: 10px;
+            margin: 15px 0 15px 0;
+
+        }
+
+        input[type=radio] {
+            width: 30px;
+            height: 30px;
+            color: #a5A5A5;
+
+        }
+
+        input[type=date] {
+            color: var(--DarkGrey);
+            font-family: 'Lato', sans-serif;
+            font-size: 25px;
+        }
+
+        input[type=radio]:checked {
+            color: #23377F;
+        }
+
+        input[type=checkbox] {
+            width: 30px;
+            height: 30px;
+            color: #a5A5A5;
+        }
+
+        ::placeholder {
+            color: var(--DarkGrey);
+        }
+
+
     }
 
-    .headbar>div>a {
-        font-size: 20px;
+    @media screen and (min-width: 1500px) {
+
+        /* Header */
+        nav ul a {
+            font-size: 20px;
+        }
+
+        .headbar>div>a {
+            font-size: 20px;
+        }
+
+        /* Header slut */
     }
 
-    /* Header slut */
-}
+    @media screen and (min-width: 1920px) {
+        h1 {
+            font-size: 70px;
+        }
 
-@media screen and (min-width: 1920px) {
-    h1 {
-        font-size: 70px;
+        h2 {
+            font-size: 40px;
+        }
+
+        h3 {
+            font-size: 40px;
+        }
+
+        h4 {
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 25px;
+            line-height: 37.5px;
+        }
+
+        /* Header */
+
+        nav ul a {
+            font-size: 24px;
+        }
+
+        .headbar>div>a {
+            font-size: 24px;
+        }
+
+        /* Header slut */
+
+        /* Footer */
+
+        footer a {
+            font-size: 25px;
+        }
+
+        /* Footer slut */
+
+        /* Aktiviteter */
+
+        .interNavigation a {
+            width: 120px;
+            margin-bottom: 30px;
+            font-size: 22px;
+        }
+
+        .dato p,
+        .aktivitetstitel+p {
+            font-size: 25px;
+            line-height: 37.5px;
+        }
+
+        .component2 a {
+            font-size: 25px;
+        }
+
+        /* Aktiviteter slut */
+
+        /* Forside */
+
+        .index p {
+            margin: 50px 145px;
+        }
+
+        .index h2 {
+            margin: 40px 110px;
+        }
+
+        #welcomeTxt {
+            font-size: 70px;
+            margin-top: 20px;
+            margin-bottom: 0;
+            margin-left: 50px;
+        }
+
+        .indexNews {
+            width: 50%
+        }
+
+
+        .newsImg {
+            display: unset;
+            width: 50%;
+        }
+
+        .newsSection {
+            display: flex;
+            flex-direction: row;
+            gap: 12px;
+        }
+
+        #trial {
+            height: 600px;
+            width: 800px;
+            margin-top: 30px;
+            margin-bottom: 50px;
+        }
+
+        #trial h1 {
+            font-size: 4rem;
+        }
+
+        .valuesImg {
+            bottom: 380px;
+        }
+
+        .valuesImg h1 {
+            font-size: 4rem;
+        }
+
+        .registration {
+            margin-left: 135px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .formGrid {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        /* Forside slut */
+
+        /* Karateetikette */
+
+        .heroetikette img {
+            height: 317px;
+        }
+
+        .heroetikette {
+            height: 317px;
+        }
+
+        .numbercontainer:first-child p {
+            height: 36px;
+        }
+
+        /* Karateetikette slut */
     }
-
-    h2 {
-        font-size: 40px;
-    }
-
-    h3 {
-        font-size: 40px;
-    }
-
-    h4 {
-        font-size: 30px;
-    }
-
-    p {
-        font-size: 25px;
-        line-height: 37.5px;
-    }
-
-    /* Header */
-
-    nav ul a {
-        font-size: 24px;
-    }
-
-    .headbar>div>a {
-        font-size: 24px;
-    }
-
-    /* Header slut */
-
-    /* Footer */
-
-    footer a {
-        font-size: 25px;
-    }
-
-    /* Footer slut */
-
-    /* Aktiviteter */
-
-    .interNavigation a {
-        width: 120px;
-        margin-bottom: 30px;
-        font-size: 22px;
-    }
-
-    .dato p,
-    .aktivitetstitel+p {
-        font-size: 25px;
-        line-height: 37.5px;
-    }
-
-    .component2 a {
-        font-size: 25px;
-    }
-
-    /* Aktiviteter slut */
-
-    /* Forside */
-
-    .index p {
-        margin: 50px 145px;
-    }
-
-    .index h2 {
-        margin: 40px 110px;
-    }
-
-    #welcomeTxt {
-        font-size: 70px;
-        margin-top: 20px;
-        margin-bottom: 0;
-        margin-left: 50px;
-    }
-
-    .indexNews {
-        width: 50%
-    }
-
-
-    .newsImg {
-        display: unset;
-        width: 50%;
-    }
-
-    .newsSection {
-        display: flex;
-        flex-direction: row;
-        gap: 12px;
-    }
-
-    #trial {
-        height: 600px;
-        width: 800px;
-        margin-top: 30px;
-        margin-bottom: 50px;
-    }
-
-    #trial h1 {
-        font-size: 4rem;
-    }
-
-    .valuesImg {
-        bottom: 380px;
-    }
-
-    .valuesImg h1 {
-        font-size: 4rem;
-    }
-
-    .registration {
-        margin-left: 135px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        gap: 20px;
-    }
-
-    .formGrid {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    /* Forside slut */
-
-    /* Karateetikette */
-
-    .heroetikette img {
-        height: 317px;
-    }
-
-    .heroetikette {
-        height: 317px;
-    }
-
-    .numbercontainer:first-child p {
-        height: 36px;
-    }
-
-    /* Karateetikette slut */
-}
