@@ -437,8 +437,6 @@ summary img {
     height: 50px;
 }
 
-
-
 /* Forside styling - Slut */
 
 /* Praktisk info styling */
@@ -873,7 +871,9 @@ summary img {
         padding: 0px 135px;
     }
 
-    /* Media query FORSIDE 1000 */
+    /* Aktiviteter slut */
+
+    /*FORSIDE*/
     .index p {
         width: 80%;
         margin-left: 100px;
@@ -1003,8 +1003,6 @@ summary img {
         margin-bottom: 30px;
     }
 
-    /* Aktiviteter slut */
-
     /* Karateetikette */
     .component1 {
         display: grid;
@@ -1087,11 +1085,98 @@ summary img {
 
     /* Galleri slut */
 
+    /* Tilmelding og betaling */
+    .tilmeldingform {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 130px;
+        padding: 50px 140px;
+    }
+
+    .reqred {
+        color: var(--AlizarinCrimson);
+        margin-left: 0;
+    }
+
+    .signupForm {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    label {
+        color: var(--DarkGrey);
+        font-weight: 700;
+        margin-left: 22px;
+
+    }
+
+    .radiob {
+        margin: 15px 0 15px 22px;
+    }
+
+    .sexl {
+        margin: 0;
+    }
+
+    .checkboxl {
+        margin: 0;
+    }
+
+    .formbutton {
+        width: 100%;
+        height: fit-content;
+        margin: 0;
+        font-size: 16pt;
+        padding: 18px 0;
+
+    }
+
+    input {
+        background: var(--ShojiWhite);
+        border: none;
+        padding: 18px 23px;
+        font-size: 25px;
+        width: 100%;
+        border-radius: 10px;
+        margin: 15px 0 15px 0;
+
+    }
+
+    input[type=radio] {
+        width: 30px;
+        height: 30px;
+        color: #a5A5A5;
+
+    }
+
+    input[type=date] {
+        color: var(--DarkGrey);
+        font-family: 'Lato', sans-serif;
+        font-size: 25px;
+    }
+
+    input[type=radio]:checked {
+        color: #23377F;
+    }
+
+    input[type=checkbox] {
+        width: 30px;
+        height: 30px;
+        color: #a5A5A5;
+    }
+
+    ::placeholder {
+        color: var(--DarkGrey);
+    }
 
 
 }
 
 @media screen and (min-width: 1500px) {
+
+    /* Header */
     nav ul a {
         font-size: 20px;
     }
@@ -1099,6 +1184,8 @@ summary img {
     .headbar>div>a {
         font-size: 20px;
     }
+
+    /* Header slut */
 }
 
 @media screen and (min-width: 1920px) {
@@ -1151,7 +1238,19 @@ summary img {
         font-size: 22px;
     }
 
-    /* Media query FORSIDE 1920px */
+    .dato p,
+    .aktivitetstitel+p {
+        font-size: 25px;
+        line-height: 37.5px;
+    }
+
+    .component2 a {
+        font-size: 25px;
+    }
+
+    /* Aktiviteter slut */
+
+    /* Forside */
 
     .index p {
         margin: 50px 145px;
@@ -1169,7 +1268,7 @@ summary img {
     }
 
     .indexNews {
-        width:
+        width: 50%
     }
 
 
@@ -1214,18 +1313,8 @@ summary img {
     .formGrid {
         grid-template-columns: 1fr 1fr;
     }
-  
-    .dato p,
-    .aktivitetstitel+p {
-        font-size: 25px;
-        line-height: 37.5px;
-    }
 
-    .component2 a {
-        font-size: 25px;
-    }
-
-    /* Aktiviteter slut */
+    /* Forside slut */
 
     /* Karateetikette */
 
@@ -1328,92 +1417,3 @@ input[type=checkbox] {
 }
 
 /* Tilmelding og priser slut */
-
-
-@media screen and (min-width: 1000px) {
-    .tilmeldingform {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 130px;
-        padding: 50px 140px;
-    }
-
-    .reqred {
-        color: var(--AlizarinCrimson);
-        margin-left: 0;
-    }
-
-    .signupForm {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        align-items: center;
-    }
-
-    label {
-        color: var(--DarkGrey);
-        font-weight: 700;
-        margin-left: 22px;
-
-    }
-
-    .radiob {
-        margin: 15px 0 15px 22px;
-    }
-
-    .sexl {
-        margin: 0;
-    }
-
-    .checkboxl {
-        margin: 0;
-    }
-
-    .formbutton {
-        width: 100%;
-        height: fit-content;
-        margin: 0;
-        font-size: 16pt;
-        padding: 18px 0;
-
-    }
-
-    input {
-        background: var(--ShojiWhite);
-        border: none;
-        padding: 18px 23px;
-        font-size: 25px;
-        width: 100%;
-        border-radius: 10px;
-        margin: 15px 0 15px 0;
-
-    }
-
-    input[type=radio] {
-        width: 30px;
-        height: 30px;
-        color: #a5A5A5;
-
-    }
-
-    input[type=date] {
-        color: var(--DarkGrey);
-        font-family: 'Lato', sans-serif;
-        font-size: 25px;
-    }
-
-    input[type=radio]:checked {
-        color: #23377F;
-    }
-
-    input[type=checkbox] {
-        width: 30px;
-        height: 30px;
-        color: #a5A5A5;
-    }
-
-    ::placeholder {
-        color: var(--DarkGrey);
-    }
-
-}
