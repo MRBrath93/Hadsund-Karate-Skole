@@ -16,7 +16,7 @@ html {
 :root {
     --StPatricksBlue: #23377F;
     --AlizarinCrimson: #E31E24;
-    --ShojiWhite: #EEEDE8;
+    --ShojiWhite: #EEEDE8; 
     --GreyBlack: #333333;
 }
 
@@ -201,127 +201,59 @@ footer i {
 
 /* Ashihara styling */
 
-.ashihara {
-    padding: 10px 20px;
-    margin-bottom: 20px;
-}
 
-.ashihara p {
-    margin-bottom: 20px;
-}
 
 /* Hero section */ 
-.ashiharaHero {
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin-bottom: 0;
+.ashiharaHero{
+    height: 160px;
+     background-image: url(/assets/img/Ashihara/mobil/mobilHeroLanterner01.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 8.91vw;
+    margin-bottom: 20px
 }
 
-#heroTxtAshihara {
+.mainAsh{
+}
+.vaerdier_container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.vaerdier_container img{
     position: relative;
-    bottom: 90px;
-    left: 40px;
 }
-
-
-
-/* Værdier Ashihara Karate */ 
-.valuesAshihara {
-    height: 80vh;
-   display: grid;
-   align-items: center;
-   grid-template-columns: repeat(2, 1fr);
-   gap: 12px;
+.vardier_text{
+    position: absolute;
+    font-size: 21px;
+    color: var(--ShojiWhite);
 }
-
-.motion {
-    background-image: url(../img/Ashihara/mobil/vaerdier_motion_190x145.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 12px;
+.ashIntro, .disciplin, .maalsaetninger{
+    padding: 0 20px 20px 20px;
 }
-
-.styrke {
-    background-image: url(../img/Ashihara/mobil/vaerdier_styrke_190x145.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 12px;
-}
-.balance {
-    background-image: url(../img/Ashihara/mobil/vaerdier_balance_190x145.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 12px;
-}
-.disciplin {
-    background-image: url(../img/Ashihara/mobil/vaerdier_disciplin_190x145.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 12px;
-}
-.respekt {
-    background-image: url(../img/Ashihara/mobil/vaerdier_respekt_190x145.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 12px;
-}
-
-.sammenhold {
-    background-image: url(../img/Ashihara/mobil/vaerdier_sammenhold_190x145.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 12px;
-}
-
-/* Målsætninger Ashihara */ 
-.objectives li {
-    color: var(--StPatricksBlue);
-    list-style-type: none;
-}
-
-.objectives ul {
-    padding-left: 12px;
-}
-
-/* Sektion "Næste side" */ 
-.nextPage {
+.vidre{
+    margin-top: 40px;
     background-color: var(--ShojiWhite);
 }
-
-.nextPageImg {
-    height: 100%;
+/* .vidre>div{
+padding: 15px ;
+} */
+.vidreImg img{
+    object-fit: cover;
 }
+.ashIntro>p{
+    padding-bottom: 30px;
+}
+.maalsaetninger ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+
+
 
 /* Ashihara styling - Slut */
 
@@ -329,15 +261,7 @@ footer i {
 /* Aktiviteter styling - Slut */
 
 /* Karateettikette styling */
-.hero {
-    height: 160px;
-    background-image: url(../img/karateetikette/mobil/karateslagmobil01.jpg);
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    padding: 8.91vw;
-    margin-bottom: 20px
-}
+
 
 .numbercontainer {
     display: flex;
