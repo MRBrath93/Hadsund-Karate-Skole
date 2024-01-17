@@ -932,8 +932,18 @@ summary img {
     height: fit-content;
     margin: 0;
     padding: 18px 0;
-
+    background-color: var(--StPatricksBlue);
+    color: var(--ShojiWhite);
+    border-radius: 10px;
+    border: 5px solid var(--StPatricksBlue);
+    font-weight: bold;
 }
+
+.formbutton:hover {
+    background-color: var(--ShojiWhite);
+    color: var(--StPatricksBlue);
+}
+
 
 .radiob {
     margin: 15px 0 15px 22px;
@@ -1004,7 +1014,7 @@ input[type=checkbox] {
 /* Tilmelding og priser slut */
 
 /* Galleri styling */
-.internNavigation button {
+.internNavigation a {
     height: 35px;
     background-color: var(--StPatricksBlue);
     border: none;
@@ -1014,6 +1024,8 @@ input[type=checkbox] {
     margin: 5px;
     color: var(--ShojiWhite);
     font-weight: bold;
+    text-decoration: none;
+    padding: 10px 30px;
 }
 
 .galleri {
