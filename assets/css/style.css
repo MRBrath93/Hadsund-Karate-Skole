@@ -63,7 +63,7 @@ body {
   padding: 1rem;
 }
 
-.headbar > div > a {
+.headbar>div>a {
   font-size: 24px;
   font-weight: bold;
   padding: 13px 21px;
@@ -249,12 +249,12 @@ span p {
   object-position: center;
 }
 
-.component1 > div > p,
+.component1>div>p,
 .component1 h2 {
   padding: 0px 35px;
 }
 
-.component1 > div > p {
+.component1>div>p {
   margin-bottom: 1rem;
 }
 
@@ -322,6 +322,7 @@ span p {
 .bestyrelse-title {
   font-size: 18px;
   color: var(--StPatricksBlue);
+  margin: 0 auto;
 }
 
 .text-and-button-bestyrelse {
@@ -332,9 +333,11 @@ span p {
 .text-bestyrelse {
   margin: 35px;
 }
+
 .text-bestyrelse h3 {
   padding-bottom: 10px;
 }
+
 .text-bestyrelse p {
   margin-bottom: 25px;
 }
@@ -357,6 +360,7 @@ span p {
   padding: 10px 10px;
   text-decoration: none;
 }
+
 .btn-bestyrelse:hover {
   background-color: var(--ShojiWhite);
   color: var(--StPatricksBlue);
@@ -364,11 +368,18 @@ span p {
 }
 
 .knapbestyrelse {
-  padding-bottom: 40px;
+  margin-bottom: 40px;
   background-color: var(--ShojiWhite);
-  padding-top: 5px;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+}
+
+.knapbestyrelse img {
+  max-height: 20%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .bestyrelse-center {
@@ -379,18 +390,18 @@ span p {
   margin-left: 35px;
   padding-bottom: 20px;
 }
+
 @media screen and (min-width: 700px) {
   .grid-bestyrelse {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
-  .knapbestyrelse img {
-    width: 700px;
-  }
+
   .btn-bestyrelse {
     margin-right: 410px;
   }
 }
+
 @media screen and (min-width: 1000px) {
   h1 {
     font-size: 35px;
@@ -458,10 +469,7 @@ span p {
     margin-left: 35px;
     margin-right: 35px;
   }
-  .knapbestyrelse img {
-    width: 930px;
-    height: 300px;
-  }
+
 
   .btn-bestyrelse {
     background-color: var(--StPatricksBlue);
@@ -497,12 +505,14 @@ span p {
     font-size: 25px;
   }
 }
+
 @media screen and (min-width: 1500px) {
   .knapbestyrelse {
     display: flex;
     align-items: center;
     flex-direction: row;
   }
+
   .knapbestyrelse img {
     width: 450px;
     height: 400px;
@@ -579,9 +589,10 @@ span p {
     flex-direction: row;
     height: 419.34;
   }
+
   .knapbestyrelse img {
-    height: 455px;
-    width: 930px;
+    height: 100%;
+    width: 100%;
   }
 
   .btn-bestyrelse {
