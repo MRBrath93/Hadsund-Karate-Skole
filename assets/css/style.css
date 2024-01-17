@@ -332,6 +332,9 @@ span p {
 .text-bestyrelse {
   margin: 35px;
 }
+.text-bestyrelse h3 {
+  padding-bottom: 10px;
+}
 
 .btn-bestyrelse {
   background-color: var(--StPatricksBlue);
