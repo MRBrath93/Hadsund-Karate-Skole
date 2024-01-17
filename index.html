@@ -16,7 +16,6 @@
     https://fontawesome.com/ [Accessed 12. januar 2024].  -->
     <link rel="icon" href="./assets/img/user-ninja-solid-3.svg" sizes="any" type="image/svg+xml">
 </head>
-
 <body>
     <header>
         <nav>
@@ -46,31 +45,32 @@
             <img src="./assets/img/Forside/Forside_hero_396x185_full.jpg" class="heroForside"
                 alt="Medlemmer i Hadsund Karate Klub">
         </picture>
-        <h1 id="welcomeTxt">Velkommen til Ashihara Karate Hadsund</h1>
-        <div class="indexgridOne">
-            <section class="index indexWelcome">
+       
+        <section class="indexgridOne index">
+            <h1 id="welcomeTxt">Velkommen til Ashihara Karate Hadsund</h1>
+            <div class="indexWelcome">
                 <p>I Hadsund Karate Skole træner vi Ashihara karate, som er en særlig gren af karate, hvor der er fokus
-                    på, at lære en selvforsvarsdisciplin og opnå fysisk kontrol over modstanderen ved hjælp af
-                    forskellige teknikker.</p>
+                på, at lære en selvforsvarsdisciplin og opnå fysisk kontrol over modstanderen ved hjælp af
+                forskellige teknikker.</p>
                 <p>Hadsund Karate Skole er medlem af “New International Karate Organization” (N.I.K.O) og den danske
-                    underorganisation “Dansk Ashihara Organisation” (D.A.O).</p>
+                underorganisation “Dansk Ashihara Organisation” (D.A.O).</p>
                 <p>Klubben blev grundlagt i 1983 af Sensei Hugo Thostrup og er nu under ledelse af Branch Chief Sensei
-                    Brian.</p>
-            </section>
-            <section id="trial">
-                <h1>Vil du prøve<br>
-                    karate i<br>
-                    vores klub?<br>
-                    Kom ind til<br>
-                    en gratis<br>
-                    prøvetræning</h1>
-                <a href="/praktiskInfo.html"><button class="buttonIndex">Læs mere om prøve træning her</button></a>
-            </section>
-            <section class="index valuesHKS">
+                Brian.</p>
+            </div>
+            <div id="trial">
+                <h1>Vil du prøve</h1>
+                <h1>karate i</h1>
+                <h1>vores klub?</h1>
+                <h1>Kom ind til</h1>
+                <h1>en gratis</h1>
+                <h1>prøvetræning</h1>
+                <a href="/praktiskInfo.html" class="buttonIndex">Læs mere om prøve træning her</a>
+            </div>
+            <div class="index valuesHKS">
                 <h2>Værdier i Hadsund Karate Skole</h2>
                 <p>I Hadsund Karate Skole lægges der vægt på en god træningsindsats og en respektfuld indstilling til
-                    karate.<br>
-                    Gennem karatetræningen lærer man hele tiden at udfordre sig selv og sætte sig nye mål for at blive
+                    karate.</p>
+                <p>Gennem karatetræningen lærer man hele tiden at udfordre sig selv og sætte sig nye mål for at blive
                     bedre.</p>
                 <p>Det er en af klubbens værdier, at der skal være et
                     <span class="boldTxt">trygt og godt fællesskab</span>
@@ -86,10 +86,10 @@
                     for nye medlemmer at tale med de mere erfarne, uanset bælte farve.
                 </p>
                 <p>Vil du læse mere om sportgrenen:
-                    <a href="/praktiskInfo.html"><button class="buttonIndex">Læs mere om Ashihara Karate</button></a>
+                    <a href="/praktiskInfo.html" class="buttonIndex">Læs mere om Ashihara Karate</a>
                 </p>
-            </section>
-            <section class="valuesHadsund">
+            </div>
+            <div class="valuesHadsund">
                 <picture>
                     <source media="(min-width: 1000px)" srcset="./assets/img/Forside/vaerdier_forside_684x820_full.jpg">
                     <!-- /*Kilde: "COLOURBOX50473355. 2023. Coulourbox.dk. [online] Available at: https://www.colourbox.dk/billede/karate-kvinde-karateka-billede-50473355. Accessed: 07/01/2024. -->
@@ -101,75 +101,8 @@
                     <h1>Tryghed</h1>
                     <h1>Socialt engagement</h1>
                 </div>
-            </section>
-        </div>
-        <div class="registration">
-            <section class="registrationSection">
-                <h3>Tilmeldelse til Hadsund Karate Skole </h3>
-                <form class="formGrid" action="" method="post" enctype="multipart/form-data">
-                    <div>
-                        <label>Køn</label><label class="reqred">*</label>
-                        <br>
-                        <input class="radiob" type="radio" name="sex" id="msex">
-                        <label for="msex">Mand</label>
-                        <input class="radiob" type="radio" name="sex" id="wsex">
-                        <label for="wsex">Kvinde</label>
-                        <br>
-                    </div>
-                    <div></div>
-                    <div class="formColumn">
-                        <label for="forname">Fornavn</label><label class="reqred">*</label>
-                        <input type="text" name="fname" id="forname" placeholder="Fornavn" required>
-                    </div>
-                    <div class="formColumn">
-                        <label for="lastname">Efternavn</label><label class="reqred">*</label>
-                        <input type="text" name="lname" id="lastname" placeholder="Efternavn" required>
-                    </div>
-                    <div class="formColumn">
-                        <label for="street-address">Adresse</label><label class="reqred">*</label>
-                        <input type="text" name="street-address" id="street-address" autocomplete="street-address"
-                            placeholder="Adresse" required>
-                    </div>
-                    <div class="formColumn">
-                        <label for="zip-code">Post nummer</label>
-                        <input type="text" id="zip-code" name="zip-code" autocomplete="postal-code"
-                            placeholder="Post nr">
-                    </div>
-                    <div class="formColumn">
-                        <label for="tel">Telefon nummer</label><label class="reqred">*</label>
-                        <input type="tel" name="phoneno" id="tel" pattern="[0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2}"
-                            maxlength="8" required placeholder="Telefon nr">
-                    </div>
-                    <div class="formColumn">
-                        <label for="bday">Fødselsdag</label><label class="reqred">*</label>
-                        <input required type="date" name="bday" id="bday">
-                    </div>
-                    <div class="formColumn">
-                        <label for="email">Email</label><label class="reqred">*</label>
-                        <input type="email" name="email" id="email" required placeholder="Email">
-                    </div>
-                    <div class="formColumn">
-                        <label for="password">Password</label><label class="reqred">*</label>
-                        <input required type="password" name="new-password" id="password" autocomplete="new-password" placeholder="Password" minlength="8">
-                    </div>
-                    <div>
-                        <input type="checkbox" id="consent" name="consent" value="consent">
-                        <p id="consentTxt">Når du tilmelder dig giver du os rettighederne til, at vi må gemme dine
-                            oplysninger. Du giver os samtidigt også rettigheden til at vi må tage billeder af dig og
-                            bruge dem på Facebook og Instagram.* </p>
-                    </div>
-                    <button type="submit" class="buttonIndex"
-                        onclick="alert('Du er nu tilmeld til Hadsund Karate Skole')" value="submit">Tilmeld dig til
-                        Hadsund Karate Skole</button>
-                </form>
-                <picture>
-                    <source media="(min-width: 1900px)"
-                        srcset="./assets/img/Forside/tilmelding_forside_809x594_full.jpg">
-                    <img src="./assets/img/Forside/tilmelding_forside_626x592.jpg" class="registrationImg"
-                        alt="Bliv en del af Hadsund Karate Skole">
-                </picture>
-            </section>
-        </div>
+            </div>
+        </section>
         <div class="newsSection">
             <section id="indexNews">
                 <h2>Nyhedsfeed</h2>
@@ -193,14 +126,13 @@
                             alt="Seneste nyheder på Hadsund Karate Skole">Juleafslutning <span class="iconIndex"><i
                                 class="fa-solid fa-circle-chevron-down"></i></span></summary>
                     <div class="accordionContent">
-                        <p>Vi holder fælles afslutning børn og voksne.<br>
-                            Juleafslutning er fredag den. 21-12. Vi starter kl. 17:00. Slutter kl. 18:30. Der vil, som
-                            vi plejer, være lidt sjov og hygge.<br>
-                            I må meget gerne give besked til Sensei om hvor mange i kommer, så vi ved hvor mange
-                            æbleskiver vi skal bestille 🙂<br>
-                            Vi holder juleferie fra den 22. december.<br>
-                            Opstart igen den 8. januar.
-                        </p>
+                        <p>Vi holder fælles afslutning børn og voksne.</p>
+                        <p>Juleafslutning er fredag den. 21-12. Vi starter kl. 17:00. Slutter kl. 18:30. Der vil, som</p>
+                        <p>vi plejer, være lidt sjov og hygge.</p>
+                        <p>I må meget gerne give besked til Sensei om hvor mange i kommer, så vi ved hvor mange</p>
+                        <p>æbleskiver vi skal bestille 🙂</p>
+                        <p>Vi holder juleferie fra den 22. december.</p>
+                        <p>Opstart igen den 8. januar.</p>
                     </div>
                 </details>
                 <details>
@@ -209,9 +141,8 @@
                                 class="fa-solid fa-circle-chevron-down"></i></span></summary>
                     <div class="accordionContent">
                         <p>Jeppe Kvist og Allan Johansen, Hadsund karate skole, til træningsseminar med Sensei Rafal
-                            Szomański.<br>
-                            Tak til Aarhus Ashihara for at være vært for arrangementet.
-                        </p>
+                            Szomański.</p>
+                        <p>Tak til Aarhus Ashihara for at være vært for arrangementet.</p>
                         <picture>
                             <source media="(min-width: 1900px)" srcset="./assets/img/Forside/news3_fullsize.jpg">
                             <img class="trainingSeminar" src="./assets/img/Forside/news3Img.jpg"
@@ -225,10 +156,9 @@
                                 class="fa-solid fa-circle-chevron-down"></i></span></summary>
                     <div class="accordionContent">
                         <p>Medlemmer, dennes familie, og klubbens øvrige samarbejdspartnere, inviteres til 40-års
-                            jubilæum, lørdag d. 26. august 2023.<br>
-                            Der vil være fælles træning fra kl. 11.00-12.30.<br>
-                            Efterfølgende vil der være reception fra klokken 13.00-15.00.
-                        </p>
+                            jubilæum, lørdag d. 26. august 2023.</p>
+                        <p>Der vil være fælles træning fra kl. 11.00-12.30.</p>
+                        <p>Efterfølgende vil der være reception fra klokken 13.00-15.00.</p>
                     </div>
                 </details>
                 <details>
@@ -246,12 +176,12 @@
                         </picture>
                     </div>
                 </details>
-                <a href="/aktiviteter.html"><button class="buttonIndex">Aktivitetskalender</button></a>
+                <a href="/aktiviteter.html" class="buttonIndex">Aktivitetskalender</a>
             </section>
-            <section class="newsImg">
+            <div class="newsImg">
                 <img src="./assets/img/Forside/gallery1_forside_900x742_full.jpg"
                     alt="Opvisning af Karate i butikstorvet" loading="lazy">
-            </section>
+            </div>
         </div>
         <section class="index">
             <h2>Få mere viden om Hadsund Karate Skole</h2>
@@ -265,15 +195,11 @@
                     </picture>
                     <div class="cardTxt">
                         <h3>Få styr på det praktiske</h3>
-                        <p>Vil du vide mere om klubbens<br>
-                            adresse, træningstider og <br>
-                            træningsformer?<br><br>
-                            Eller er du interesseret i at<br>
-                            tilmelde dig i klubben?
-                        </p>
+                        <p>Vil du vide mere om klubbens adresse, træningstider og træningsformer?</p>
+                        <p>Eller er du interesseret i at tilmelde dig i klubben?</p>
                     </div>
-                    <a href="/praktiskInfo.html"><button class="buttonIndex buttonCards">Læs om Praktisk
-                            Information</button></a>
+                    <a href="/praktiskInfo.html" class="buttonCards">Læs om Praktisk
+                            Information</a>
                 </div>
                 <div class="cardContainer">
                     <picture>
@@ -284,16 +210,12 @@
                     </picture>
                     <div class="cardTxt">
                         <h3>Et år fyldt med aktiviteter</h3>
-                        <p>Er du interesseret i at se nærmere<br>
-                            på Hadsund Karate Skoles<br>
-                            aktiviteter, kampe og stævner?<br>
-                            Få et overblik over årets aktiviteter
-                        </p>
+                        <p>Er du interesseret i at se nærmere på Hadsund Karate Skoles aktiviteter, kampe og stævner?</p>
+                        <p>Få et overblik over årets aktiviteter</p>
                     </div>
-                    <a href="/aktiviteter.html"><button class="buttonIndex buttonCards">Karate hele året
-                            rundt</button></a>
+                    <a href="/aktiviteter.html" class="buttonCards">Karate hele året
+                            rundt</a>
                 </div>
-
                 <div class="cardContainer">
                     <picture>
                         <source media="(min-width: 1000px)" srcset="./assets/img/Forside/card3_536x694.jpg">
@@ -303,17 +225,11 @@
                     </picture>
                     <div class="cardTxt">
                         <h3>Mød vores instruktører</h3>
-                        <p>Hadsund Karate Skole har mange<br>
-                            dygtige trænere, som uge for uge<br>
-                            står klar med høj faglighed<br>
-                            og engagement.
-                        </p>
+                        <p>Hadsund Karate Skole har mange dygtige trænere, som uge for uge står klar med høj faglighed og engagement.</p>
                     </div>
-                    <a href="/voresSenseis.html"><button class="buttonIndex buttonCards">Mød vores dygtige
-                            instruktører</button></a>
+                    <a href="/voresSenseis.html" class="buttonCards">Mød vores dygtige
+                            instruktører</a>
                 </div>
-
-
             </div>
         </section>
     </main>
