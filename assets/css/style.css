@@ -1337,27 +1337,7 @@ input[type=checkbox] {
 
     /* Footer slut */
 
-    h1 {
-        font-size: 35px;
-    }
-
-    h2 {
-        font-size: 25px;
-    }
-
-    h3 {
-        font-size: 25px;
-    }
-
-    h4 {
-        font-size: 22px;
-    }
-
-    p,
-    .dato p {
-        font-size: 20px;
-        line-height: 27px;
-    }
+    /* Instruktører */
 
     .hero-seneis {
         background-image: url(../img/Instruktør/Desktop/heroInstruktør02.jpg);
@@ -1414,6 +1394,7 @@ input[type=checkbox] {
         height: 345px;
     }
 
+    /* Instruktører slut */
     /*FORSIDE*/
     .index p {
         width: 80%;
