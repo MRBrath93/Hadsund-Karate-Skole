@@ -199,103 +199,20 @@ footer i {
 
 /* Praktisk info styling */
 /* mobil */
-@media only screen and (max-width: 1200px) {
 
-    h2,
-    p,
-    li {
-        padding: 0 35px;
-    }
-
-    .fac a {
-        padding: 0 35px;
-    }
-
-    section h2 {
-        margin-top: 30px;
-    }
-
-    .bluel {
-        color: var(--StPatricksBlue);
-    }
-
-    .bluel,
-    li {
-        line-height: 1.5rem;
-        list-style: none;
-    }
-
-    .blackbold {
-        color: var(--GreyBlack);
-        text-decoration: none;
-        font-weight: bold;
-    }
-
-    .reqred {
-        color: var(--AlizarinCrimson);
-    }
-
-    .heroPrak {
-        height: 160px;
-        background-image: url(../img/Praktiskinformation/mobil/heroMobil01.jpg);
-        background-size: cover;
-        display: flex;
-        align-items: center;
-        padding: 8.91vw;
-        margin-bottom: 20px
-    }
-
-    .signupForm {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        align-items: center;
-    }
-
-    label {
-        color: var(--DarkGrey);
-        font-weight: 700;
-    }
-
-    input {
-        background: var(--ShojiWhite);
-        border: none;
-        padding: 18px 32px;
-        font-size: 1rem;
-        font-weight: 700;
-        width: 338px;
-        border-radius: 10px;
-
-    }
-
-    .radiob {
-        width: 30px;
-        padding: 30px;
-        background-color: var(--AlizarinCrimson);
-
-    }
-
-    .imgFill>picture>img {
-        display: flex;
-        width: 100%;
-        height: auto;
-        padding-top: 20px;
-    }
-
-    .card {
-        margin: 0;
-        background-color: var(--ShojiWhite);
-    }
-}
 
 /* desktop */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1000px) {
     .mainPrak {
         display: grid;
         grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: repeat(7, 0.5fr);
         gap: 80px;
         padding: 50px 139px;
+    }
+
+    .mainPrak p {
+        font-size: 20px;
+        line-height: 30px;
     }
 
     .imgFill {
@@ -306,6 +223,8 @@ footer i {
     .imgFill,
     img {
         width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 
     .fac {
@@ -428,6 +347,13 @@ footer i {
         margin: 0;
         background-color: var(--ShojiWhite);
 
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .mainPrak p {
+        font-size: 25px;
+        line-height: 37.5px;
     }
 }
 
