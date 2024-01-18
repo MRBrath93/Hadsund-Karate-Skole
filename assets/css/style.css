@@ -75,7 +75,7 @@ body {
     padding-top: 3.75rem;
 }
 
-.headbar>div>a {
+.headbar>div :nth-child(2) {
     font-size: 16px;
     font-weight: bold;
     padding: 13px 21px;
@@ -95,7 +95,7 @@ body {
     display: none;
 }
 
-.headbar a:hover {
+.headbar>div :nth-child(2):hover {
     background-color: var(--ShojiWhite);
     color: var(--StPatricksBlue);
     border-color: var(--StPatricksBlue);
