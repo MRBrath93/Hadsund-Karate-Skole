@@ -487,6 +487,58 @@ summary img {
 /* Praktisk info styling - Slut */
 
 /* Ashihara styling */
+.ashiharaHero {
+    height: 160px;
+    background-image: url(/assets/img/Ashihara/mobil/mobilHeroLanterner01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 8.91vw;
+    margin-bottom: 20px
+}
+
+
+.vaerdier_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.vaerdier_container img {
+    width: 100%;
+
+}
+
+.ashIntro,
+.disciplin,
+.maalsaetninger {
+    padding: 20px;
+}
+
+.vidre {
+    margin-top: 40px;
+    background-color: var(--ShojiWhite);
+}
+
+.vidre div {
+    padding: 20px 30px;
+}
+
+.vidre img {
+    width: 100%;
+}
+
+.ashIntro>p {
+    padding-bottom: 30px;
+}
+
+.maalsaetninger ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 /* Ashihara styling - Slut */
 
 /* Aktiviteter styling */
@@ -1480,6 +1532,66 @@ input[type=checkbox] {
 
     /* Praktisk Information slut */
 
+    /* Ashihara Karate */
+    .ashiharaHero {
+        height: 160px;
+        background-image: url(/assets/img/Ashihara/desktop/heroLanterner01.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        padding: 8.91vw;
+        margin-bottom: 20px
+    }
+
+    .mainAsh {
+        padding: 0 130px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 114px;
+
+    }
+
+    .vaerdier_container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+
+    }
+
+    .vaerdier img {
+        height: 50%;
+        padding-bottom: 20px;
+    }
+
+    .vidre {
+        margin-top: 40px;
+        background-color: var(--ShojiWhite);
+    }
+
+    .vidre div {
+        padding: 20px 30px;
+    }
+
+    .vidre img {
+        width: 100%;
+    }
+
+    .ashIntro p {
+        padding-bottom: 30px;
+    }
+
+    .maalsaetninger ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    /* Ashihara Karate slut */
+
     /* Aktiviteter */
     .interNavigation {
         padding: 0px 135px;
@@ -2153,3 +2265,62 @@ input[type=checkbox] {
 
     /* Bestyrelse slut */
 }
+
+
+/* mobil */
+/* @media screen and (max-width: 767px) {
+
+
+
+    .ashiharaHero {
+        height: 160px;
+        background-image: url(/assets/img/Ashihara/mobil/mobilHeroLanterner01.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        padding: 8.91vw;
+        margin-bottom: 20px
+    }
+
+
+    .vaerdier_container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .vaerdier_container img {
+        width: 100%;
+
+    }
+
+    .ashIntro,
+    .disciplin,
+    .maalsaetninger {
+        padding: 20px;
+    }
+
+    .vidre {
+        margin-top: 40px;
+        background-color: var(--ShojiWhite);
+    }
+
+    .vidre div {
+        padding: 20px 30px;
+    }
+
+    .vidre img {
+        width: 100%;
+    }
+
+    .ashIntro>p {
+        padding-bottom: 30px;
+    }
+
+    .maalsaetninger ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+} */
