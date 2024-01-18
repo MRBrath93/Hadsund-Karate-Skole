@@ -864,14 +864,14 @@ summary img {
     align-items: center;
     padding: 8.91vw;
     margin-bottom: 20px;
+    position: relative;
 }
 
 .hero-bestyrelsetext h1 {
     text-align: center;
     position: absolute;
-    top: 160px;
+    top: 200px;
     left: 35px;
-
     color: var(--ShojiWhite);
 }
 
