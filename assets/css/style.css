@@ -184,20 +184,10 @@ footer i {
 /* Forside styling */
 
 
-.main_index>section {
-    padding: 10px;
-}
 
-
-.main_index h1,
-h2,
-p {
-    padding: 0 30px;
-}
 
 #welcomeTxt {
     color: var(--StPatricksBlue);
-    margin-left: 12px;
     grid-area: Title;
 }
 
@@ -277,7 +267,6 @@ p {
     text-align: center;
     padding: 10px 0px;
     display: block;
-    margin: 12px;
 }
 
 
