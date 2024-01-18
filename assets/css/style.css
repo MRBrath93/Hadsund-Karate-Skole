@@ -184,14 +184,17 @@ footer i {
 /* Forside styling */
 
 
-.main_index>section{
-    padding: 10px ;
+.main_index>section {
+    padding: 10px;
 }
 
 
-.main_index h1, h2, p{
+.main_index h1,
+h2,
+p {
     padding: 0 30px;
-    }
+}
+
 #welcomeTxt {
     color: var(--StPatricksBlue);
     margin-left: 12px;
@@ -674,6 +677,9 @@ summary img {
     left: 35px;
 }
 
+.numbercontainer p {
+    padding: 0;
+}
 
 .numbercontainer {
     display: flex;
@@ -1314,17 +1320,19 @@ input[type=checkbox] {
     /* Footer slut */
 
     /*FORSIDE*/
-    .index h2{
+    .index h2 {
         padding: 20px 0;
     }
-    .main_index{
+
+    .main_index {
         padding: 0 130px;
-        }
+    }
+
     .index p {
         width: 80%;
     }
 
-   
+
 
 
     #trial {
@@ -2062,7 +2070,7 @@ input[type=checkbox] {
 
     /* Forside */
 
-    
+
 
     #welcomeTxt {
         font-size: 70px;
