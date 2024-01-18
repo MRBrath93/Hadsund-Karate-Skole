@@ -210,7 +210,7 @@ footer i {
 
 /* Prøvetime - sektion */
 #trial {
-    background-image: url(./assets/img/Forside/proevetime_396x435_full.jpg);
+    background-image: url(../img/Forside/proevetime_396x435_full.jpg);
     /*Kilde: "COLOURBOX37668213. 2023. Coulourbox.dk. [online] Available at: https://www.colourbox.dk/billede/karate-gul-aikido-billede-37668213. Accessed: 07/01/2024. */
     background-position: center;
     background-repeat: no-repeat;
@@ -483,7 +483,7 @@ summary img {
 
 .heroPrak {
     height: 160px;
-    background-image: url(./assets/img/Praktiskinformation/desktop/heroPraktiskinfo.jpg);
+    background-image: url(../img/Praktiskinformation/desktop/heroPraktiskinfo.jpg);
     background-size: cover;
     display: flex;
     align-items: center;
@@ -497,7 +497,7 @@ summary img {
 /* Ashihara styling */
 .ashiharaHero {
     height: 160px;
-    background-image: url(./assets/img/Ashihara/mobil/mobilHeroLanterner01.jpg);
+    background-image: url(../img/Ashihara/mobil/mobilHeroLanterner01.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -1330,7 +1330,7 @@ input[type=checkbox] {
 
 
     #trial {
-        background-image: url(./assets/img/Forside/proevetime_677×891_full.jpg);
+        background-image: url(../img/Forside/proevetime_677×891_full.jpg);
         /*Kilde: "COLOURBOX37668213. 2023. Coulourbox.dk. [online] Available at: https://www.colourbox.dk/billede/karate-gul-aikido-billede-37668213. Accessed: 07/01/2024. */
         background-position: center;
         background-repeat: no-repeat;
@@ -1538,7 +1538,7 @@ input[type=checkbox] {
     /* Ashihara Karate */
     .ashiharaHero {
         height: 160px;
-        background-image: url(./assets/img/Ashihara/desktop/heroLanterner01.jpg);
+        background-image: url(../img/Ashihara/desktop/heroLanterner01.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         display: flex;
@@ -1709,7 +1709,7 @@ input[type=checkbox] {
     /* Instruktører */
 
     .hero-seneis {
-        background-image: url(./assets/img/Instruktør/Desktop/heroInstruktør02.jpg);
+        background-image: url(../img/Instruktør/Desktop/heroInstruktør02.jpg);
 
         object-fit: cover;
         background-repeat: no-repeat;
@@ -1768,7 +1768,7 @@ input[type=checkbox] {
 
     /* Bestyrelse */
     .hero-bestyrelse {
-        background-image: url(./assets/img/BestyrelseOgvedtægter/Desktop/heroJapan02.jpg);
+        background-image: url(../img/BestyrelseOgvedtægter/Desktop/heroJapan02.jpg);
         height: 317px;
         position: relative;
     }
@@ -2145,7 +2145,7 @@ input[type=checkbox] {
 
     /* Instruktører */
     .hero-seneis {
-        background-image: url(./assets/img/Instruktør/Desktop/heroInstruktør02.jpg);
+        background-image: url(../img/Instruktør/Desktop/heroInstruktør02.jpg);
         height: 317px;
         object-fit: cover;
         background-repeat: no-repeat;
@@ -2218,7 +2218,7 @@ input[type=checkbox] {
 
     /* Bestyrelse */
     .hero-bestyrelse {
-        background-image: url(./assets/img/BestyrelseOgvedtægter/Desktop/heroJapan02.jpg);
+        background-image: url(../img/BestyrelseOgvedtægter/Desktop/heroJapan02.jpg);
         height: 317px;
         object-fit: cover;
         background-repeat: no-repeat;
