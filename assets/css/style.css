@@ -445,7 +445,7 @@ summary img {
 }
 
 .mainPrak>section {
-    margin: 40px;
+    margin: 35px;
 }
 
 .intoNavigation a {
@@ -482,6 +482,15 @@ summary img {
     color: var(--StPatricksBlue);
 }
 
+.heroPrak {
+    height: 160px;
+    background-image: url(../img/Praktiskinformation/desktop/heroPraktiskinfo.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 8.91vw;
+    margin-bottom: 20px
+}
 
 
 /* Praktisk info styling - Slut */
@@ -1510,19 +1519,16 @@ input[type=checkbox] {
     }
 
     .heroPrak {
-        height: 160px;
-        background-image: url(../img/Praktiskinformation/desktop/heroPraktiskinfo.jpg);
-        background-size: cover;
-        display: flex;
-        align-items: center;
-        padding: 8.91vw;
-        margin-bottom: 20px
+        height: 317px;
     }
 
     .intoNavigation a {
         font-size: 20px;
         width: 200px;
+    }
 
+    .mainPrak>section {
+        margin: 0;
     }
 
     /* Praktisk Information slut */
@@ -1544,7 +1550,6 @@ input[type=checkbox] {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 114px;
-
     }
 
     .vaerdier_container {
@@ -1553,8 +1558,7 @@ input[type=checkbox] {
         flex-wrap: nowrap;
         align-items: center;
         justify-content: center;
-        width: fit-content;
-
+        width: 100%;
     }
 
     .vaerdier img {
@@ -1583,6 +1587,11 @@ input[type=checkbox] {
         margin: 0;
         padding: 0;
         list-style: none;
+    }
+
+    .maalsaetninger li {
+        font-size: 20px;
+        margin-bottom: 5px;
     }
 
     /* Ashihara Karate slut */
@@ -2098,6 +2107,13 @@ input[type=checkbox] {
 
     /* Forside slut */
 
+    /* Praktisk information */
+    .maalsaetninger li {
+        font-size: 25px;
+    }
+
+    /* Praktisk information slut */
+
     /* Aktiviteter */
 
     .interNavigation a {
@@ -2260,62 +2276,3 @@ input[type=checkbox] {
 
     /* Bestyrelse slut */
 }
-
-
-/* mobil */
-/* @media screen and (max-width: 767px) {
-
-
-
-    .ashiharaHero {
-        height: 160px;
-        background-image: url(/assets/img/Ashihara/mobil/mobilHeroLanterner01.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: flex;
-        align-items: center;
-        padding: 8.91vw;
-        margin-bottom: 20px
-    }
-
-
-    .vaerdier_container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
-    }
-
-    .vaerdier_container img {
-        width: 100%;
-
-    }
-
-    .ashIntro,
-    .disciplin,
-    .maalsaetninger {
-        padding: 20px;
-    }
-
-    .vidre {
-        margin-top: 40px;
-        background-color: var(--ShojiWhite);
-    }
-
-    .vidre div {
-        padding: 20px 30px;
-    }
-
-    .vidre img {
-        width: 100%;
-    }
-
-    .ashIntro>p {
-        padding-bottom: 30px;
-    }
-
-    .maalsaetninger ul {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-    }
-} */
