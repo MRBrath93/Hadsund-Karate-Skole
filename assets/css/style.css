@@ -182,19 +182,14 @@ footer i {
 /* Footer styling - Slut */
 
 /* Forside styling */
-.index {
-    margin-bottom: 30px;
+
+
+
+
+
+.main_index{
+padding: 0 130px;
 }
-
-.index p {
-    margin: 12px 30px;
-}
-
-.index h1 {
-    margin: 15px 20px;
-}
-
-
 #welcomeTxt {
     color: var(--StPatricksBlue);
     margin-left: 12px;
@@ -1317,18 +1312,15 @@ input[type=checkbox] {
     /* Footer slut */
 
     /*FORSIDE*/
+    .index h2{
+        padding: 20px 0;
+    }
     .index p {
         width: 80%;
     }
 
-    .index h2 {
-        margin-left: 80px;
-    }
+   
 
-
-    #welcomeTxt {
-        margin: 20px 35px;
-    }
 
     #trial {
         background-image: url(/assets/img/Forside/proevetime_677×891_full.jpg);
@@ -1366,6 +1358,7 @@ input[type=checkbox] {
 
     #indexNews {
         width: 50%;
+
     }
 
     .newsImg {
@@ -1424,7 +1417,7 @@ input[type=checkbox] {
             "welcome trialArea"
             "valueArea valuesImg";
         gap: 30px;
-        padding: 2rem;
+        padding-bottom: 2rem;
     }
 
 
