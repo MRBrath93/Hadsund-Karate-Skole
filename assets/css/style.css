@@ -510,12 +510,6 @@ summary img {
 
 }
 
-.ashIntro,
-.disciplin,
-.maalsaetninger {
-    padding: 20px;
-}
-
 .vidre {
     margin-top: 40px;
     background-color: var(--ShojiWhite);
