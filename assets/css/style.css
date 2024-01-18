@@ -856,12 +856,14 @@ summary img {
 
 /* Bestyrelse styling */
 .hero-bestyrelse {
-    background-image: url(./assets/img/BestyrelseOgvedtægter/Mobile/HeroBestyrelseMobile01.jpg);
+    background-image: url(../img/BestyrelseOgvedtægter/Mobile/HeroBestyrelseMobile01.jpg);
     height: 160px;
-    object-fit: cover;
     background-repeat: no-repeat;
-    position: relative;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 8.91vw;
+    margin-bottom: 20px;
 }
 
 .hero-bestyrelsetext h1 {
