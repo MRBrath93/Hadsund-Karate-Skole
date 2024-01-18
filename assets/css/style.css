@@ -63,6 +63,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
+    padding-top: 3.75rem;
 }
 
 .headbar>div>a {
@@ -567,6 +568,7 @@ summary img {
     justify-content: center;
     background-color: white;
     margin-top: 20px;
+    /* Vil tilføje Java script for at kunne  */
 }
 
 .aktivitetstitel+p,
