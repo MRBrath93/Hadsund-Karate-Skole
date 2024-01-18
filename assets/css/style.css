@@ -1459,37 +1459,37 @@ input[type=checkbox] {
         max-width: 800px;
     }
 
-    .fac {
+    #fac {
         grid-column: 1/4;
         grid-row: 1;
     }
 
-    .workoutH {
+    #workoutH {
         grid-column: 1/4;
         grid-row: 2;
     }
 
-    .freeWorkout {
+    #freeWorkout {
         grid-column: 1/4;
         grid-row: 3;
     }
 
-    .Prevented {
+    #Prevented {
         grid-column: 4/7;
         grid-row: 3;
 
     }
 
-    .traningForms {
+    #traningForms {
         grid-column: 1/4;
         grid-row: 4;
     }
 
-    .traningForms ul {
+    #traningForms ul {
         padding: 0;
     }
 
-    .damage {
+    #damage {
         grid-column: 1/4;
         grid-row: 5;
     }
