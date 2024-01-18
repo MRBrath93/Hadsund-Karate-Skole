@@ -482,6 +482,8 @@ summary img {
     color: var(--StPatricksBlue);
 }
 
+
+
 /* Praktisk info styling - Slut */
 
 /* Ashihara styling */
@@ -1389,13 +1391,14 @@ input[type=checkbox] {
 
     .imgFill {
         grid-column: 4/7;
-
     }
 
     .imgFill img {
         width: 100%;
         height: 100%;
         object-fit: cover;
+        max-height: 700px;
+        max-width: 800px;
     }
 
     .fac {
@@ -1945,10 +1948,6 @@ input[type=checkbox] {
 
     .index p {
         margin: 50px 145px;
-    }
-
-    .index h2 {
-        margin: 40px 110px;
     }
 
     #welcomeTxt {
