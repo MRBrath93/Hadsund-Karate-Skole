@@ -30,7 +30,7 @@ h1 {
 h2 {
     font-size: 1.1875rem;
     color: var(--StPatricksBlue);
-    margin-bottom: 5px;
+    padding: 15px 10px;
     font-weight: 900;
 }
 
@@ -55,6 +55,15 @@ p {
 
 body {
     font-family: "Lato", sans-serif;
+}
+
+.infoContainer,
+.welcomeTxt {
+    padding: 20px 30px;
+}
+
+.buttonIndex {
+    margin: 0 auto;
 }
 
 /* Header styling */
@@ -186,7 +195,7 @@ footer i {
 
 
 
-#welcomeTxt {
+.welcomeTxt {
     color: var(--StPatricksBlue);
     grid-area: Title;
 }
@@ -520,10 +529,6 @@ summary img {
 
 .vidre img {
     width: 100%;
-}
-
-.ashIntro>p {
-    padding-bottom: 30px;
 }
 
 .maalsaetninger ul {
@@ -959,7 +964,7 @@ summary img {
 }
 
 .bestyrelseAccordion h2 {
-    margin-left: 35px;
+    margin-left: 30px;
     padding-bottom: 20px;
 }
 
@@ -1081,7 +1086,6 @@ input[type=checkbox] {
     font-size: 16px;
     border-radius: 10px;
     cursor: pointer;
-    margin: 5px;
     color: var(--ShojiWhite);
     font-weight: bold;
     text-decoration: none;
@@ -1105,7 +1109,8 @@ input[type=checkbox] {
         'syv otte';
     grid-gap: 10px;
     grid-auto-rows: 10em;
-    margin: 5px;
+    padding: 0 10px;
+    margin: 20px 0px;
 }
 
 .billederamme {
@@ -1576,9 +1581,6 @@ input[type=checkbox] {
         width: 100%;
     }
 
-    .ashIntro p {
-        padding-bottom: 30px;
-    }
 
     .maalsaetninger ul {
         margin: 0;
@@ -1934,12 +1936,16 @@ input[type=checkbox] {
             'seks tre syv';
         grid-gap: 20px;
         grid-auto-rows: 10em;
-        margin: 24px;
+        padding: 0 130px;
     }
 
-    .internNavigation+h2,
+    .overskriftGalleri {
+        padding: 0px 130px;
+    }
+
     .internNavigation {
-        margin-left: 24px;
+        padding: 20px 130px;
+
     }
 
     .internNavigation a {
@@ -2061,7 +2067,7 @@ input[type=checkbox] {
 
 
 
-    #welcomeTxt {
+    .welcomeTxt {
         font-size: 70px;
         margin-top: 20px;
         margin-bottom: 0;
