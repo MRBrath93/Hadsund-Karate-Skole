@@ -184,12 +184,14 @@ footer i {
 /* Forside styling */
 
 
-
-
-
-.main_index{
-padding: 0 130px;
+.main_index>section{
+    padding: 10px ;
 }
+
+
+.main_index h1, h2, p{
+    padding: 0 30px;
+    }
 #welcomeTxt {
     color: var(--StPatricksBlue);
     margin-left: 12px;
@@ -1315,6 +1317,9 @@ input[type=checkbox] {
     .index h2{
         padding: 20px 0;
     }
+    .main_index{
+        padding: 0 130px;
+        }
     .index p {
         width: 80%;
     }
@@ -2057,9 +2062,7 @@ input[type=checkbox] {
 
     /* Forside */
 
-    .index p {
-        margin: 50px 145px;
-    }
+    
 
     #welcomeTxt {
         font-size: 70px;
