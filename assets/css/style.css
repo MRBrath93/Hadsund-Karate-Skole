@@ -232,31 +232,12 @@ footer i {
         flex-wrap: nowrap;
         align-items: center;
         justify-content: center;
-        top: 50%;
-left: 50%;
+        width: fit-content;
+    
     }
-    .vaerdierAshi h2{
-        text-align: center;
-        
-    }
-    .vardier_text{
-        position: absolute;
-   
-        }
-    .vaerdier_container img{
-        width: 100%;
+    .vaerdier img{
         height: 50%;
-        padding: 20px 0;
-    }
-    .vardier_text p{
-        /* top: 50%;
-left: 50%; */
-      position: absolute;
-        font-size: 21px;
-        color: var(--ShojiWhite);
-    }
-    .ashIntro, .disciplin, .maalsaetninger{
-        
+        padding-bottom: 20px;
     }
     .vidre{
         margin-top: 40px;
@@ -295,8 +276,6 @@ left: 50%; */
         margin-bottom: 20px
     }
     
-    .mainAsh{
-    }
     
     .vaerdier_container{
         display: grid;
@@ -307,15 +286,9 @@ left: 50%; */
         width: 100%;
       
     }
-    .vardier_text p{
-        font-size: 21px;
-        color: var(--ShojiWhite);
-        text-align: center;
-        
-    }
     
     .ashIntro, .disciplin, .maalsaetninger{
-        padding: 0 20px 20px 20px;
+        padding:20px;
     }
     .vidre{
         margin-top: 40px;
